@@ -1,0 +1,59 @@
+{
+  "arquivos": {
+    "questoes": "dados/questoes.jsonl",
+    "temas": "dados/temas.csv"
+  },
+  "campos_questao": {
+    "id": "id",
+    "enunciado": "enunciado",
+    "comando": "comando",
+    "alternativas": "alternativas",
+    "disciplina": "disciplina",
+    "assunto": "assunto"
+  },
+  "temas": {
+    "hierarquia": [],
+    "id": "id",
+    "nome": "nome",
+    "pai": "pai_id"
+  },
+  "provedores": [
+    {
+      "nome": "jev",
+      "ativo": true,
+      "tipo": "openai_compat",
+      "base_url": "CONFIRMAR_NA_DOCUMENTACAO_DA_JEV",
+      "modelo": "CONFIRMAR_NA_DOCUMENTACAO_DA_JEV",
+      "chave_env": "JEV_API_KEY",
+      "custo_entrada_por_milhao": 0.0,
+      "custo_saida_por_milhao": 0.0
+    },
+    {
+      "nome": "segundo_provedor",
+      "ativo": false,
+      "tipo": "openai_compat",
+      "base_url": "https://exemplo.com/v1",
+      "modelo": "nome-do-modelo",
+      "chave_env": "OUTRA_API_KEY",
+      "custo_entrada_por_milhao": 0.0,
+      "custo_saida_por_milhao": 0.0
+    }
+  ],
+  "classificacao": {
+    "candidatos_por_questao": 40,
+    "amostras_por_provedor": 3,
+    "temperatura_primeira": 0.0,
+    "temperatura_demais": 0.7,
+    "limiar_acordo": 0.67,
+    "limiar_confianca": 0.75
+  },
+  "protecoes": {
+    "max_tentativas_por_chamada": 3,
+    "espera_base_segundos": 2,
+    "timeout_segundos": 60,
+    "max_erros_seguidos": 5,
+    "max_chamadas_total": 5000,
+    "max_custo_usd": 20.0,
+    "max_minutos_total": 180
+  }
+}

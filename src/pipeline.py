@@ -332,6 +332,10 @@ def rodar(args):
     if args.demo:
         cfg["arquivos"] = {"questoes": "exemplo/questoes.jsonl", "temas": "exemplo/temas.csv"}
         cfg["temas"] = {"hierarquia": [], "id": "id", "nome": "nome", "pai": "pai_id"}
+        cfg["campos_questao"] = {
+            "id": "id", "enunciado": "enunciado", "comando": "comando",
+            "alternativas": "alternativas", "disciplina": "disciplina", "assunto": "assunto",
+        }
         cfg["provedores"] = [{"nome": "mock", "tipo": "mock", "ativo": True}]
     cl, pr = cfg["classificacao"], cfg["protecoes"]
     provs = [p for p in cfg["provedores"] if p.get("ativo")]
@@ -430,6 +434,18 @@ def rodar(args):
     salvar_csv(pasta / "publicacao.csv", questoes, final, temas, [p["nome"] for p in provs])
     print(f"FINAL (todos os provedores juntos): {dict(Counter(d['decisao'] for d in final.values()))} -> {pasta/'publicacao.csv'}")
 
+    # Com --limite, nao sobrescreve publicacao.csv/previsao.txt da raiz (evita apagar a entrega completa).
+    if args.sem_entrega:
+        pass
+    elif args.limite and not args.demo:
+        print("Entrega na raiz pulada (--limite). Rode sem --limite, ou: python src/auditoria.py entrega "
+              f"{exec_nome}")
+    else:
+        from auditoria import finalizar_entrega
+        n_aud = args.auditoria if args.auditoria is not None else (3 if args.demo else 100)
+        print("--- entrega (artefatos na raiz do projeto) ---")
+        finalizar_entrega(exec_nome, n_auditoria=n_aud, demo=args.demo)
+
 
 if __name__ == "__main__":
     ap = argparse.ArgumentParser(description="Classificador de topicos")
@@ -438,4 +454,8 @@ if __name__ == "__main__":
     ap.add_argument("--limite", type=int, help="so as N primeiras questoes (teste barato)")
     ap.add_argument("--execucao", help="nome da pasta em runs/. Repita o nome para RETOMAR")
     ap.add_argument("--demo", action="store_true", help="dados de exemplo + provedor falso (nao gasta nada)")
+    ap.add_argument("--sem-entrega", action="store_true",
+                    help="nao copia publicacao.csv/previsao.txt/relatorio.md para a raiz")
+    ap.add_argument("--auditoria", type=int, default=None,
+                    help="tamanho da amostra de auditoria (padrao: 100; 3 no --demo)")
     rodar(ap.parse_args())

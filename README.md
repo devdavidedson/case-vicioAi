@@ -60,11 +60,21 @@ Se o desafio usar nomes de colunas diferentes dos que o projeto espera, o progra
 python src/pipeline.py --limite 10 --execucao teste1
 ```
 
-### 7. Rode tudo
+### 7. Rode tudo (1 comando gera a entrega)
 ```
 python src/pipeline.py --execucao final
 ```
-O resultado fica em `runs/final/publicacao.csv`. Se a internet cair ou você fechar a janela, rode **o mesmo comando** de novo: ele continua de onde parou e **não paga duas vezes** pelo que já foi respondido.
+Ao terminar, o pipeline **já prepara a entrega na raiz do projeto**:
+- `publicacao.csv` — decisões
+- `previsao.txt` — cobertura na hora; precisão depois da auditoria
+- `relatorio.md` — espelho de `docs/RELATORIO.md`
+- `runs/final/auditoria.csv` — amostra para você marcar S/N
+
+Preencha a coluna `correto` na auditoria e **rode o mesmo comando de novo** (usa o cache, não gasta API de novo). Aí o `previsao.txt` fecha a precisão.
+
+Se a internet cair no meio, rode o mesmo comando: ele continua de onde parou.
+
+Só classificar, sem copiar para a raiz: `python src/pipeline.py --execucao final --sem-entrega`
 
 ---
 
@@ -87,15 +97,13 @@ O arquivo `comparativos/historico.csv` guarda **todas** as execuções (quantas 
 
 ## Como saber se acertou 95% (sem gabarito)
 
-O desafio não dá as respostas certas, então medimos assim:
+O pipeline já sorteia a auditoria no fim. Abra `runs/final/auditoria.csv`, confira o tema e escreva **S** ou **N** em `correto`. Depois rode de novo:
 ```
-python src/auditoria.py sortear final 100
+python src/pipeline.py --execucao final
 ```
-Isso cria `runs/final/auditoria.csv` com 100 questões publicadas, sorteadas. Abra no Excel, confira se o tema está certo e escreva **S** (certo) ou **N** (errado) na coluna `correto`. Depois:
-```
-python src/auditoria.py calcular final
-```
-Isso gera `runs/final/previsao.txt` com a precisão estimada e a margem de erro. Se a margem for larga demais, confira mais questões. Se a precisão ficou abaixo de 95%, deixe o projeto mais rígido (veja abaixo) e rode de novo.
+(ou só `python src/auditoria.py calcular final`). Isso atualiza `previsao.txt` na raiz e em `runs/final/`.
+
+Se a margem for larga demais, confira mais questões. Se a precisão ficou abaixo de 95%, deixe o projeto mais rígido (veja abaixo) e rode de novo.
 
 ---
 

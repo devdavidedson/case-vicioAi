@@ -2,9 +2,8 @@
 runs/*
 !runs/final/
 !runs/final/**
-!runs/teste1/
-!runs/teste1/**
 __pycache__/
 *.pyc
 dados/*.jsonl
 dados/*.csv
+# Artefatos de entrega na raiz sao versionados (gerados pelo pipeline).

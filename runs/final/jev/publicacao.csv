@@ -1,360 +1,360 @@
 id,decisao,tema_id,tema_nome,extras,confianca,acordo,provedores
 Q0001,publicar,5527,"Processo Penal > Procedimento do Tribunal do Júri > Impronúncia, Desclassificação, Absolvição Sumária e Pronúncia",5524|5528,0.99,1.0,jev
-Q0002,publicar,4384,Criminologia > Teorias Legitimidoras da Pena,4376|4387,0.84,1.0,jev
-Q0003,revisar,5561,Processo Penal > Recursos em Espécies > Recurso em sentido estrito (RESE),5475|6738,0.57,1.0,jev
-Q0004,revisar,5484,Processo Penal > Competência > Competência por Prerrogativa de Função,6733|5481,0.54,1.0,jev
-Q0005,revisar,5576,Processo Penal > Sentença Penal > Fixação da Pena e do Regime Penitenciário,5209|5210,0.37,1.0,jev
-Q0006,revisar,5177,Penal > Iter Criminis > Crime Consumado e Tentado,5160|5159,0.48,1.0,jev
-Q0007,publicar,5468,Processo Penal > Ação Penal > Classificação da Ação Penal,5471|5130,0.86,1.0,jev
-Q0008,revisar,5576,Processo Penal > Sentença Penal > Fixação da Pena e do Regime Penitenciário,6727|5201,0.31,1.0,jev
-Q0009,publicar,5159,Penal > Dos Crimes Contra o Patrimônio > Furto,5219|4696,0.87,1.0,jev
-Q0010,publicar,4688,Direito Penal - Legislação Especial > Crimes contra o meio ambiente,6717|5066,0.91,1.0,jev
-Q0011,publicar,4689,Direito Penal - Legislação Especial > Crimes contra o Sistema Financeiro,5066|5169,0.83,1.0,jev
+Q0002,publicar,4384,Criminologia > Teorias Legitimidoras da Pena,4376|4387,0.85,1.0,jev
+Q0003,revisar,5561,Processo Penal > Recursos em Espécies > Recurso em sentido estrito (RESE),5475|6737,0.58,1.0,jev
+Q0004,revisar,5484,Processo Penal > Competência > Competência por Prerrogativa de Função,6733|5481,0.63,1.0,jev
+Q0005,revisar,5576,Processo Penal > Sentença Penal > Fixação da Pena e do Regime Penitenciário,5209|5210,0.34,1.0,jev
+Q0006,revisar,5177,Penal > Iter Criminis > Crime Consumado e Tentado,5160|5159,0.49,1.0,jev
+Q0007,publicar,5468,Processo Penal > Ação Penal > Classificação da Ação Penal,5471|5130,0.84,1.0,jev
+Q0008,revisar,5576,Processo Penal > Sentença Penal > Fixação da Pena e do Regime Penitenciário,6727|5201,0.47,1.0,jev
+Q0009,publicar,5159,Penal > Dos Crimes Contra o Patrimônio > Furto,5219|5066,0.84,1.0,jev
+Q0010,publicar,4688,Direito Penal - Legislação Especial > Crimes contra o meio ambiente,6717|5066,0.89,1.0,jev
+Q0011,publicar,4689,Direito Penal - Legislação Especial > Crimes contra o Sistema Financeiro,5066|5101,0.78,1.0,jev
 Q0012,publicar,5561,Processo Penal > Recursos em Espécies > Recurso em sentido estrito (RESE),5562|5473,0.8,1.0,jev
-Q0013,publicar,5503,Processo Penal > Inquérito Policial > Juiz das Garantias,6733|5485,0.97,1.0,jev
-Q0014,publicar,5477,Processo Penal > Ações Autônomas de Impugnação > Habeas Corpus,6736|4709,0.87,1.0,jev
-Q0015,revisar,5500,Processo Penal > Inquérito Policial > Procedimento do Inquérito Policial,5499|5498,0.69,1.0,jev
-Q0016,revisar,5587,Processo Penal > Teoria Geral das Prisões > Direitos e Garantias sobre a Prisão,5519|5503,0.61,1.0,jev
-Q0017,revisar,5531,"Processo Penal > Procedimento Ordinário > 2 Oferecimento, Rejeição e Recebimento da Peça Acusatória",5473|6733,0.66,1.0,jev
-Q0018,publicar,5540,Processo Penal > Procedimento Sumaríssimo > Competência dos Juizados Especiais Criminais,6733|6732,0.94,1.0,jev
+Q0013,publicar,5503,Processo Penal > Inquérito Policial > Juiz das Garantias,6733|5485,0.95,1.0,jev
+Q0014,publicar,5477,Processo Penal > Ações Autônomas de Impugnação > Habeas Corpus,6736|4709,0.89,1.0,jev
+Q0015,revisar,5500,Processo Penal > Inquérito Policial > Procedimento do Inquérito Policial,5499|5498,0.72,1.0,jev
+Q0016,revisar,5587,Processo Penal > Teoria Geral das Prisões > Direitos e Garantias sobre a Prisão,5519|5503,0.6,1.0,jev
+Q0017,revisar,5531,"Processo Penal > Procedimento Ordinário > 2 Oferecimento, Rejeição e Recebimento da Peça Acusatória",5473|6733,0.72,1.0,jev
+Q0018,publicar,5540,Processo Penal > Procedimento Sumaríssimo > Competência dos Juizados Especiais Criminais,6733|5486,0.93,1.0,jev
 Q0019,publicar,5475,Processo Penal > Ação Penal > Ação Civil Ex Delicto,5503|5504,1.0,1.0,jev
-Q0020,revisar,5203,Penal > Teoria da Pena > Segunda Fase da Dosimetria: Agravantes e Atenuantes,5542|5067,0.28,1.0,jev
-Q0021,revisar,5503,Processo Penal > Inquérito Policial > Juiz das Garantias,6733|5480,0.53,1.0,jev
-Q0022,revisar,5066,Penal > Concurso de Crimes,5174|5068,0.31,1.0,jev
-Q0023,revisar,5524,Processo Penal > Procedimento do Tribunal do Júri,5526|5527,0.49,1.0,jev
-Q0024,revisar,4388,Criminologia > Teorias Sociológicas Explicativas da Criminalidade > Teorias Criminológicas em Espécie,4385|4387,0.68,1.0,jev
-Q0025,publicar,5093,Penal > Dos Crimes Contra a Administração Pública > Corrupção Ativa,5081|5558,1.0,1.0,jev
-Q0026,publicar,4704,Direito Penal - Legislação Especial > Lei Maria da Penha,6724|5131,0.77,1.0,jev
+Q0020,revisar,5203,Penal > Teoria da Pena > Segunda Fase da Dosimetria: Agravantes e Atenuantes,5542|5067,0.31,1.0,jev
+Q0021,revisar,5503,Processo Penal > Inquérito Policial > Juiz das Garantias,6733|5480,0.55,1.0,jev
+Q0022,revisar,5066,Penal > Concurso de Crimes,5174|5068,0.24,1.0,jev
+Q0023,revisar,5524,Processo Penal > Procedimento do Tribunal do Júri,5526|5527,0.44,1.0,jev
+Q0024,revisar,4388,Criminologia > Teorias Sociológicas Explicativas da Criminalidade > Teorias Criminológicas em Espécie,4387|4385,0.66,1.0,jev
+Q0025,publicar,5093,Penal > Dos Crimes Contra a Administração Pública > Corrupção Ativa,5092|5081,0.99,1.0,jev
+Q0026,revisar,4704,Direito Penal - Legislação Especial > Lei Maria da Penha,6724|5131,0.73,1.0,jev
 Q0027,publicar,5488,Processo Penal > Comunicação dos Atos Processuais > Citação e Contagem dos Prazos,6738|6737,0.98,1.0,jev
-Q0028,revisar,5527,"Processo Penal > Procedimento do Tribunal do Júri > Impronúncia, Desclassificação, Absolvição Sumária e Pronúncia",5526|5488,0.41,1.0,jev
-Q0029,publicar,4684,Direito Penal - Legislação Especial > Abuso de Autoridade,6716|5184,0.94,1.0,jev
-Q0030,publicar,5135,"Penal > Dos Crimes contra a Organização do Trabalho, a Propriedade Imaterial e ao Sentimento Religioso > Dos Crimes Contra a Organização do Trabalho",5128|5132,0.88,1.0,jev
-Q0031,revisar,4388,Criminologia > Teorias Sociológicas Explicativas da Criminalidade > Teorias Criminológicas em Espécie,4387|4385,0.69,1.0,jev
+Q0028,revisar,5527,"Processo Penal > Procedimento do Tribunal do Júri > Impronúncia, Desclassificação, Absolvição Sumária e Pronúncia",5526|5488,0.32,1.0,jev
+Q0029,publicar,4684,Direito Penal - Legislação Especial > Abuso de Autoridade,6716|5184,0.96,1.0,jev
+Q0030,publicar,5135,"Penal > Dos Crimes contra a Organização do Trabalho, a Propriedade Imaterial e ao Sentimento Religioso > Dos Crimes Contra a Organização do Trabalho",5128|5132,0.86,1.0,jev
+Q0031,revisar,4388,Criminologia > Teorias Sociológicas Explicativas da Criminalidade > Teorias Criminológicas em Espécie,4387|4385,0.52,1.0,jev
 Q0032,publicar,5497,Processo Penal > Das Questões e Processos Incidentes > Incidente de Falsidade e de Insanidade Mental,5500|5545,0.83,1.0,jev
 Q0033,publicar,5519,Processo Penal > Prisões em Espécie > Prisão Preventiva,5535|5538,1.0,1.0,jev
 Q0034,publicar,5477,Processo Penal > Ações Autônomas de Impugnação > Habeas Corpus,5504|5503,1.0,1.0,jev
 Q0035,publicar,4706,Direito Penal - Legislação Especial > Terrorismo,5127|5499,1.0,1.0,jev
-Q0036,revisar,4704,Direito Penal - Legislação Especial > Lei Maria da Penha,5196|5531,0.64,1.0,jev
-Q0037,revisar,5132,"Penal > Dos Crimes Contra a Liberdade Pessoal > Sequestro, Cárcere Privado, Redução à Condição Análoga à de Escravo e Tráfico de Pessoas",5081|5119,0.45,1.0,jev
-Q0038,revisar,5466,Processo Penal > Ação Penal,5549|5562,0.41,1.0,jev
-Q0039,revisar,,,,0.49,1.0,jev
-Q0040,revisar,5515,Processo Penal > Parte Geral dos Recursos > Efeito dos Recursos,5562|5529,0.61,1.0,jev
+Q0036,revisar,4704,Direito Penal - Legislação Especial > Lei Maria da Penha,5531|5196,0.65,1.0,jev
+Q0037,revisar,5132,"Penal > Dos Crimes Contra a Liberdade Pessoal > Sequestro, Cárcere Privado, Redução à Condição Análoga à de Escravo e Tráfico de Pessoas",5081|5119,0.44,1.0,jev
+Q0038,revisar,5466,Processo Penal > Ação Penal,5562|5549,0.39,1.0,jev
+Q0039,revisar,,,,0.52,1.0,jev
+Q0040,revisar,5515,Processo Penal > Parte Geral dos Recursos > Efeito dos Recursos,5562|5529,0.6,1.0,jev
 Q0041,publicar,5184,Penal > Medida de Segurança,5479|5127,1.0,1.0,jev
-Q0042,publicar,5222,Penal > Teoria do Crime: Fato Típico > Crime Doloso e Culposo,5221|5227,0.86,1.0,jev
-Q0043,revisar,5203,Penal > Teoria da Pena > Segunda Fase da Dosimetria: Agravantes e Atenuantes,6727|5576,0.31,1.0,jev
-Q0044,revisar,5488,Processo Penal > Comunicação dos Atos Processuais > Citação e Contagem dos Prazos,5548|5547,0.43,1.0,jev
+Q0042,publicar,5222,Penal > Teoria do Crime: Fato Típico > Crime Doloso e Culposo,5221|5227,0.88,1.0,jev
+Q0043,revisar,5203,Penal > Teoria da Pena > Segunda Fase da Dosimetria: Agravantes e Atenuantes,5576|6727,0.29,1.0,jev
+Q0044,revisar,5548,Processo Penal > Provas em Espécies > Confissão,5488|5547,0.43,1.0,jev
 Q0045,publicar,5091,Penal > Dos Crimes Contra a Administração Pública > Concussão e Excesso de Exação,5101|5089,1.0,1.0,jev
-Q0046,revisar,5509,Processo Penal > Nulidades,5510|5511,0.61,1.0,jev
-Q0047,publicar,5164,Penal > Dos Crimes Contra o Patrimônio > Dano,5069|5470,0.97,1.0,jev
-Q0048,revisar,6727,Penal > Teoria da Pena (Parte 2),5209|5577,0.42,1.0,jev
-Q0049,publicar,5152,"Penal > Dos Crimes Contra a Vida > Induzimento, Instigação ou Auxílio ao Suicídio",5225|5139,0.99,1.0,jev
+Q0046,revisar,5509,Processo Penal > Nulidades,5510|5511,0.65,1.0,jev
+Q0047,publicar,5164,Penal > Dos Crimes Contra o Patrimônio > Dano,5471|5158,0.96,1.0,jev
+Q0048,revisar,5209,Penal > Teoria da Pena > Efeitos da Condenação Penais e Extrapenais,6727|5210,0.3,1.0,jev
+Q0049,publicar,5152,"Penal > Dos Crimes Contra a Vida > Induzimento, Instigação ou Auxílio ao Suicídio",5139|5143,1.0,1.0,jev
 Q0050,publicar,5557,Processo Penal > Provas em Espécies > Colaboração Premiada,4708|4683,0.76,1.0,jev
 Q0051,fora,,,,0.99,1.0,jev
-Q0052,revisar,5201,Penal > Teoria da Pena > Penas Privativas de Liberdade,6727|5576,0.35,1.0,jev
+Q0052,revisar,5201,Penal > Teoria da Pena > Penas Privativas de Liberdade,6727|5576,0.4,1.0,jev
 Q0053,publicar,5541,Processo Penal > Procedimento Sumaríssimo > Transação Penal,5494|5542,0.93,1.0,jev
 Q0054,publicar,5174,Penal > Introdução ao Estudo do Direito Penal > Classificações dos Crimes,5165|5142,1.0,1.0,jev
-Q0055,revisar,5535,Processo Penal > Procedimento Ordinário > Audiência de Instrução e Julgamento,6735|5590,0.71,1.0,jev
-Q0056,revisar,5066,Penal > Concurso de Crimes,5067|5069,0.65,1.0,jev
-Q0057,revisar,5175,Penal > Iter Criminis,5176|5179,0.72,1.0,jev
-Q0058,revisar,4390,Criminologia > Vitimologia > Processo de Vitimização,4384|4385,0.39,1.0,jev
-Q0059,revisar,4384,Criminologia > Teorias Legitimidoras da Pena,5210|4370,0.54,1.0,jev
-Q0060,revisar,5088,Penal > Dos Crimes Contra a Administração Pública > Noções gerais dos crimes praticados contra a administração pública,6718|5087,0.63,1.0,jev
-Q0061,publicar,4703,Direito Penal - Legislação Especial > Lei de Execução Penal,6727|6726,0.98,1.0,jev
-Q0062,fora,,,,0.91,1.0,jev
-Q0063,publicar,6724,Penal > Lei Maria da Penha,5522|5504,0.95,1.0,jev
-Q0064,revisar,5191,Penal > Punibilidade,5187|5233,0.36,1.0,jev
+Q0055,revisar,5535,Processo Penal > Procedimento Ordinário > Audiência de Instrução e Julgamento,6735|5595,0.69,1.0,jev
+Q0056,revisar,5066,Penal > Concurso de Crimes,5067|5068,0.63,1.0,jev
+Q0057,revisar,5175,Penal > Iter Criminis,5176|5179,0.67,1.0,jev
+Q0058,revisar,4390,Criminologia > Vitimologia > Processo de Vitimização,4384|4385,0.35,1.0,jev
+Q0059,revisar,4384,Criminologia > Teorias Legitimidoras da Pena,4370|5210,0.6,1.0,jev
+Q0060,revisar,5088,Penal > Dos Crimes Contra a Administração Pública > Noções gerais dos crimes praticados contra a administração pública,5087|6718,0.66,1.0,jev
+Q0061,publicar,4703,Direito Penal - Legislação Especial > Lei de Execução Penal,6727|6726,0.99,1.0,jev
+Q0062,fora,,,,0.9,1.0,jev
+Q0063,publicar,6724,Penal > Lei Maria da Penha,5522|5504,0.93,1.0,jev
+Q0064,revisar,5191,Penal > Punibilidade,5187|5233,0.32,1.0,jev
 Q0065,revisar,5132,"Penal > Dos Crimes Contra a Liberdade Pessoal > Sequestro, Cárcere Privado, Redução à Condição Análoga à de Escravo e Tráfico de Pessoas",5161|5192,0.5,1.0,jev
-Q0066,publicar,4373,Criminologia > Etapas Evolutivas e Escolas Criminológicas > Escolas Crimonológicas,4371|4372,0.97,1.0,jev
+Q0066,publicar,4373,Criminologia > Etapas Evolutivas e Escolas Criminológicas > Escolas Crimonológicas,4371|4372,0.96,1.0,jev
 Q0067,publicar,5091,Penal > Dos Crimes Contra a Administração Pública > Concussão e Excesso de Exação,5092|5093,0.99,1.0,jev
-Q0068,revisar,5096,Penal > Dos Crimes Contra a Administração Pública > Condescendência Criminosa,5117|5116,0.37,1.0,jev
-Q0069,publicar,5173,Penal > Introdução ao Estudo do Direito Penal > Interpretação da Norma Penal,5585|5088,1.0,1.0,jev
-Q0070,revisar,5193,"Penal > Punibilidade > Anistia, Graça e Indulto",4703|6734,0.65,1.0,jev
-Q0071,publicar,5204,Penal > Teoria da Pena > Terceira fase da Dosimetria: Causas de Aumento e de Diminuição,4694|5233,0.88,1.0,jev
-Q0072,revisar,5592,Processo Penal > Teoria Geral das Provas > Sistemas de Avaliação da Prova,5595|5593,0.46,1.0,jev
-Q0073,revisar,5088,Penal > Dos Crimes Contra a Administração Pública > Noções gerais dos crimes praticados contra a administração pública,6718|5087,0.27,1.0,jev
-Q0074,revisar,4703,Direito Penal - Legislação Especial > Lei de Execução Penal,6727|5485,0.27,1.0,jev
-Q0075,revisar,5191,Penal > Punibilidade,5076|5193,0.41,1.0,jev
-Q0076,publicar,4373,Criminologia > Etapas Evolutivas e Escolas Criminológicas > Escolas Crimonológicas,4371|4381,0.87,1.0,jev
-Q0077,revisar,5173,Penal > Introdução ao Estudo do Direito Penal > Interpretação da Norma Penal,5177|5194,0.58,1.0,jev
-Q0078,revisar,4691,Direito Penal - Legislação Especial > Crimes de Trânsito,5066|5146,0.36,1.0,jev
+Q0068,revisar,5096,Penal > Dos Crimes Contra a Administração Pública > Condescendência Criminosa,5116|5117,0.44,1.0,jev
+Q0069,publicar,5173,Penal > Introdução ao Estudo do Direito Penal > Interpretação da Norma Penal,5585|5088,0.99,1.0,jev
+Q0070,revisar,5193,"Penal > Punibilidade > Anistia, Graça e Indulto",4703|6734,0.61,1.0,jev
+Q0071,publicar,5204,Penal > Teoria da Pena > Terceira fase da Dosimetria: Causas de Aumento e de Diminuição,5228|4694,0.84,1.0,jev
+Q0072,revisar,5592,Processo Penal > Teoria Geral das Provas > Sistemas de Avaliação da Prova,5595|5593,0.53,1.0,jev
+Q0073,revisar,6718,Penal > Dos Crimes Contra a Administração Pública (Parte 1),5088|5087,0.28,1.0,jev
+Q0074,revisar,4703,Direito Penal - Legislação Especial > Lei de Execução Penal,6727|5485,0.28,1.0,jev
+Q0075,revisar,5191,Penal > Punibilidade,5076|5193,0.45,1.0,jev
+Q0076,publicar,4373,Criminologia > Etapas Evolutivas e Escolas Criminológicas > Escolas Crimonológicas,4371|4381,0.88,1.0,jev
+Q0077,revisar,5173,Penal > Introdução ao Estudo do Direito Penal > Interpretação da Norma Penal,5177|5194,0.59,1.0,jev
+Q0078,revisar,4691,Direito Penal - Legislação Especial > Crimes de Trânsito,5146|5066,0.34,1.0,jev
 Q0079,publicar,5581,Processo Penal > Sistemas e Princípios Processuais Penais > Sistemas Processuais Penais,5580|5582,0.98,1.0,jev
 Q0080,publicar,4370,Criminologia > Criminologia no Estado Democrático de Direito > Modelos de Reação ao Delito,4369|4368,1.0,1.0,jev
-Q0081,publicar,4373,Criminologia > Etapas Evolutivas e Escolas Criminológicas > Escolas Crimonológicas,4371|4372,0.96,1.0,jev
+Q0081,publicar,4373,Criminologia > Etapas Evolutivas e Escolas Criminológicas > Escolas Crimonológicas,4371|4372,0.95,1.0,jev
 Q0082,publicar,5100,"Penal > Dos Crimes Contra a Administração Pública > Resistência, Desobediência e Desacato",5091|5131,1.0,1.0,jev
 Q0083,revisar,5066,Penal > Concurso de Crimes,5150|5222,0.3,1.0,jev
 Q0084,revisar,4704,Direito Penal - Legislação Especial > Lei Maria da Penha,6724|5582,0.6,1.0,jev
 Q0085,publicar,5076,"Penal > Concurso de Pessoas > Comunicabilidade de Circunstâncias, Condições e Elementares",5091|5069,0.99,1.0,jev
-Q0086,publicar,5092,Penal > Dos Crimes Contra a Administração Pública > Corrupção Passiva,5091|5069,0.99,1.0,jev
-Q0087,revisar,5521,Processo Penal > Prisões em Espécie > Prisão Domiciliar,6734|4703,0.57,1.0,jev
+Q0086,publicar,5092,Penal > Dos Crimes Contra a Administração Pública > Corrupção Passiva,5066|5069,0.99,1.0,jev
+Q0087,revisar,5521,Processo Penal > Prisões em Espécie > Prisão Domiciliar,4703|6734,0.58,1.0,jev
 Q0088,publicar,4389,Criminologia > Vitimologia,4381|4390,0.96,1.0,jev
-Q0089,revisar,5227,Penal > Teoria do Crime: Fato Típico > Tipicidade,5233|5220,0.52,1.0,jev
-Q0090,publicar,5531,"Processo Penal > Procedimento Ordinário > 2 Oferecimento, Rejeição e Recebimento da Peça Acusatória",5466|5541,0.77,1.0,jev
-Q0091,revisar,4703,Direito Penal - Legislação Especial > Lei de Execução Penal,5201|6727,0.61,1.0,jev
-Q0092,revisar,5493,Processo Penal > Das Questões e Processos Incidentes > Exceção de Incompetência e de Ilegitimidade,5510|5511,0.4,1.0,jev
-Q0093,revisar,5223,Penal > Teoria do Crime: Fato Típico > Crimes Omissivos e Comissivos,5142|5150,0.71,1.0,jev
-Q0094,revisar,4388,Criminologia > Teorias Sociológicas Explicativas da Criminalidade > Teorias Criminológicas em Espécie,5525|5524,0.27,1.0,jev
+Q0089,revisar,5227,Penal > Teoria do Crime: Fato Típico > Tipicidade,5233|5220,0.54,1.0,jev
+Q0090,publicar,5531,"Processo Penal > Procedimento Ordinário > 2 Oferecimento, Rejeição e Recebimento da Peça Acusatória",5466|5541,0.78,1.0,jev
+Q0091,revisar,4703,Direito Penal - Legislação Especial > Lei de Execução Penal,5201|6727,0.55,1.0,jev
+Q0092,revisar,5493,Processo Penal > Das Questões e Processos Incidentes > Exceção de Incompetência e de Ilegitimidade,5510|5511,0.43,1.0,jev
+Q0093,revisar,5223,Penal > Teoria do Crime: Fato Típico > Crimes Omissivos e Comissivos,5142|5150,0.67,1.0,jev
+Q0094,revisar,4388,Criminologia > Teorias Sociológicas Explicativas da Criminalidade > Teorias Criminológicas em Espécie,5525|4387,0.29,1.0,jev
 Q0095,publicar,5197,Penal > Punibilidade > Perdão Judicial,5196|5070,0.94,1.0,jev
-Q0096,revisar,5486,"Processo Penal > Competência > Prorrogação, Perpetuação e Modificação de Competência",5483|6732,0.69,1.0,jev
-Q0097,revisar,4702,Direito Penal - Legislação Especial > Lavagem de Dinheiro,6723|5066,0.27,1.0,jev
+Q0096,revisar,5486,"Processo Penal > Competência > Prorrogação, Perpetuação e Modificação de Competência",5483|6732,0.68,1.0,jev
+Q0097,revisar,4702,Direito Penal - Legislação Especial > Lavagem de Dinheiro,6723|5066,0.24,1.0,jev
 Q0098,publicar,5548,Processo Penal > Provas em Espécies > Confissão,5231|5474,1.0,1.0,jev
-Q0099,publicar,5100,"Penal > Dos Crimes Contra a Administração Pública > Resistência, Desobediência e Desacato",5232|5231,0.76,1.0,jev
-Q0100,publicar,5103,Penal > Dos Crimes Contra a Dignidade Sexual > Estupro e Estupro de Vulnerável,5224|5108,0.9,1.0,jev
-Q0101,revisar,4704,Direito Penal - Legislação Especial > Lei Maria da Penha,6724|5482,0.55,1.0,jev
-Q0102,publicar,5577,Processo Penal > Sentença Penal > Efeitos Decorrentes da Sentença Penal Condenatória,6738|5209,0.75,1.0,jev
+Q0099,publicar,5100,"Penal > Dos Crimes Contra a Administração Pública > Resistência, Desobediência e Desacato",5232|5231,0.8,1.0,jev
+Q0100,publicar,5103,Penal > Dos Crimes Contra a Dignidade Sexual > Estupro e Estupro de Vulnerável,5224|5108,0.88,1.0,jev
+Q0101,revisar,4704,Direito Penal - Legislação Especial > Lei Maria da Penha,6724|5482,0.49,1.0,jev
+Q0102,revisar,5577,Processo Penal > Sentença Penal > Efeitos Decorrentes da Sentença Penal Condenatória,6738|5209,0.72,1.0,jev
 Q0103,publicar,5478,Processo Penal > Ações Autônomas de Impugnação > Revisão Criminal,5494|5558,1.0,1.0,jev
-Q0104,revisar,5477,Processo Penal > Ações Autônomas de Impugnação > Habeas Corpus,5500|5499,0.7,1.0,jev
-Q0105,revisar,4388,Criminologia > Teorias Sociológicas Explicativas da Criminalidade > Teorias Criminológicas em Espécie,4378|4387,0.55,1.0,jev
-Q0106,revisar,5166,Penal > Dos Crimes Contra o Patrimônio > Estelionato,5168|5159,0.71,1.0,jev
-Q0107,revisar,5119,Penal > Dos Crimes Contra a Fé Pública e de Falsidade Documental > De outras falsidades,5080|5117,0.41,1.0,jev
-Q0108,publicar,5561,Processo Penal > Recursos em Espécies > Recurso em sentido estrito (RESE),5535|5188,0.9,1.0,jev
-Q0109,publicar,4708,Direito Penal - Legislação Especial > Tráfico de Drogas,6728|5188,0.84,1.0,jev
-Q0110,revisar,6733,Processo Penal > Competência (Parte 2),5483|5481,0.56,1.0,jev
-Q0111,revisar,4384,Criminologia > Teorias Legitimidoras da Pena,4388|4375,0.22,1.0,jev
-Q0112,revisar,,,,0.65,1.0,jev
-Q0113,publicar,5187,Penal > Prescrição > Contagem dos Prazos e Causas Suspensivas e Interruptivas da Prescrição,5502|5473,0.92,1.0,jev
-Q0114,revisar,5507,Processo Penal > Lei Processual no Tempo e no Espaço > Lei processual no Tempo,5505|5471,0.36,1.0,jev
-Q0115,revisar,4385,Criminologia > Teorias Sociológicas Explicativas da Criminalidade,4388|4387,0.43,1.0,jev
-Q0116,publicar,4708,Direito Penal - Legislação Especial > Tráfico de Drogas,6728|5188,0.82,1.0,jev
-Q0117,revisar,4384,Criminologia > Teorias Legitimidoras da Pena,5200|6726,0.58,1.0,jev
-Q0118,publicar,5507,Processo Penal > Lei Processual no Tempo e no Espaço > Lei processual no Tempo,5508|5505,0.94,1.0,jev
-Q0119,publicar,5181,Penal > Lei Penal no Tempo e no Espaço > Lei penal no Tempo,5505|5180,0.9,1.0,jev
-Q0120,revisar,5590,Processo Penal > Teoria Geral das Provas,5547|5591,0.33,1.0,jev
-Q0121,revisar,5472,Processo Penal > Ação Penal > Ação Penal de Iniciativa Privada,5469|5474,0.54,1.0,jev
-Q0122,revisar,5201,Penal > Teoria da Pena > Penas Privativas de Liberdade,6727|5576,0.59,1.0,jev
-Q0123,revisar,4377,Criminologia > Processos de Criminalização e Cifras Criminais,4368|4388,0.23,1.0,jev
-Q0124,revisar,4384,Criminologia > Teorias Legitimidoras da Pena,6726|5199,0.69,1.0,jev
-Q0125,revisar,6734,Processo Penal > Lei de Execução Penal,4708|5485,0.36,1.0,jev
-Q0126,revisar,5226,Penal > Teoria do Crime: Fato Típico > Nexo Causal e Imputação Objetiva,5076|5063,0.58,1.0,jev
-Q0127,revisar,5581,Processo Penal > Sistemas e Princípios Processuais Penais > Sistemas Processuais Penais,5580|5576,0.28,1.0,jev
-Q0128,revisar,5184,Penal > Medida de Segurança,5466|5468,0.63,1.0,jev
+Q0104,revisar,5477,Processo Penal > Ações Autônomas de Impugnação > Habeas Corpus,5500|5499,0.67,1.0,jev
+Q0105,revisar,4388,Criminologia > Teorias Sociológicas Explicativas da Criminalidade > Teorias Criminológicas em Espécie,4387|4378,0.48,1.0,jev
+Q0106,revisar,5166,Penal > Dos Crimes Contra o Patrimônio > Estelionato,5168|5159,0.74,1.0,jev
+Q0107,revisar,5080,"Penal > Dos Crimes Contra a Administração Judicial > Denunciação Caluniosa, Comunicação Falsa de Crime ou Contravenção e Autoacusação Falsa",5119|5117,0.45,1.0,jev
+Q0108,publicar,5561,Processo Penal > Recursos em Espécies > Recurso em sentido estrito (RESE),5535|5188,0.91,1.0,jev
+Q0109,publicar,4708,Direito Penal - Legislação Especial > Tráfico de Drogas,6728|5209,0.83,1.0,jev
+Q0110,revisar,6733,Processo Penal > Competência (Parte 2),5483|5481,0.53,1.0,jev
+Q0111,revisar,4384,Criminologia > Teorias Legitimidoras da Pena,4388|4375,0.21,1.0,jev
+Q0112,revisar,,,,0.56,1.0,jev
+Q0113,publicar,5187,Penal > Prescrição > Contagem dos Prazos e Causas Suspensivas e Interruptivas da Prescrição,5502|5473,0.91,1.0,jev
+Q0114,revisar,5507,Processo Penal > Lei Processual no Tempo e no Espaço > Lei processual no Tempo,5505|5470,0.36,1.0,jev
+Q0115,revisar,4385,Criminologia > Teorias Sociológicas Explicativas da Criminalidade,4388|4387,0.4,1.0,jev
+Q0116,publicar,4708,Direito Penal - Legislação Especial > Tráfico de Drogas,6728|5190,0.85,1.0,jev
+Q0117,revisar,4384,Criminologia > Teorias Legitimidoras da Pena,6726|5200,0.57,1.0,jev
+Q0118,publicar,5507,Processo Penal > Lei Processual no Tempo e no Espaço > Lei processual no Tempo,5505|5508,0.95,1.0,jev
+Q0119,publicar,5181,Penal > Lei Penal no Tempo e no Espaço > Lei penal no Tempo,5505|5180,0.86,1.0,jev
+Q0120,revisar,5590,Processo Penal > Teoria Geral das Provas,5547|5591,0.34,1.0,jev
+Q0121,revisar,5472,Processo Penal > Ação Penal > Ação Penal de Iniciativa Privada,5469|5474,0.57,1.0,jev
+Q0122,revisar,5201,Penal > Teoria da Pena > Penas Privativas de Liberdade,6727|5576,0.52,1.0,jev
+Q0123,revisar,4377,Criminologia > Processos de Criminalização e Cifras Criminais,4368|4388,0.3,1.0,jev
+Q0124,revisar,4384,Criminologia > Teorias Legitimidoras da Pena,5199|6726,0.68,1.0,jev
+Q0125,revisar,6734,Processo Penal > Lei de Execução Penal,4708|5485,0.37,1.0,jev
+Q0126,revisar,5226,Penal > Teoria do Crime: Fato Típico > Nexo Causal e Imputação Objetiva,5076|5063,0.54,1.0,jev
+Q0127,revisar,5581,Processo Penal > Sistemas e Princípios Processuais Penais > Sistemas Processuais Penais,5576|5580,0.24,1.0,jev
+Q0128,revisar,5184,Penal > Medida de Segurança,5466|5497,0.63,1.0,jev
 Q0129,publicar,5550,Processo Penal > Provas em Espécies > Prova Testemunhal,5535|5489,0.98,1.0,jev
-Q0130,publicar,5160,Penal > Dos Crimes Contra o Patrimônio > Roubo,5205|5204,0.81,1.0,jev
-Q0131,publicar,5072,Penal > Concurso de Pessoas > Autores e Partícipes,5073|5071,0.94,1.0,jev
-Q0132,revisar,5487,Processo Penal > Comunicação dos Atos Processuais,5490|6717,0.54,1.0,jev
-Q0133,revisar,5528,Processo Penal > Procedimento do Tribunal do Júri > Organização do Júri e Sessão de Julgamento,5524|6732,0.42,1.0,jev
+Q0130,publicar,5160,Penal > Dos Crimes Contra o Patrimônio > Roubo,5205|5070,0.78,1.0,jev
+Q0131,publicar,5072,Penal > Concurso de Pessoas > Autores e Partícipes,5071|5073,0.92,1.0,jev
+Q0132,revisar,5487,Processo Penal > Comunicação dos Atos Processuais,5490|6717,0.48,1.0,jev
+Q0133,revisar,5528,Processo Penal > Procedimento do Tribunal do Júri > Organização do Júri e Sessão de Julgamento,5524|6732,0.39,1.0,jev
 Q0134,publicar,5092,Penal > Dos Crimes Contra a Administração Pública > Corrupção Passiva,5101|5091,1.0,1.0,jev
 Q0135,publicar,5169,Penal > Dos Crimes Contra o Patrimônio > Receptação,6721|6720,1.0,1.0,jev
-Q0136,revisar,4704,Direito Penal - Legislação Especial > Lei Maria da Penha,6724|6738,0.65,1.0,jev
-Q0137,revisar,5498,Processo Penal > Inquérito Policial,5500|5499,0.46,1.0,jev
-Q0138,revisar,6727,Penal > Teoria da Pena (Parte 2),5205|5207,0.35,1.0,jev
-Q0139,revisar,5217,Penal > Teoria do Crime: Culpabilidade > Causas Supralegais de Exclusão da Culpabilidade,5212|5213,0.5,1.0,jev
-Q0140,revisar,5159,Penal > Dos Crimes Contra o Patrimônio > Furto,6721|5160,0.49,1.0,jev
-Q0141,revisar,4387,Criminologia > Teorias Sociológicas Explicativas da Criminalidade > Teorias de Nível Sociológico,4388|4385,0.45,1.0,jev
+Q0136,revisar,4704,Direito Penal - Legislação Especial > Lei Maria da Penha,6724|5474,0.69,1.0,jev
+Q0137,revisar,5498,Processo Penal > Inquérito Policial,5500|5499,0.47,1.0,jev
+Q0138,revisar,5205,Penal > Teoria da Pena > Penas Restritivas de Direitos,6727|5207,0.48,1.0,jev
+Q0139,revisar,5217,Penal > Teoria do Crime: Culpabilidade > Causas Supralegais de Exclusão da Culpabilidade,5212|5213,0.47,1.0,jev
+Q0140,revisar,5159,Penal > Dos Crimes Contra o Patrimônio > Furto,6721|5160,0.48,1.0,jev
+Q0141,revisar,4387,Criminologia > Teorias Sociológicas Explicativas da Criminalidade > Teorias de Nível Sociológico,4388|4385,0.44,1.0,jev
 Q0142,fora,,,,1.0,1.0,jev
-Q0143,publicar,5507,Processo Penal > Lei Processual no Tempo e no Espaço > Lei processual no Tempo,5505|5508,0.93,1.0,jev
-Q0144,revisar,5529,Processo Penal > Procedimento do Tribunal do Júri > Sentença do Júri,5561|5562,0.31,1.0,jev
+Q0143,publicar,5507,Processo Penal > Lei Processual no Tempo e no Espaço > Lei processual no Tempo,5505|5508,0.9,1.0,jev
+Q0144,revisar,5561,Processo Penal > Recursos em Espécies > Recurso em sentido estrito (RESE),5529|5563,0.33,1.0,jev
 Q0145,publicar,4702,Direito Penal - Legislação Especial > Lavagem de Dinheiro,5084|5067,1.0,1.0,jev
-Q0146,publicar,5594,Processo Penal > Teoria Geral das Provas > Prova Ilegal e Prova Ilícita,5595|5593,0.98,1.0,jev
-Q0147,revisar,5556,Processo Penal > Provas em Espécies > Captação Ambiental,5500|5498,0.45,1.0,jev
+Q0146,publicar,5594,Processo Penal > Teoria Geral das Provas > Prova Ilegal e Prova Ilícita,5595|5593,0.97,1.0,jev
+Q0147,revisar,5556,Processo Penal > Provas em Espécies > Captação Ambiental,5500|5498,0.46,1.0,jev
 Q0148,publicar,5203,Penal > Teoria da Pena > Segunda Fase da Dosimetria: Agravantes e Atenuantes,5210|5204,0.98,1.0,jev
-Q0149,publicar,5500,Processo Penal > Inquérito Policial > Procedimento do Inquérito Policial,5554|5498,0.89,1.0,jev
-Q0150,publicar,4708,Direito Penal - Legislação Especial > Tráfico de Drogas,6728|5204,0.87,1.0,jev
-Q0151,revisar,5522,Processo Penal > Prisões em Espécie > Medidas Cautelares Diversas da Prisão,5585|5519,0.66,1.0,jev
-Q0152,revisar,5474,Processo Penal > Ação Penal > Queixa Crime,5472|5065,0.55,1.0,jev
-Q0153,revisar,5177,Penal > Iter Criminis > Crime Consumado e Tentado,5175|5179,0.35,1.0,jev
-Q0154,revisar,5135,"Penal > Dos Crimes contra a Organização do Trabalho, a Propriedade Imaterial e ao Sentimento Religioso > Dos Crimes Contra a Organização do Trabalho",4683|5134,0.74,1.0,jev
-Q0155,revisar,4703,Direito Penal - Legislação Especial > Lei de Execução Penal,4705|5576,0.54,1.0,jev
-Q0156,revisar,4688,Direito Penal - Legislação Especial > Crimes contra o meio ambiente,5205|5207,0.64,1.0,jev
+Q0149,publicar,5500,Processo Penal > Inquérito Policial > Procedimento do Inquérito Policial,5555|5554,0.91,1.0,jev
+Q0150,publicar,4708,Direito Penal - Legislação Especial > Tráfico de Drogas,6728|5204,0.81,1.0,jev
+Q0151,revisar,5522,Processo Penal > Prisões em Espécie > Medidas Cautelares Diversas da Prisão,5585|5519,0.63,1.0,jev
+Q0152,revisar,5474,Processo Penal > Ação Penal > Queixa Crime,5472|5065,0.52,1.0,jev
+Q0153,revisar,5177,Penal > Iter Criminis > Crime Consumado e Tentado,5175|5179,0.34,1.0,jev
+Q0154,publicar,5135,"Penal > Dos Crimes contra a Organização do Trabalho, a Propriedade Imaterial e ao Sentimento Religioso > Dos Crimes Contra a Organização do Trabalho",4683|5134,0.75,1.0,jev
+Q0155,revisar,4703,Direito Penal - Legislação Especial > Lei de Execução Penal,4705|5576,0.55,1.0,jev
+Q0156,revisar,4688,Direito Penal - Legislação Especial > Crimes contra o meio ambiente,5205|5207,0.62,1.0,jev
 Q0157,publicar,5520,Processo Penal > Prisões em Espécie > Prisão Temporária,5504|5503,1.0,1.0,jev
-Q0158,revisar,5209,Penal > Teoria da Pena > Efeitos da Condenação Penais e Extrapenais,4707|6727,0.67,1.0,jev
-Q0159,revisar,5177,Penal > Iter Criminis > Crime Consumado e Tentado,5160|5066,0.32,1.0,jev
+Q0158,revisar,5209,Penal > Teoria da Pena > Efeitos da Condenação Penais e Extrapenais,4707|6727,0.69,1.0,jev
+Q0159,revisar,5177,Penal > Iter Criminis > Crime Consumado e Tentado,5066|5067,0.33,1.0,jev
 Q0160,publicar,5205,Penal > Teoria da Pena > Penas Restritivas de Direitos,6727|5207,0.85,1.0,jev
-Q0161,revisar,5588,Processo Penal > Teoria Geral das Prisões > Relaxamento da Prisão,5589|5518,0.72,1.0,jev
-Q0162,revisar,4381,Criminologia > Teoria Geral da Criminologia > Conceito e objeto da Criminologia,4382|4369,0.28,1.0,jev
-Q0163,publicar,5133,"Penal > Dos Crimes Contra a Liberdade Pessoal > Dos Crimes contra a Inviolabilidade do Domicílio, Contra a Inviolabilidade da Correspondência e Contra a Inviolabilidade dos Segredos",4703|5068,0.92,1.0,jev
-Q0164,revisar,,,,0.64,1.0,jev
-Q0165,revisar,5557,Processo Penal > Provas em Espécies > Colaboração Premiada,5558|4686,0.49,1.0,jev
-Q0166,publicar,5208,Penal > Teoria da Pena > Livramento Condicional,5521|6727,0.75,1.0,jev
-Q0167,revisar,5524,Processo Penal > Procedimento do Tribunal do Júri,5528|5527,0.73,1.0,jev
-Q0168,revisar,,,,0.56,1.0,jev
+Q0161,revisar,5588,Processo Penal > Teoria Geral das Prisões > Relaxamento da Prisão,5518|5589,0.7,1.0,jev
+Q0162,revisar,4381,Criminologia > Teoria Geral da Criminologia > Conceito e objeto da Criminologia,4382|4374,0.31,1.0,jev
+Q0163,publicar,5133,"Penal > Dos Crimes Contra a Liberdade Pessoal > Dos Crimes contra a Inviolabilidade do Domicílio, Contra a Inviolabilidade da Correspondência e Contra a Inviolabilidade dos Segredos",4703|5068,0.94,1.0,jev
+Q0164,revisar,,,,0.67,1.0,jev
+Q0165,revisar,5557,Processo Penal > Provas em Espécies > Colaboração Premiada,5558|4686,0.44,1.0,jev
+Q0166,publicar,5208,Penal > Teoria da Pena > Livramento Condicional,5521|6727,0.81,1.0,jev
+Q0167,publicar,5524,Processo Penal > Procedimento do Tribunal do Júri,5528|5526,0.77,1.0,jev
+Q0168,revisar,,,,0.53,1.0,jev
 Q0169,publicar,5492,"Processo Penal > Das Questões e Processos Incidentes > Exceção de Suspeição, de Impedimento ou de Incompatibilidade",5497|5496,1.0,1.0,jev
 Q0170,publicar,5209,Penal > Teoria da Pena > Efeitos da Condenação Penais e Extrapenais,5210|5174,0.85,1.0,jev
 Q0171,revisar,5557,Processo Penal > Provas em Espécies > Colaboração Premiada,5466|5502,0.2,1.0,jev
-Q0172,revisar,5466,Processo Penal > Ação Penal,5473|6733,0.43,1.0,jev
+Q0172,revisar,5466,Processo Penal > Ação Penal,5473|6733,0.46,1.0,jev
 Q0173,publicar,4703,Direito Penal - Legislação Especial > Lei de Execução Penal,6727|5205,0.99,1.0,jev
-Q0174,revisar,,,,0.49,1.0,jev
+Q0174,revisar,,,,0.51,1.0,jev
 Q0175,publicar,5091,Penal > Dos Crimes Contra a Administração Pública > Concussão e Excesso de Exação,5092|5093,0.77,1.0,jev
 Q0176,publicar,5081,Penal > Dos Crimes Contra a Administração Judicial > Falso Testemunha ou Falsa Perícia e Corrupção Ativa de Testemunha ou Perito,5069|5070,1.0,1.0,jev
-Q0177,publicar,5547,Processo Penal > Provas em Espécies > Interrogatório Judicial,5548|5489,0.98,1.0,jev
+Q0177,publicar,5547,Processo Penal > Provas em Espécies > Interrogatório Judicial,5548|5489,0.99,1.0,jev
 Q0178,publicar,4697,Direito Penal - Legislação Especial > Estatuto do Desarmamento,4704|4703,1.0,1.0,jev
-Q0179,publicar,4369,Criminologia > Criminologia no Estado Democrático de Direito > Sistemas de Prevenção,4374|4370,0.99,1.0,jev
-Q0180,publicar,5554,Processo Penal > Provas em Espécies > Busca e Apreensão,5594|5127,0.88,1.0,jev
+Q0179,publicar,4369,Criminologia > Criminologia no Estado Democrático de Direito > Sistemas de Prevenção,4374|4370,0.98,1.0,jev
+Q0180,publicar,5554,Processo Penal > Provas em Espécies > Busca e Apreensão,5594|5127,0.84,1.0,jev
 Q0181,publicar,4695,Direito Penal - Legislação Especial > Crimes Tributários,5069|5070,1.0,1.0,jev
-Q0182,revisar,5066,Penal > Concurso de Crimes,5076|5071,0.36,1.0,jev
-Q0183,revisar,5561,Processo Penal > Recursos em Espécies > Recurso em sentido estrito (RESE),5190|5574,0.41,1.0,jev
-Q0184,publicar,5518,Processo Penal > Prisões em Espécie > Prisão em Flagrante,5587|5520,0.87,1.0,jev
-Q0185,publicar,4703,Direito Penal - Legislação Especial > Lei de Execução Penal,5576|5561,0.75,1.0,jev
+Q0182,revisar,5066,Penal > Concurso de Crimes,5076|5071,0.39,1.0,jev
+Q0183,revisar,5561,Processo Penal > Recursos em Espécies > Recurso em sentido estrito (RESE),5190|5507,0.47,1.0,jev
+Q0184,publicar,5518,Processo Penal > Prisões em Espécie > Prisão em Flagrante,5520|5587,0.86,1.0,jev
+Q0185,publicar,4703,Direito Penal - Legislação Especial > Lei de Execução Penal,5576|5561,0.78,1.0,jev
 Q0186,publicar,5202,Penal > Teoria da Pena > Primeira Fase da Dosimetria: Circunstâncias Judiciais,5204|5203,1.0,1.0,jev
-Q0187,revisar,5209,Penal > Teoria da Pena > Efeitos da Condenação Penais e Extrapenais,5092|6723,0.7,1.0,jev
-Q0188,revisar,5233,Penal > Teoria do Crime: Ilicitude > Causas Supralegais de Exclusão da Ilicitude,5230|5229,0.39,1.0,jev
-Q0189,publicar,5472,Processo Penal > Ação Penal > Ação Penal de Iniciativa Privada,5474|5065,0.86,1.0,jev
-Q0190,revisar,5539,Processo Penal > Procedimento Sumaríssimo,5540|5542,0.4,1.0,jev
-Q0191,revisar,6736,Processo Penal > Recursos (Parte 03) - Espécies,5516|5567,0.39,1.0,jev
-Q0192,revisar,5091,Penal > Dos Crimes Contra a Administração Pública > Concussão e Excesso de Exação,5087|6719,0.73,1.0,jev
+Q0187,publicar,5209,Penal > Teoria da Pena > Efeitos da Condenação Penais e Extrapenais,5092|4702,0.76,1.0,jev
+Q0188,revisar,5233,Penal > Teoria do Crime: Ilicitude > Causas Supralegais de Exclusão da Ilicitude,5229|5228,0.48,1.0,jev
+Q0189,publicar,5472,Processo Penal > Ação Penal > Ação Penal de Iniciativa Privada,5065|5474,0.87,1.0,jev
+Q0190,revisar,5539,Processo Penal > Procedimento Sumaríssimo,5540|5542,0.44,1.0,jev
+Q0191,revisar,6736,Processo Penal > Recursos (Parte 03) - Espécies,5516|5567,0.41,1.0,jev
+Q0192,publicar,5091,Penal > Dos Crimes Contra a Administração Pública > Concussão e Excesso de Exação,5087|6719,0.8,1.0,jev
 Q0193,publicar,5557,Processo Penal > Provas em Espécies > Colaboração Premiada,5503|5502,1.0,1.0,jev
-Q0194,revisar,6718,Penal > Dos Crimes Contra a Administração Pública (Parte 1),6719|6721,0.43,1.0,jev
-Q0195,revisar,4373,Criminologia > Etapas Evolutivas e Escolas Criminológicas > Escolas Crimonológicas,4371|4372,0.56,1.0,jev
-Q0196,publicar,4388,Criminologia > Teorias Sociológicas Explicativas da Criminalidade > Teorias Criminológicas em Espécie,4385|4387,0.86,1.0,jev
-Q0197,revisar,4689,Direito Penal - Legislação Especial > Crimes contra o Sistema Financeiro,5498|5500,0.26,1.0,jev
+Q0194,revisar,6719,Penal > Dos Crimes contra a Administração Pública (Parte 2),6718|6721,0.45,1.0,jev
+Q0195,revisar,4373,Criminologia > Etapas Evolutivas e Escolas Criminológicas > Escolas Crimonológicas,4371|4372,0.59,1.0,jev
+Q0196,publicar,4388,Criminologia > Teorias Sociológicas Explicativas da Criminalidade > Teorias Criminológicas em Espécie,4385|4387,0.88,1.0,jev
+Q0197,revisar,4689,Direito Penal - Legislação Especial > Crimes contra o Sistema Financeiro,5498|5500,0.25,1.0,jev
 Q0198,publicar,5073,"Penal > Concurso de Pessoas > Autoria Mediata, Colateral e Coautoria",5072|5076,0.98,1.0,jev
-Q0199,revisar,5218,Penal > Teoria do Crime: Fato Típico,5221|5220,0.31,1.0,jev
-Q0200,publicar,4705,Direito Penal - Legislação Especial > Organizações Criminosas,6725|5232,0.8,1.0,jev
-Q0201,publicar,5103,Penal > Dos Crimes Contra a Dignidade Sexual > Estupro e Estupro de Vulnerável,5069|5109,0.99,1.0,jev
+Q0199,revisar,5218,Penal > Teoria do Crime: Fato Típico,5220|5230,0.41,1.0,jev
+Q0200,publicar,4705,Direito Penal - Legislação Especial > Organizações Criminosas,6725|5232,0.76,1.0,jev
+Q0201,publicar,5103,Penal > Dos Crimes Contra a Dignidade Sexual > Estupro e Estupro de Vulnerável,5110|5069,0.99,1.0,jev
 Q0202,publicar,5224,Penal > Teoria do Crime: Fato Típico > Erro de Tipo,5109|5102,0.85,1.0,jev
-Q0203,publicar,4702,Direito Penal - Legislação Especial > Lavagem de Dinheiro,6723|4704,0.94,1.0,jev
+Q0203,publicar,4702,Direito Penal - Legislação Especial > Lavagem de Dinheiro,6723|4704,0.91,1.0,jev
 Q0204,publicar,5507,Processo Penal > Lei Processual no Tempo e no Espaço > Lei processual no Tempo,5505|5508,0.99,1.0,jev
-Q0205,revisar,5512,Processo Penal > Parte Geral dos Recursos,5562|5567,0.43,1.0,jev
-Q0206,revisar,,,,0.35,1.0,jev
-Q0207,publicar,4703,Direito Penal - Legislação Especial > Lei de Execução Penal,4688|4684,0.98,1.0,jev
-Q0208,publicar,5072,Penal > Concurso de Pessoas > Autores e Partícipes,5071|5074,0.75,1.0,jev
-Q0209,revisar,5582,Processo Penal > Sistemas e Princípios Processuais Penais > Princípios do Processo Penal,5595|5500,0.61,1.0,jev
-Q0210,publicar,4697,Direito Penal - Legislação Especial > Estatuto do Desarmamento,5066|5067,0.98,1.0,jev
-Q0211,revisar,,,,0.72,1.0,jev
-Q0212,publicar,5488,Processo Penal > Comunicação dos Atos Processuais > Citação e Contagem dos Prazos,5555|5595,0.97,1.0,jev
-Q0213,revisar,4708,Direito Penal - Legislação Especial > Tráfico de Drogas,4683|5503,0.6,1.0,jev
+Q0205,revisar,5512,Processo Penal > Parte Geral dos Recursos,5562|5567,0.4,1.0,jev
+Q0206,revisar,,,,0.34,1.0,jev
+Q0207,publicar,4703,Direito Penal - Legislação Especial > Lei de Execução Penal,4688|4684,0.99,1.0,jev
+Q0208,publicar,5072,Penal > Concurso de Pessoas > Autores e Partícipes,5074|5071,0.75,1.0,jev
+Q0209,revisar,5582,Processo Penal > Sistemas e Princípios Processuais Penais > Princípios do Processo Penal,5500|5595,0.58,1.0,jev
+Q0210,publicar,4697,Direito Penal - Legislação Especial > Estatuto do Desarmamento,5066|5067,0.97,1.0,jev
+Q0211,revisar,,,,0.7,1.0,jev
+Q0212,publicar,5488,Processo Penal > Comunicação dos Atos Processuais > Citação e Contagem dos Prazos,5555|5595,0.98,1.0,jev
+Q0213,revisar,4708,Direito Penal - Legislação Especial > Tráfico de Drogas,4683|4701,0.57,1.0,jev
 Q0214,publicar,5494,Processo Penal > Das Questões e Processos Incidentes > Exceção de Litispendência e de Coisa Julgada,5493|5492,1.0,1.0,jev
-Q0215,publicar,5576,Processo Penal > Sentença Penal > Fixação da Pena e do Regime Penitenciário,5201|5202,0.89,1.0,jev
+Q0215,publicar,5576,Processo Penal > Sentença Penal > Fixação da Pena e do Regime Penitenciário,5201|5202,0.88,1.0,jev
 Q0216,publicar,5541,Processo Penal > Procedimento Sumaríssimo > Transação Penal,5540|5472,0.97,1.0,jev
-Q0217,revisar,4384,Criminologia > Teorias Legitimidoras da Pena,5210|6726,0.72,1.0,jev
-Q0218,publicar,5518,Processo Penal > Prisões em Espécie > Prisão em Flagrante,5558|5585,0.98,1.0,jev
-Q0219,publicar,5074,Penal > Concurso de Pessoas > Participação,5071|5072,0.84,1.0,jev
+Q0217,revisar,4384,Criminologia > Teorias Legitimidoras da Pena,6726|5210,0.7,1.0,jev
+Q0218,publicar,5518,Processo Penal > Prisões em Espécie > Prisão em Flagrante,5118|5585,0.98,1.0,jev
+Q0219,publicar,5074,Penal > Concurso de Pessoas > Participação,5071|5072,0.83,1.0,jev
 Q0220,publicar,5501,Processo Penal > Inquérito Policial > Conclusão e Arquivamento do Inquérito Policial,5502|5504,1.0,1.0,jev
-Q0221,revisar,5201,Penal > Teoria da Pena > Penas Privativas de Liberdade,5184|5205,0.53,1.0,jev
-Q0222,publicar,4376,Criminologia > Política Criminal > Direito Penal do Inimigo,4370|4368,0.76,1.0,jev
-Q0223,publicar,4703,Direito Penal - Legislação Especial > Lei de Execução Penal,5227|5084,0.87,1.0,jev
-Q0224,revisar,5209,Penal > Teoria da Pena > Efeitos da Condenação Penais e Extrapenais,5207|5070,0.65,1.0,jev
+Q0221,revisar,5201,Penal > Teoria da Pena > Penas Privativas de Liberdade,5184|5205,0.52,1.0,jev
+Q0222,publicar,4376,Criminologia > Política Criminal > Direito Penal do Inimigo,4370|4368,0.77,1.0,jev
+Q0223,publicar,4703,Direito Penal - Legislação Especial > Lei de Execução Penal,5227|5084,0.76,1.0,jev
+Q0224,revisar,5209,Penal > Teoria da Pena > Efeitos da Condenação Penais e Extrapenais,5207|5202,0.57,1.0,jev
 Q0225,publicar,5478,Processo Penal > Ações Autônomas de Impugnação > Revisão Criminal,5481|5473,0.99,1.0,jev
 Q0226,publicar,5544,Processo Penal > Provas em Espécies > Cadeia de Custódia,5467|5531,1.0,1.0,jev
-Q0227,publicar,5103,Penal > Dos Crimes Contra a Dignidade Sexual > Estupro e Estupro de Vulnerável,5067|5066,0.91,1.0,jev
-Q0228,revisar,5208,Penal > Teoria da Pena > Livramento Condicional,5477|6736,0.74,1.0,jev
-Q0229,publicar,5585,Processo Penal > Teoria Geral das Prisões > Conceitos e Espécies de Prisão,5587|5519,0.82,1.0,jev
-Q0230,revisar,,,,0.44,1.0,jev
+Q0227,publicar,5103,Penal > Dos Crimes Contra a Dignidade Sexual > Estupro e Estupro de Vulnerável,5066|5102,0.91,1.0,jev
+Q0228,revisar,5208,Penal > Teoria da Pena > Livramento Condicional,5477|6736,0.73,1.0,jev
+Q0229,publicar,5585,Processo Penal > Teoria Geral das Prisões > Conceitos e Espécies de Prisão,5587|5519,0.77,1.0,jev
+Q0230,revisar,,,,0.36,1.0,jev
 Q0231,publicar,5224,Penal > Teoria do Crime: Fato Típico > Erro de Tipo,5214|5089,1.0,1.0,jev
-Q0232,revisar,5079,Penal > Dos Crimes Contra a Administração Judicial,5080|5086,0.73,1.0,jev
+Q0232,revisar,5079,Penal > Dos Crimes Contra a Administração Judicial,5080|5086,0.72,1.0,jev
 Q0233,publicar,5178,"Penal > Iter Criminis > Desistência Voluntária, Arrependimento Eficaz e Arrependimento posterior",5179|5177,1.0,1.0,jev
-Q0234,revisar,4381,Criminologia > Teoria Geral da Criminologia > Conceito e objeto da Criminologia,4382|4380,0.56,1.0,jev
-Q0235,revisar,5561,Processo Penal > Recursos em Espécies > Recurso em sentido estrito (RESE),5515|6733,0.56,1.0,jev
-Q0236,revisar,5475,Processo Penal > Ação Penal > Ação Civil Ex Delicto,5466|5510,0.21,1.0,jev
+Q0234,revisar,4381,Criminologia > Teoria Geral da Criminologia > Conceito e objeto da Criminologia,4382|4380,0.49,1.0,jev
+Q0235,revisar,5561,Processo Penal > Recursos em Espécies > Recurso em sentido estrito (RESE),5515|6733,0.53,1.0,jev
+Q0236,revisar,5475,Processo Penal > Ação Penal > Ação Civil Ex Delicto,5510|5577,0.17,1.0,jev
 Q0237,publicar,5178,"Penal > Iter Criminis > Desistência Voluntária, Arrependimento Eficaz e Arrependimento posterior",5179|5177,1.0,1.0,jev
-Q0238,fora,,,,0.87,1.0,jev
-Q0239,revisar,5207,Penal > Teoria da Pena > Suspensão Condicional da Pena,5202|5191,0.42,1.0,jev
-Q0240,revisar,5531,"Processo Penal > Procedimento Ordinário > 2 Oferecimento, Rejeição e Recebimento da Peça Acusatória",5473|5489,0.41,1.0,jev
+Q0238,fora,,,,0.85,1.0,jev
+Q0239,revisar,5207,Penal > Teoria da Pena > Suspensão Condicional da Pena,5202|5191,0.4,1.0,jev
+Q0240,revisar,5531,"Processo Penal > Procedimento Ordinário > 2 Oferecimento, Rejeição e Recebimento da Peça Acusatória",5473|5489,0.39,1.0,jev
 Q0241,publicar,5224,Penal > Teoria do Crime: Fato Típico > Erro de Tipo,5227|5221,0.99,1.0,jev
-Q0242,revisar,5512,Processo Penal > Parte Geral dos Recursos,5513|6736,0.68,1.0,jev
-Q0243,publicar,5178,"Penal > Iter Criminis > Desistência Voluntária, Arrependimento Eficaz e Arrependimento posterior",5196|5177,0.88,1.0,jev
-Q0244,publicar,5091,Penal > Dos Crimes Contra a Administração Pública > Concussão e Excesso de Exação,5092|5101,0.9,1.0,jev
+Q0242,revisar,5512,Processo Penal > Parte Geral dos Recursos,6736|5513,0.65,1.0,jev
+Q0243,publicar,5178,"Penal > Iter Criminis > Desistência Voluntária, Arrependimento Eficaz e Arrependimento posterior",5196|5177,0.93,1.0,jev
+Q0244,publicar,5091,Penal > Dos Crimes Contra a Administração Pública > Concussão e Excesso de Exação,5092|5101,0.88,1.0,jev
 Q0245,publicar,5187,Penal > Prescrição > Contagem dos Prazos e Causas Suspensivas e Interruptivas da Prescrição,5189|5190,0.93,1.0,jev
-Q0246,publicar,5527,"Processo Penal > Procedimento do Tribunal do Júri > Impronúncia, Desclassificação, Absolvição Sumária e Pronúncia",5485|6738,0.95,1.0,jev
-Q0247,publicar,5502,Processo Penal > Inquérito Policial > Acordo de Não Persecução Penal,5507|5505,0.88,1.0,jev
-Q0248,revisar,5100,"Penal > Dos Crimes Contra a Administração Pública > Resistência, Desobediência e Desacato",5087|5088,0.35,1.0,jev
-Q0249,revisar,6733,Processo Penal > Competência (Parte 2),5485|5480,0.56,1.0,jev
-Q0250,publicar,5576,Processo Penal > Sentença Penal > Fixação da Pena e do Regime Penitenciário,5201|6727,0.82,1.0,jev
-Q0251,revisar,5193,"Penal > Punibilidade > Anistia, Graça e Indulto",5191|5195,0.54,1.0,jev
-Q0252,revisar,4703,Direito Penal - Legislação Especial > Lei de Execução Penal,5576|5208,0.24,1.0,jev
-Q0253,publicar,4373,Criminologia > Etapas Evolutivas e Escolas Criminológicas > Escolas Crimonológicas,4371|4384,0.86,1.0,jev
-Q0254,revisar,,,,0.74,1.0,jev
+Q0246,publicar,5527,"Processo Penal > Procedimento do Tribunal do Júri > Impronúncia, Desclassificação, Absolvição Sumária e Pronúncia",5485|5529,0.96,1.0,jev
+Q0247,publicar,5502,Processo Penal > Inquérito Policial > Acordo de Não Persecução Penal,5507|5505,0.91,1.0,jev
+Q0248,revisar,5100,"Penal > Dos Crimes Contra a Administração Pública > Resistência, Desobediência e Desacato",5087|5088,0.45,1.0,jev
+Q0249,revisar,6733,Processo Penal > Competência (Parte 2),5485|5480,0.53,1.0,jev
+Q0250,publicar,5576,Processo Penal > Sentença Penal > Fixação da Pena e do Regime Penitenciário,6727|5201,0.82,1.0,jev
+Q0251,revisar,5193,"Penal > Punibilidade > Anistia, Graça e Indulto",5191|5195,0.48,1.0,jev
+Q0252,revisar,4703,Direito Penal - Legislação Especial > Lei de Execução Penal,5576|5208,0.28,1.0,jev
+Q0253,publicar,4373,Criminologia > Etapas Evolutivas e Escolas Criminológicas > Escolas Crimonológicas,4371|4384,0.8,1.0,jev
+Q0254,fora,,,,0.8,1.0,jev
 Q0255,publicar,5213,Penal > Teoria do Crime: Culpabilidade > Inimputabilidade,5183|5209,1.0,1.0,jev
 Q0256,publicar,5224,Penal > Teoria do Crime: Fato Típico > Erro de Tipo,5214|5222,0.75,1.0,jev
-Q0257,revisar,5227,Penal > Teoria do Crime: Fato Típico > Tipicidade,5219|5218,0.57,1.0,jev
+Q0257,revisar,5227,Penal > Teoria do Crime: Fato Típico > Tipicidade,5219|5218,0.53,1.0,jev
 Q0258,publicar,5545,Processo Penal > Provas em Espécies > Exame de Corpo de Delito,5529|5528,1.0,1.0,jev
-Q0259,revisar,,,,0.39,1.0,jev
-Q0260,revisar,4376,Criminologia > Política Criminal > Direito Penal do Inimigo,4370|4368,0.65,1.0,jev
-Q0261,revisar,,,,0.43,1.0,jev
-Q0262,revisar,5184,Penal > Medida de Segurança,4703|6734,0.33,1.0,jev
-Q0263,revisar,,,,0.45,1.0,jev
-Q0264,revisar,5103,Penal > Dos Crimes Contra a Dignidade Sexual > Estupro e Estupro de Vulnerável,5109|5102,0.68,1.0,jev
-Q0265,revisar,5188,Penal > Prescrição > Prescrição da Pretensão Punitiva,5187|5185,0.33,1.0,jev
+Q0259,revisar,,,,0.29,1.0,jev
+Q0260,revisar,4376,Criminologia > Política Criminal > Direito Penal do Inimigo,4368|4370,0.7,1.0,jev
+Q0261,revisar,,,,0.37,1.0,jev
+Q0262,revisar,5184,Penal > Medida de Segurança,6734|4703,0.36,1.0,jev
+Q0263,revisar,,,,0.44,1.0,jev
+Q0264,revisar,5103,Penal > Dos Crimes Contra a Dignidade Sexual > Estupro e Estupro de Vulnerável,5109|5102,0.7,1.0,jev
+Q0265,revisar,5188,Penal > Prescrição > Prescrição da Pretensão Punitiva,5187|5185,0.3,1.0,jev
 Q0266,publicar,5482,Processo Penal > Competência > Competência em Razão da Matéria,5524|5528,0.96,1.0,jev
-Q0267,publicar,4708,Direito Penal - Legislação Especial > Tráfico de Drogas,5518|5495,0.83,1.0,jev
-Q0268,revisar,5122,Penal > Dos Crimes Contra a Honra > Calúnia,5227|5220,0.21,1.0,jev
-Q0269,revisar,5172,Penal > Introdução ao Estudo do Direito Penal > Princípios do Direito Penal,5170|5173,0.31,1.0,jev
-Q0270,publicar,5091,Penal > Dos Crimes Contra a Administração Pública > Concussão e Excesso de Exação,5092|5093,0.96,1.0,jev
+Q0267,publicar,4708,Direito Penal - Legislação Especial > Tráfico de Drogas,5518|5495,0.82,1.0,jev
+Q0268,revisar,5122,Penal > Dos Crimes Contra a Honra > Calúnia,5227|5220,0.24,1.0,jev
+Q0269,revisar,5172,Penal > Introdução ao Estudo do Direito Penal > Princípios do Direito Penal,5170|5173,0.36,1.0,jev
+Q0270,publicar,5091,Penal > Dos Crimes Contra a Administração Pública > Concussão e Excesso de Exação,5092|5093,0.97,1.0,jev
 Q0271,revisar,5515,Processo Penal > Parte Geral dos Recursos > Efeito dos Recursos,5513|5529,0.72,1.0,jev
-Q0272,publicar,4703,Direito Penal - Legislação Especial > Lei de Execução Penal,6734|4704,0.8,1.0,jev
-Q0273,publicar,5222,Penal > Teoria do Crime: Fato Típico > Crime Doloso e Culposo,5096|5089,0.93,1.0,jev
-Q0274,publicar,5160,Penal > Dos Crimes Contra o Patrimônio > Roubo,6721|6720,1.0,1.0,jev
-Q0275,revisar,5488,Processo Penal > Comunicação dos Atos Processuais > Citação e Contagem dos Prazos,4701|5539,0.67,1.0,jev
-Q0276,publicar,6735,Processo Penal > Provas em Espécie,5590|5595,0.75,1.0,jev
-Q0277,revisar,6722,Penal > Estatuto do Idoso - Crimes,4696|5080,0.53,1.0,jev
-Q0278,publicar,5542,Processo Penal > Procedimento Sumaríssimo > Suspensão Condicional do Processo,5541|5538,0.9,1.0,jev
+Q0272,revisar,4703,Direito Penal - Legislação Especial > Lei de Execução Penal,6734|4704,0.73,1.0,jev
+Q0273,publicar,5222,Penal > Teoria do Crime: Fato Típico > Crime Doloso e Culposo,5096|5089,0.95,1.0,jev
+Q0274,publicar,5160,Penal > Dos Crimes Contra o Patrimônio > Roubo,6721|6720,0.99,1.0,jev
+Q0275,revisar,5488,Processo Penal > Comunicação dos Atos Processuais > Citação e Contagem dos Prazos,4701|5539,0.7,1.0,jev
+Q0276,revisar,6735,Processo Penal > Provas em Espécie,5590|5595,0.72,1.0,jev
+Q0277,revisar,6722,Penal > Estatuto do Idoso - Crimes,4696|5080,0.52,1.0,jev
+Q0278,publicar,5542,Processo Penal > Procedimento Sumaríssimo > Suspensão Condicional do Processo,5541|5538,0.91,1.0,jev
 Q0279,revisar,5188,Penal > Prescrição > Prescrição da Pretensão Punitiva,5187|5178,0.69,1.0,jev
-Q0280,revisar,5122,Penal > Dos Crimes Contra a Honra > Calúnia,5472|5474,0.23,1.0,jev
-Q0281,publicar,5555,Processo Penal > Provas em Espécies > Interceptação Telefônica e Quebra do Sigilo de Dados Telefônicos,5595|5582,0.78,1.0,jev
-Q0282,revisar,4697,Direito Penal - Legislação Especial > Estatuto do Desarmamento,5466|5063,0.73,1.0,jev
+Q0280,revisar,5472,Processo Penal > Ação Penal > Ação Penal de Iniciativa Privada,5122|5474,0.24,1.0,jev
+Q0281,publicar,5555,Processo Penal > Provas em Espécies > Interceptação Telefônica e Quebra do Sigilo de Dados Telefônicos,5595|5580,0.77,1.0,jev
+Q0282,revisar,4697,Direito Penal - Legislação Especial > Estatuto do Desarmamento,5522|5466,0.72,1.0,jev
 Q0283,publicar,5496,"Processo Penal > Das Questões e Processos Incidentes > Medidas Assecuratórias: Sequestro, Hipoteca Legal e Arresto",6738|6737,1.0,1.0,jev
-Q0284,revisar,5231,Penal > Teoria do Crime: Ilicitude > Legítima Defesa,5214|5224,0.59,1.0,jev
+Q0284,revisar,5231,Penal > Teoria do Crime: Ilicitude > Legítima Defesa,5214|5224,0.61,1.0,jev
 Q0285,publicar,4376,Criminologia > Política Criminal > Direito Penal do Inimigo,5587|4370,1.0,1.0,jev
-Q0286,revisar,5204,Penal > Teoria da Pena > Terceira fase da Dosimetria: Causas de Aumento e de Diminuição,5066|5068,0.66,1.0,jev
-Q0287,revisar,5228,Penal > Teoria do Crime: Ilicitude,5230|5231,0.72,1.0,jev
-Q0288,revisar,5066,Penal > Concurso de Crimes,5068|5103,0.34,1.0,jev
+Q0286,revisar,5204,Penal > Teoria da Pena > Terceira fase da Dosimetria: Causas de Aumento e de Diminuição,5066|5069,0.68,1.0,jev
+Q0287,revisar,5228,Penal > Teoria do Crime: Ilicitude,5230|5231,0.67,1.0,jev
+Q0288,revisar,5066,Penal > Concurso de Crimes,5068|5103,0.36,1.0,jev
 Q0289,publicar,4704,Direito Penal - Legislação Especial > Lei Maria da Penha,6724|4709,0.83,1.0,jev
-Q0290,publicar,5540,Processo Penal > Procedimento Sumaríssimo > Competência dos Juizados Especiais Criminais,5468|5471,0.87,1.0,jev
-Q0291,publicar,5501,Processo Penal > Inquérito Policial > Conclusão e Arquivamento do Inquérito Policial,4708|5500,0.77,1.0,jev
-Q0292,publicar,4374,Criminologia > Política Criminal,4376|4375,0.78,1.0,jev
-Q0293,publicar,5189,Penal > Prescrição > Prescrição da Pretensão Executória,5187|5188,0.91,1.0,jev
-Q0294,revisar,5212,Penal > Teoria do Crime: Culpabilidade > Conceito e Elementos da Culpabilidade,5211|5217,0.39,1.0,jev
+Q0290,publicar,5540,Processo Penal > Procedimento Sumaríssimo > Competência dos Juizados Especiais Criminais,5468|5535,0.89,1.0,jev
+Q0291,publicar,5501,Processo Penal > Inquérito Policial > Conclusão e Arquivamento do Inquérito Policial,4708|5500,0.78,1.0,jev
+Q0292,publicar,4374,Criminologia > Política Criminal,4376|4375,0.76,1.0,jev
+Q0293,publicar,5189,Penal > Prescrição > Prescrição da Pretensão Executória,5187|5188,0.9,1.0,jev
+Q0294,revisar,5211,Penal > Teoria do Crime: Culpabilidade,5212|5217,0.36,1.0,jev
 Q0295,publicar,5489,Processo Penal > Comunicação dos Atos Processuais > Intimação e Contagem dos Prazos,5488|5487,1.0,1.0,jev
-Q0296,revisar,5474,Processo Penal > Ação Penal > Queixa Crime,5472|5065,0.47,1.0,jev
-Q0297,publicar,4695,Direito Penal - Legislação Especial > Crimes Tributários,4689|4687,0.75,1.0,jev
-Q0298,revisar,5222,Penal > Teoria do Crime: Fato Típico > Crime Doloso e Culposo,4694|4687,0.57,1.0,jev
-Q0299,revisar,4384,Criminologia > Teorias Legitimidoras da Pena,4385|4388,0.59,1.0,jev
-Q0300,revisar,5084,Penal > Dos Crimes Contra a Administração Judicial > Favorecimento Pessoal e Real,6718|5087,0.62,1.0,jev
+Q0296,revisar,5474,Processo Penal > Ação Penal > Queixa Crime,5472|5065,0.52,1.0,jev
+Q0297,revisar,4695,Direito Penal - Legislação Especial > Crimes Tributários,4689|5561,0.7,1.0,jev
+Q0298,revisar,5222,Penal > Teoria do Crime: Fato Típico > Crime Doloso e Culposo,4694|4687,0.59,1.0,jev
+Q0299,revisar,4384,Criminologia > Teorias Legitimidoras da Pena,4385|4387,0.6,1.0,jev
+Q0300,revisar,5084,Penal > Dos Crimes Contra a Administração Judicial > Favorecimento Pessoal e Real,6718|5087,0.67,1.0,jev
 Q0301,publicar,5197,Penal > Punibilidade > Perdão Judicial,5196|4688,0.99,1.0,jev
-Q0302,publicar,5224,Penal > Teoria do Crime: Fato Típico > Erro de Tipo,5217|5227,0.87,1.0,jev
-Q0303,revisar,5180,Penal > Lei Penal no Tempo e no Espaço,5182|5181,0.73,1.0,jev
-Q0304,publicar,5540,Processo Penal > Procedimento Sumaríssimo > Competência dos Juizados Especiais Criminais,4701|5541,0.77,1.0,jev
-Q0305,revisar,5470,Processo Penal > Ação Penal > Ação Penal Pública Incondicionada,5064|5467,0.3,1.0,jev
-Q0306,publicar,5146,Penal > Dos Crimes Contra a Saúde Pública e Dos Crimes Contra à Paz Pública > Crimes Contra à Paz Pública,5557|5155,0.93,1.0,jev
-Q0307,revisar,4707,Direito Penal - Legislação Especial > Tortura,5223|5072,0.4,1.0,jev
-Q0308,publicar,5501,Processo Penal > Inquérito Policial > Conclusão e Arquivamento do Inquérito Policial,5494|5504,0.96,1.0,jev
+Q0302,publicar,5224,Penal > Teoria do Crime: Fato Típico > Erro de Tipo,5217|5221,0.86,1.0,jev
+Q0303,revisar,5180,Penal > Lei Penal no Tempo e no Espaço,5182|5181,0.7,1.0,jev
+Q0304,revisar,5540,Processo Penal > Procedimento Sumaríssimo > Competência dos Juizados Especiais Criminais,4701|5541,0.7,1.0,jev
+Q0305,revisar,5470,Processo Penal > Ação Penal > Ação Penal Pública Incondicionada,5064|5473,0.3,1.0,jev
+Q0306,publicar,5146,Penal > Dos Crimes Contra a Saúde Pública e Dos Crimes Contra à Paz Pública > Crimes Contra à Paz Pública,5144|5557,0.91,1.0,jev
+Q0307,revisar,4707,Direito Penal - Legislação Especial > Tortura,5223|5072,0.51,1.0,jev
+Q0308,publicar,5501,Processo Penal > Inquérito Policial > Conclusão e Arquivamento do Inquérito Policial,5494|5504,0.94,1.0,jev
 Q0309,fora,,,,0.93,1.0,jev
-Q0310,revisar,5508,Processo Penal > Lei Processual no Tempo e no Espaço > Interpretação da Lei processual Penal,5505|5507,0.44,1.0,jev
+Q0310,revisar,5505,Processo Penal > Lei Processual no Tempo e no Espaço,5508|5507,0.47,1.0,jev
 Q0311,publicar,5488,Processo Penal > Comunicação dos Atos Processuais > Citação e Contagem dos Prazos,5471|5470,0.99,1.0,jev
-Q0312,revisar,4384,Criminologia > Teorias Legitimidoras da Pena,5200|5210,0.57,1.0,jev
-Q0313,revisar,5209,Penal > Teoria da Pena > Efeitos da Condenação Penais e Extrapenais,5577|6727,0.71,1.0,jev
+Q0312,revisar,4384,Criminologia > Teorias Legitimidoras da Pena,5200|5210,0.48,1.0,jev
+Q0313,revisar,5209,Penal > Teoria da Pena > Efeitos da Condenação Penais e Extrapenais,5577|5475,0.74,1.0,jev
 Q0314,publicar,5477,Processo Penal > Ações Autônomas de Impugnação > Habeas Corpus,5085|5558,1.0,1.0,jev
-Q0315,revisar,5187,Penal > Prescrição > Contagem dos Prazos e Causas Suspensivas e Interruptivas da Prescrição,5188|5189,0.6,1.0,jev
-Q0316,revisar,5224,Penal > Teoria do Crime: Fato Típico > Erro de Tipo,5076|5179,0.7,1.0,jev
+Q0315,revisar,5187,Penal > Prescrição > Contagem dos Prazos e Causas Suspensivas e Interruptivas da Prescrição,5188|5189,0.61,1.0,jev
+Q0316,revisar,5224,Penal > Teoria do Crime: Fato Típico > Erro de Tipo,5076|5179,0.69,1.0,jev
 Q0317,publicar,5198,Penal > Punibilidade > Decadência,5066|5070,0.98,1.0,jev
-Q0318,publicar,5178,"Penal > Iter Criminis > Desistência Voluntária, Arrependimento Eficaz e Arrependimento posterior",5177|5192,0.97,1.0,jev
-Q0319,publicar,5073,"Penal > Concurso de Pessoas > Autoria Mediata, Colateral e Coautoria",5071|5072,0.9,1.0,jev
-Q0320,publicar,6735,Processo Penal > Provas em Espécie,5559|5500,0.86,1.0,jev
-Q0321,revisar,5071,Penal > Concurso de Pessoas,5073|5072,0.62,1.0,jev
-Q0322,revisar,5561,Processo Penal > Recursos em Espécies > Recurso em sentido estrito (RESE),5531|5562,0.62,1.0,jev
-Q0323,revisar,5593,Processo Penal > Teoria Geral das Provas > Prova Emprestada,5595|5580,0.37,1.0,jev
-Q0324,revisar,6727,Penal > Teoria da Pena (Parte 2),5201|5184,0.39,1.0,jev
-Q0325,revisar,5467,Processo Penal > Ação Penal > Características e Condições da Ação Penal,5531|5466,0.37,1.0,jev
-Q0326,publicar,4708,Direito Penal - Legislação Especial > Tráfico de Drogas,6728|5066,0.89,1.0,jev
+Q0318,publicar,5178,"Penal > Iter Criminis > Desistência Voluntária, Arrependimento Eficaz e Arrependimento posterior",5177|5192,0.98,1.0,jev
+Q0319,publicar,5073,"Penal > Concurso de Pessoas > Autoria Mediata, Colateral e Coautoria",5071|5072,0.88,1.0,jev
+Q0320,publicar,6735,Processo Penal > Provas em Espécie,5559|5500,0.89,1.0,jev
+Q0321,revisar,5071,Penal > Concurso de Pessoas,5073|5072,0.61,1.0,jev
+Q0322,revisar,5561,Processo Penal > Recursos em Espécies > Recurso em sentido estrito (RESE),5531|5562,0.69,1.0,jev
+Q0323,revisar,5593,Processo Penal > Teoria Geral das Provas > Prova Emprestada,5595|5580,0.35,1.0,jev
+Q0324,revisar,6727,Penal > Teoria da Pena (Parte 2),5201|5184,0.4,1.0,jev
+Q0325,revisar,5467,Processo Penal > Ação Penal > Características e Condições da Ação Penal,5531|5466,0.33,1.0,jev
+Q0326,publicar,4708,Direito Penal - Legislação Especial > Tráfico de Drogas,5066|6728,0.9,1.0,jev
 Q0327,publicar,5203,Penal > Teoria da Pena > Segunda Fase da Dosimetria: Agravantes e Atenuantes,5202|5209,0.96,1.0,jev
-Q0328,publicar,4382,Criminologia > Teoria Geral da Criminologia > Métodos e funções da Criminologia,4381|4374,0.9,1.0,jev
-Q0329,revisar,,,,0.26,1.0,jev
-Q0330,publicar,5501,Processo Penal > Inquérito Policial > Conclusão e Arquivamento do Inquérito Policial,5500|5503,0.82,1.0,jev
+Q0328,publicar,4382,Criminologia > Teoria Geral da Criminologia > Métodos e funções da Criminologia,4374|4381,0.9,1.0,jev
+Q0329,revisar,,,,0.24,1.0,jev
+Q0330,revisar,5501,Processo Penal > Inquérito Policial > Conclusão e Arquivamento do Inquérito Policial,5500|5499,0.74,1.0,jev
 Q0331,publicar,5477,Processo Penal > Ações Autônomas de Impugnação > Habeas Corpus,5489|5488,1.0,1.0,jev
 Q0332,publicar,5541,Processo Penal > Procedimento Sumaríssimo > Transação Penal,5502|5474,0.99,1.0,jev
-Q0333,revisar,5175,Penal > Iter Criminis,5178|5576,0.3,1.0,jev
+Q0333,revisar,5175,Penal > Iter Criminis,5178|5219,0.3,1.0,jev
 Q0334,publicar,4381,Criminologia > Teoria Geral da Criminologia > Conceito e objeto da Criminologia,5585|5186,1.0,1.0,jev
-Q0335,revisar,5223,Penal > Teoria do Crime: Fato Típico > Crimes Omissivos e Comissivos,5227|5221,0.33,1.0,jev
-Q0336,publicar,5159,Penal > Dos Crimes Contra o Patrimônio > Furto,5177|5165,0.77,1.0,jev
+Q0335,revisar,5223,Penal > Teoria do Crime: Fato Típico > Crimes Omissivos e Comissivos,5227|5221,0.34,1.0,jev
+Q0336,revisar,5159,Penal > Dos Crimes Contra o Patrimônio > Furto,5177|5165,0.74,1.0,jev
 Q0337,publicar,4684,Direito Penal - Legislação Especial > Abuso de Autoridade,6716|5069,0.94,1.0,jev
-Q0338,revisar,5595,Processo Penal > Teoria Geral das Provas > Princípios Relativos à Prova Penal,5548|5591,0.53,1.0,jev
-Q0339,publicar,5578,Processo Penal > Sentença Penal > Princípio da Correlação entre Acusação e Sentença,6737|6738,0.88,1.0,jev
-Q0340,revisar,5071,Penal > Concurso de Pessoas,5076|5074,0.39,1.0,jev
+Q0338,revisar,5595,Processo Penal > Teoria Geral das Provas > Princípios Relativos à Prova Penal,5548|5591,0.56,1.0,jev
+Q0339,publicar,5578,Processo Penal > Sentença Penal > Princípio da Correlação entre Acusação e Sentença,6737|6738,0.9,1.0,jev
+Q0340,revisar,5071,Penal > Concurso de Pessoas,5076|5074,0.34,1.0,jev
 Q0341,revisar,5158,Penal > Dos Crimes Contra o Patrimônio > 12 Disposições Gerais dos Crimes Contra o Patrimônio,6720|6721,0.46,1.0,jev
 Q0342,publicar,5545,Processo Penal > Provas em Espécies > Exame de Corpo de Delito,5504|5503,1.0,1.0,jev
-Q0343,publicar,5472,Processo Penal > Ação Penal > Ação Penal de Iniciativa Privada,5065|5474,0.75,1.0,jev
-Q0344,publicar,4688,Direito Penal - Legislação Especial > Crimes contra o meio ambiente,6717|5471,0.8,1.0,jev
-Q0345,revisar,5103,Penal > Dos Crimes Contra a Dignidade Sexual > Estupro e Estupro de Vulnerável,5105|5204,0.6,1.0,jev
-Q0346,fora,,,,0.8,1.0,jev
+Q0343,publicar,5472,Processo Penal > Ação Penal > Ação Penal de Iniciativa Privada,5474|5065,0.75,1.0,jev
+Q0344,revisar,4688,Direito Penal - Legislação Especial > Crimes contra o meio ambiente,6717|5471,0.74,1.0,jev
+Q0345,revisar,5103,Penal > Dos Crimes Contra a Dignidade Sexual > Estupro e Estupro de Vulnerável,5105|5204,0.58,1.0,jev
+Q0346,fora,,,,0.77,1.0,jev
 Q0347,publicar,5069,Penal > Concurso de Crimes > Crime Continuado,5207|5232,0.78,1.0,jev
-Q0348,publicar,5093,Penal > Dos Crimes Contra a Administração Pública > Corrupção Ativa,6719|5188,0.92,1.0,jev
-Q0349,revisar,5178,"Penal > Iter Criminis > Desistência Voluntária, Arrependimento Eficaz e Arrependimento posterior",5066|5130,0.48,1.0,jev
+Q0348,publicar,5093,Penal > Dos Crimes Contra a Administração Pública > Corrupção Ativa,6719|5188,0.93,1.0,jev
+Q0349,revisar,5178,"Penal > Iter Criminis > Desistência Voluntária, Arrependimento Eficaz e Arrependimento posterior",5066|5168,0.48,1.0,jev
 Q0350,publicar,4702,Direito Penal - Legislação Especial > Lavagem de Dinheiro,4704|4703,1.0,1.0,jev
-Q0351,revisar,,,,0.74,1.0,jev
-Q0352,revisar,5513,Processo Penal > Parte Geral dos Recursos > Princípios Recursais no Processo Penal,5512|5515,0.41,1.0,jev
-Q0353,revisar,5188,Penal > Prescrição > Prescrição da Pretensão Punitiva,5185|5466,0.43,1.0,jev
-Q0354,publicar,5226,Penal > Teoria do Crime: Fato Típico > Nexo Causal e Imputação Objetiva,5218|5220,0.83,1.0,jev
-Q0355,revisar,,,,0.66,1.0,jev
-Q0356,revisar,5066,Penal > Concurso de Crimes,5067|5070,0.45,1.0,jev
-Q0357,publicar,5135,"Penal > Dos Crimes contra a Organização do Trabalho, a Propriedade Imaterial e ao Sentimento Religioso > Dos Crimes Contra a Organização do Trabalho",5134|5179,0.97,1.0,jev
-Q0358,revisar,5133,"Penal > Dos Crimes Contra a Liberdade Pessoal > Dos Crimes contra a Inviolabilidade do Domicílio, Contra a Inviolabilidade da Correspondência e Contra a Inviolabilidade dos Segredos",5127|5156,0.44,1.0,jev
+Q0351,revisar,,,,0.7,1.0,jev
+Q0352,revisar,5512,Processo Penal > Parte Geral dos Recursos,5513|5515,0.33,1.0,jev
+Q0353,revisar,5188,Penal > Prescrição > Prescrição da Pretensão Punitiva,5187|5185,0.41,1.0,jev
+Q0354,publicar,5226,Penal > Teoria do Crime: Fato Típico > Nexo Causal e Imputação Objetiva,5218|5220,0.85,1.0,jev
+Q0355,revisar,,,,0.65,1.0,jev
+Q0356,revisar,5066,Penal > Concurso de Crimes,5067|5070,0.44,1.0,jev
+Q0357,publicar,5135,"Penal > Dos Crimes contra a Organização do Trabalho, a Propriedade Imaterial e ao Sentimento Religioso > Dos Crimes Contra a Organização do Trabalho",5134|5179,0.96,1.0,jev
+Q0358,revisar,,,,0.47,1.0,jev
 Q0359,revisar,,,,0.58,1.0,jev

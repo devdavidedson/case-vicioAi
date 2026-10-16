@@ -1,0 +1,11 @@
+quando,execucao,provedor,modelo,questoes,publicar,revisar,fora,chamadas,erros,tokens_entrada,tokens_saida,custo_usd,segundos
+2026-10-15T21:19:49,20261015_211949,mock,mock,3,3,0,0,9,0,0,0,0.0,0
+2026-10-15T21:31:23,20261015_213123,mock,mock,3,3,0,0,3,0,0,0,0.0,0
+2026-10-15T21:31:27,smoke_typesafe,jev,jev-latest,1,1,0,0,1,0,2076,428,0.0001,1
+2026-10-15T21:34:18,teste1,jev,jev-latest,10,0,10,0,5,5,0,0,0.0,2
+2026-10-15T21:35:11,final,jev,jev-latest,359,0,359,0,5,5,0,0,0.0,2
+2026-10-15T21:38:53,final,jev,jev-latest,359,0,359,0,5,5,0,0,0.0,2
+2026-10-15T21:39:36,final,jev,jev-latest,359,0,359,0,5,5,0,0,0.0,2
+2026-10-15T21:42:03,smoke_nova_chave,jev,jev-latest,1,0,1,0,1,1,0,0,0.0,0
+2026-10-15T21:42:48,smoke_nova_chave2,jev,jev-latest,1,1,0,0,1,0,2076,428,0.0001,0
+2026-10-15T21:45:46,final,jev,jev-latest,359,169,184,6,359,0,716132,153608,0.0301,147

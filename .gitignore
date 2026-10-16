@@ -1,5 +1,9 @@
 .env
-runs/
+runs/*
+!runs/final/
+!runs/final/**
+!runs/teste1/
+!runs/teste1/**
 __pycache__/
 *.pyc
 dados/*.jsonl

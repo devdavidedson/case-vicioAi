@@ -1,0 +1,33 @@
+2026-10-15T21:35:10 [jev] HTTP 401: b'{"detail":{"error_type":"authentication_error","message":"Cannot authenticate with the server. Please check your API key and try again."}}'
+2026-10-15T21:35:10 [jev] questao Q0001 amostra 0: RuntimeError('HTTP 401: b\'{"detail":{"error_type":"authentication_error","message":"Cannot authenticate with the server. Please check your API key and try again."}}\'')
+2026-10-15T21:35:10 [jev] HTTP 401: b'{"detail":{"error_type":"authentication_error","message":"Cannot authenticate with the server. Please check your API key and try again."}}'
+2026-10-15T21:35:10 [jev] questao Q0002 amostra 0: RuntimeError('HTTP 401: b\'{"detail":{"error_type":"authentication_error","message":"Cannot authenticate with the server. Please check your API key and try again."}}\'')
+2026-10-15T21:35:10 [jev] HTTP 401: b'{"detail":{"error_type":"authentication_error","message":"Cannot authenticate with the server. Please check your API key and try again."}}'
+2026-10-15T21:35:10 [jev] questao Q0003 amostra 0: RuntimeError('HTTP 401: b\'{"detail":{"error_type":"authentication_error","message":"Cannot authenticate with the server. Please check your API key and try again."}}\'')
+2026-10-15T21:35:11 [jev] HTTP 401: b'{"detail":{"error_type":"authentication_error","message":"Cannot authenticate with the server. Please check your API key and try again."}}'
+2026-10-15T21:35:11 [jev] questao Q0004 amostra 0: RuntimeError('HTTP 401: b\'{"detail":{"error_type":"authentication_error","message":"Cannot authenticate with the server. Please check your API key and try again."}}\'')
+2026-10-15T21:35:11 [jev] HTTP 401: b'{"detail":{"error_type":"authentication_error","message":"Cannot authenticate with the server. Please check your API key and try again."}}'
+2026-10-15T21:35:11 [jev] questao Q0005 amostra 0: RuntimeError('HTTP 401: b\'{"detail":{"error_type":"authentication_error","message":"Cannot authenticate with the server. Please check your API key and try again."}}\'')
+2026-10-15T21:35:11 [jev] erros seguidos demais. Abortando provedor.
+2026-10-15T21:38:52 [jev] HTTP 401: b'{"detail":{"error_type":"authentication_error","message":"Cannot authenticate with the server. Please check your API key and try again."}}'
+2026-10-15T21:38:52 [jev] questao Q0001 amostra 0: HTTP 401: b'{"detail":{"error_type":"authentication_error","message":"Cannot authenticate with the server. Please check your API key and try again."}}'
+2026-10-15T21:38:52 [jev] HTTP 401: b'{"detail":{"error_type":"authentication_error","message":"Cannot authenticate with the server. Please check your API key and try again."}}'
+2026-10-15T21:38:52 [jev] questao Q0002 amostra 0: HTTP 401: b'{"detail":{"error_type":"authentication_error","message":"Cannot authenticate with the server. Please check your API key and try again."}}'
+2026-10-15T21:38:52 [jev] HTTP 401: b'{"detail":{"error_type":"authentication_error","message":"Cannot authenticate with the server. Please check your API key and try again."}}'
+2026-10-15T21:38:52 [jev] questao Q0003 amostra 0: HTTP 401: b'{"detail":{"error_type":"authentication_error","message":"Cannot authenticate with the server. Please check your API key and try again."}}'
+2026-10-15T21:38:53 [jev] HTTP 401: b'{"detail":{"error_type":"authentication_error","message":"Cannot authenticate with the server. Please check your API key and try again."}}'
+2026-10-15T21:38:53 [jev] questao Q0004 amostra 0: HTTP 401: b'{"detail":{"error_type":"authentication_error","message":"Cannot authenticate with the server. Please check your API key and try again."}}'
+2026-10-15T21:38:53 [jev] HTTP 401: b'{"detail":{"error_type":"authentication_error","message":"Cannot authenticate with the server. Please check your API key and try again."}}'
+2026-10-15T21:38:53 [jev] questao Q0005 amostra 0: HTTP 401: b'{"detail":{"error_type":"authentication_error","message":"Cannot authenticate with the server. Please check your API key and try again."}}'
+2026-10-15T21:38:53 [jev] erros seguidos demais. Abortando provedor.
+2026-10-15T21:39:35 [jev] HTTP 401: b'{"detail":{"error_type":"authentication_error","message":"Cannot authenticate with the server. Please check your API key and try again."}}'
+2026-10-15T21:39:35 [jev] questao Q0001 amostra 0: HTTP 401: b'{"detail":{"error_type":"authentication_error","message":"Cannot authenticate with the server. Please check your API key and try again."}}'
+2026-10-15T21:39:35 [jev] HTTP 401: b'{"detail":{"error_type":"authentication_error","message":"Cannot authenticate with the server. Please check your API key and try again."}}'
+2026-10-15T21:39:35 [jev] questao Q0002 amostra 0: HTTP 401: b'{"detail":{"error_type":"authentication_error","message":"Cannot authenticate with the server. Please check your API key and try again."}}'
+2026-10-15T21:39:35 [jev] HTTP 401: b'{"detail":{"error_type":"authentication_error","message":"Cannot authenticate with the server. Please check your API key and try again."}}'
+2026-10-15T21:39:35 [jev] questao Q0003 amostra 0: HTTP 401: b'{"detail":{"error_type":"authentication_error","message":"Cannot authenticate with the server. Please check your API key and try again."}}'
+2026-10-15T21:39:36 [jev] HTTP 401: b'{"detail":{"error_type":"authentication_error","message":"Cannot authenticate with the server. Please check your API key and try again."}}'
+2026-10-15T21:39:36 [jev] questao Q0004 amostra 0: HTTP 401: b'{"detail":{"error_type":"authentication_error","message":"Cannot authenticate with the server. Please check your API key and try again."}}'
+2026-10-15T21:39:36 [jev] HTTP 401: b'{"detail":{"error_type":"authentication_error","message":"Cannot authenticate with the server. Please check your API key and try again."}}'
+2026-10-15T21:39:36 [jev] questao Q0005 amostra 0: HTTP 401: b'{"detail":{"error_type":"authentication_error","message":"Cannot authenticate with the server. Please check your API key and try again."}}'
+2026-10-15T21:39:36 [jev] erros seguidos demais. Abortando provedor.

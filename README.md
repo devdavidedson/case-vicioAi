@@ -41,10 +41,14 @@ Isso roda com 3 questões de mentira e uma "IA de mentira". Se aparecer `FINAL .
 > **Cuidado:** a chave é como a senha do seu banco. O arquivo `.env` **nunca** vai para o GitHub (o projeto já bloqueia isso). Nunca cole a chave em e-mail, chat ou documento. Se vazou, apague-a no site do provedor e crie outra.
 
 ### 4. Diga ao projeto qual modelo usar
-Abra o `config.json` e, no bloco `"jev"`, preencha:
-- `base_url`: o endereço da API (está na documentação do provedor, normalmente termina em `/v1`)
-- `modelo`: o nome do modelo
-- `custo_entrada_por_milhao` e `custo_saida_por_milhao`: os preços por 1 milhão de "tokens" (para o projeto calcular quanto gastou)
+O provedor **Jev (TypeSafe)** já vem preenchido no `config.json`:
+- `tipo`: `typesafe` (API System One: `POST /v1/systemone`, não é OpenAI-compatible)
+- `base_url`: `https://api.typesafe.ai/v1`
+- `modelo`: `jev-latest` (alias estável; veja a [doc de models](https://docs.typesafe.ai/models))
+- `chave_env`: `JEV_API_KEY` (nome da variável no `.env`, nunca a chave em si)
+- preço: só entrada (`custo_entrada_por_milhao`: 0.042); saída é gratuita
+
+Para outro modelo OpenAI-compatible, use `tipo: "openai_compat"` e o endpoint `/chat/completions`.
 
 ### 5. Coloque os arquivos do desafio
 Copie `questoes.jsonl` e `temas.csv` para a pasta **`dados/`**.

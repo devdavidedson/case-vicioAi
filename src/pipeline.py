@@ -41,9 +41,26 @@ def limpar_html(s):
     return re.sub(r"\s+", " ", html.unescape(re.sub(r"<[^>]+>", " ", str(s or "")))).strip()
 
 
-def log(pasta, nome, msg):
+def log(pasta, nome, msg, console=False):
     with open(pasta / nome, "a", encoding="utf-8") as f:
         f.write(f"{datetime.now().isoformat(timespec='seconds')} {msg}\n")
+    if console:
+        print(msg, file=sys.stderr)
+
+
+def dica_erro(prov, erro):
+    """Mensagem curta para o console quando o usuario precisa agir."""
+    s = str(erro).lower()
+    chave = prov.get("chave_env", "API_KEY")
+    if "401" in s or "authentication" in s:
+        return f"Dica: chave rejeitada. Confira {chave} no arquivo .env (ou gere uma nova no provedor)."
+    if "403" in s or "permission" in s:
+        return f"Dica: sem permissao. Confira se a chave {chave} tem acesso a este modelo."
+    if "429" in s or "rate" in s:
+        return "Dica: limite de taxa. Espere um pouco e rode o mesmo comando para retomar."
+    if "chave" in s and "nao encontrada" in s:
+        return f"Dica: crie o arquivo .env com a linha {chave}=sua_chave."
+    return ""
 
 
 # ---------- dados ----------
@@ -84,8 +101,15 @@ def carregar_temas(cfg):
     with open(caminho, encoding="utf-8-sig", newline="") as f:
         linhas = list(csv.DictReader(f, delimiter=delim))
     tc, temas = cfg["temas"], {}
+    status_col, status_ok = tc.get("status"), tc.get("status_ativo", "active")
+
+    def ativo(l):
+        return not status_col or (l.get(status_col) or "").strip() == status_ok
+
     if tc.get("hierarquia"):
         for l in linhas:
+            if not ativo(l):
+                continue
             partes = [(l.get(c) or "").strip() for c in tc["hierarquia"]]
             partes = [p for p in partes if p]
             if partes:
@@ -93,15 +117,23 @@ def carregar_temas(cfg):
                 temas[tid] = {"id": tid, "nome": partes[-1], "caminho": tid}
     else:
         base = {str(l[tc["id"]]).strip(): l for l in linhas}
+        col_caminho = tc.get("caminho")
         for tid, l in base.items():
-            nos, atual, vistos = [], tid, set()
-            for _ in range(12):  # limite de profundidade: protege contra ciclos
-                if atual in vistos or atual not in base:
-                    break
-                vistos.add(atual)
-                nos.append(base[atual][tc["nome"]].strip())
-                atual = (base[atual].get(tc.get("pai", ""), "") or "").strip()
-            temas[tid] = {"id": tid, "nome": l[tc["nome"]].strip(), "caminho": " > ".join(reversed(nos))}
+            if not ativo(l):
+                continue
+            pronto = (l.get(col_caminho) or "").strip() if col_caminho else ""
+            if pronto:
+                caminho_tema = pronto
+            else:
+                nos, atual, vistos = [], tid, set()
+                for _ in range(12):  # limite de profundidade: protege contra ciclos
+                    if atual in vistos or atual not in base:
+                        break
+                    vistos.add(atual)
+                    nos.append(base[atual][tc["nome"]].strip())
+                    atual = (base[atual].get(tc.get("pai", ""), "") or "").strip()
+                caminho_tema = " > ".join(reversed(nos))
+            temas[tid] = {"id": tid, "nome": l[tc["nome"]].strip(), "caminho": caminho_tema}
     return temas
 
 
@@ -141,6 +173,32 @@ def montar_prompt(q, cands, temas):
             '"extras": ["<ate 2 outros ids da lista relacionados>"], "motivo": "<1 frase>"}')
 
 
+def montar_typesafe(q, cands, temas):
+    """Monta state + Choice no formato System One da TypeSafe (POST /v1/systemone)."""
+    criteria = {tid: temas[tid]["caminho"] for tid in cands}
+    criteria["FORA"] = "Nenhum tema da lista cobre o que a questao realmente cobra."
+    state = {
+        "id": q["id"],
+        "disciplina": q["disciplina"],
+        "assunto_origem": q["assunto"],
+        "enunciado": q["enunciado"][:3000],
+        "comando": q["comando"],
+        "alternativas": q["alternativas"][:2000],
+    }
+    questions = {
+        "tema": {
+            "type": "choice",
+            "instructions": (
+                "Escolha o tema MAIS ESPECIFICO da lista em criteria que a questao realmente cobre. "
+                "O assunto_origem pode estar errado. Nao escolha temas genericos so porque sao amplos. "
+                "Use FORA se nenhum tema da lista servir."
+            ),
+            "criteria": criteria,
+        }
+    }
+    return state, questions
+
+
 def extrair_json(txt):
     m = re.search(r"\{.*\}", txt, re.S)
     if not m:
@@ -148,7 +206,35 @@ def extrair_json(txt):
     return json.loads(m.group(0))
 
 
-def chamar(prov, prompt, temperatura, pr, estado, pasta, cands):
+def _http_json(url, corpo, chave, timeout):
+    req = urllib.request.Request(
+        url, data=corpo,
+        headers={"Content-Type": "application/json", "Authorization": f"Bearer {chave}"},
+    )
+    with urllib.request.urlopen(req, timeout=timeout) as r:
+        return json.loads(r.read())
+
+
+def _parse_typesafe(d, temas):
+    ans = d["answers"]["tema"]
+    escolha = str(ans.get("choice", ""))
+    conf = float(ans.get("confidence", 0) or 0)
+    probs = ans.get("probabilities") or {}
+    extras = sorted(
+        ((k, float(v)) for k, v in probs.items() if k != escolha and k != "FORA" and k in temas),
+        key=lambda x: -x[1],
+    )[:2]
+    fora = escolha == "FORA"
+    return {
+        "tema_id": None if fora else escolha,
+        "fora": fora,
+        "confianca": conf,
+        "extras": [k for k, _ in extras],
+        "motivo": f"typesafe choice={escolha}",
+    }, d.get("usage", {}).get("input_tokens", 0), d.get("usage", {}).get("output_tokens", 0)
+
+
+def chamar(prov, prompt, temperatura, pr, estado, pasta, cands, q=None, temas=None):
     if estado["chamadas"] >= pr["max_chamadas_total"]:
         raise LimiteAtingido("max_chamadas_total")
     if estado["custo"] >= pr["max_custo_usd"]:
@@ -163,22 +249,32 @@ def chamar(prov, prompt, temperatura, pr, estado, pasta, cands):
         raise LimiteAtingido(f"chave {prov['chave_env']} nao encontrada no .env")
     if "CONFIRMAR" in prov["base_url"] or "CONFIRMAR" in prov["modelo"]:
         raise LimiteAtingido("preencha base_url e modelo do provedor no config.json")
-    corpo = json.dumps({"model": prov["modelo"], "temperature": temperatura,
-                        "messages": [{"role": "system", "content": SISTEMA}, {"role": "user", "content": prompt}]}).encode()
-    req = urllib.request.Request(prov["base_url"].rstrip("/") + "/chat/completions", data=corpo,
-                                 headers={"Content-Type": "application/json", "Authorization": f"Bearer {chave}"})
+
+    tipo = prov.get("tipo", "openai_compat")
+    if tipo == "typesafe":
+        if q is None or temas is None:
+            raise RuntimeError("chamada typesafe sem questao/temas")
+        state, questions = montar_typesafe(q, cands, temas)
+        corpo = json.dumps({"model": prov["modelo"], "state": state, "questions": questions}).encode()
+        url = prov["base_url"].rstrip("/") + "/systemone"
+    else:
+        corpo = json.dumps({"model": prov["modelo"], "temperature": temperatura,
+                            "messages": [{"role": "system", "content": SISTEMA}, {"role": "user", "content": prompt}]}).encode()
+        url = prov["base_url"].rstrip("/") + "/chat/completions"
+
     ultimo = None
     for tent in range(1, pr["max_tentativas_por_chamada"] + 1):
         estado["chamadas"] += 1
         try:
-            with urllib.request.urlopen(req, timeout=pr["timeout_segundos"]) as r:
-                d = json.loads(r.read())
+            d = _http_json(url, corpo, chave, pr["timeout_segundos"])
+            if tipo == "typesafe":
+                return _parse_typesafe(d, temas)
             resp = extrair_json(d["choices"][0]["message"]["content"])
             u = d.get("usage", {})
             return resp, u.get("prompt_tokens", 0), u.get("completion_tokens", 0)
         except urllib.error.HTTPError as e:
             ultimo = f"HTTP {e.code}: {e.read()[:200]!r}"
-            if e.code in (400, 401, 403, 404):  # repetir nao adianta
+            if e.code in (400, 401, 403, 404, 422):  # repetir nao adianta
                 log(pasta, "erros.log", f"[{prov['nome']}] {ultimo}")
                 break
         except Exception as e:
@@ -281,7 +377,7 @@ def rodar(args):
                 else:
                     try:
                         temp = cl["temperatura_primeira"] if a == 0 else cl["temperatura_demais"]
-                        resp, tin, tout = chamar(prov, prompt, temp, pr, est, pp, cands)
+                        resp, tin, tout = chamar(prov, prompt, temp, pr, est, pp, cands, q=q, temas=temas)
                         if not resp.get("fora") and resp.get("tema_id") not in temas:
                             raise ValueError(f"tema_id invalido: {resp.get('tema_id')}")
                         est["tin"] += tin
@@ -292,17 +388,24 @@ def rodar(args):
                         with open(cache_f, "a", encoding="utf-8") as f:
                             f.write(json.dumps(r, ensure_ascii=False) + "\n")
                     except LimiteAtingido as e:
-                        log(pp, "erros.log", f"[{prov['nome']}] LIMITE: {e}. Parando.")
-                        print(f"[{prov['nome']}] parou: {e}")
+                        log(pp, "erros.log", f"[{prov['nome']}] LIMITE: {e}. Parando.", console=True)
+                        dica = dica_erro(prov, e)
+                        if dica:
+                            print(f"[{prov['nome']}] {dica}", file=sys.stderr)
                         parar = True
                         break
                     except Exception as e:
                         est["erros"] += 1
                         est["erros_seguidos"] += 1
-                        log(pp, "erros.log", f"[{prov['nome']}] questao {q['id']} amostra {a}: {e!r}")
+                        log(pp, "erros.log", f"[{prov['nome']}] questao {q['id']} amostra {a}: {e}", console=True)
                         if est["erros_seguidos"] >= pr["max_erros_seguidos"]:
-                            log(pp, "erros.log", f"[{prov['nome']}] erros seguidos demais. Abortando provedor.")
-                            print(f"[{prov['nome']}] abortado por erros seguidos. Veja {pp/'erros.log'}")
+                            log(pp, "erros.log",
+                                f"[{prov['nome']}] erros seguidos demais. Abortando provedor.", console=True)
+                            print(f"[{prov['nome']}] Ultimo erro: {e}", file=sys.stderr)
+                            dica = dica_erro(prov, e)
+                            if dica:
+                                print(f"[{prov['nome']}] {dica}", file=sys.stderr)
+                            print(f"[{prov['nome']}] Log completo: {pp / 'erros.log'}", file=sys.stderr)
                             parar = True
                             break
                         continue
@@ -317,6 +420,10 @@ def rodar(args):
                    "tokens_entrada": est["tin"], "tokens_saida": est["tout"], "custo_usd": round(est["custo"], 4),
                    "segundos": round(time.time() - est["inicio"])})
         print(f"[{prov['nome']}] publicar={c['publicar']} revisar={c['revisar']} fora={c['fora']} erros={est['erros']}")
+        obtidas = sum(1 for q in questoes if votos[q["id"]])
+        if est["erros"] and obtidas == 0:
+            print(f"[{prov['nome']}] AVISO: nenhuma questao classificada (falha de API). "
+                  f"'revisar' aqui nao e classificacao real — corrija o erro e rode de novo.", file=sys.stderr)
 
     esperado = cl["amostras_por_provedor"] * len(provs)
     final = {q["id"]: decidir(todos[q["id"]], esperado, cl, temas) for q in questoes}

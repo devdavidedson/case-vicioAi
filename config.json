@@ -5,27 +5,30 @@
   },
   "campos_questao": {
     "id": "id",
-    "enunciado": "enunciado",
+    "enunciado": "enunciado_html",
     "comando": "comando",
     "alternativas": "alternativas",
-    "disciplina": "disciplina",
-    "assunto": "assunto"
+    "disciplina": "disciplina_origem",
+    "assunto": "assunto_origem"
   },
   "temas": {
     "hierarquia": [],
-    "id": "id",
-    "nome": "nome",
-    "pai": "pai_id"
+    "id": "tema_id",
+    "nome": "titulo",
+    "pai": "parent_id",
+    "caminho": "caminho",
+    "status": "status",
+    "status_ativo": "active"
   },
   "provedores": [
     {
       "nome": "jev",
       "ativo": true,
-      "tipo": "openai_compat",
-      "base_url": "CONFIRMAR_NA_DOCUMENTACAO_DA_JEV",
-      "modelo": "CONFIRMAR_NA_DOCUMENTACAO_DA_JEV",
+      "tipo": "typesafe",
+      "base_url": "https://api.typesafe.ai/v1",
+      "modelo": "jev-latest",
       "chave_env": "JEV_API_KEY",
-      "custo_entrada_por_milhao": 0.0,
+      "custo_entrada_por_milhao": 0.042,
       "custo_saida_por_milhao": 0.0
     },
     {
@@ -41,7 +44,7 @@
   ],
   "classificacao": {
     "candidatos_por_questao": 40,
-    "amostras_por_provedor": 3,
+    "amostras_por_provedor": 1,
     "temperatura_primeira": 0.0,
     "temperatura_demais": 0.7,
     "limiar_acordo": 0.67,

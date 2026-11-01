@@ -99,9 +99,13 @@ def run_offline(
     )
 
     prog("Calibrando limiar (meta ≥ 95% nas publicadas)…", 0.35)
-    _, holdout = split_folha(folha)
     clf = ClassificadorV2(temas, tvecs, qvecs, folha, k=7)
-    cal = calibrar(clf, qmap, [g for g in folha if not g["fora"]], alvo_precisao=0.95)
+    folha_norm = [g for g in folha if not g["fora"]]
+    if len(folha) >= 4:
+        _, holdout = split_folha(folha)
+    else:
+        holdout = list(folha)
+    cal = calibrar(clf, qmap, folha_norm, alvo_precisao=0.95)
     params = {
         "limiar_sim": cal.get("limiar_sim", cal["limiar_publicar"]),
         "limiar_margem": cal.get("limiar_margem", cal["margem_min"]),

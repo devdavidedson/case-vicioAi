@@ -246,6 +246,23 @@ def calibrar(
         ok = acerto_publicacao(emb[0]["tema_id"], g, clf.temas)
         feats.append((ok, sim, margem))
 
+    padrao = {
+        "precisao": 1.0,
+        "cobertura": 0.0,
+        "n_publicar": 0,
+        "n_eval": len(folha_eval),
+        "acertos_pub": 0,
+        "limiar_publicar": 0.65,
+        "limiar_fora": 0.32,
+        "margem_min": 0.04,
+        "limiar_sim": 0.65,
+        "limiar_margem": 0.04,
+        "grade_n": 0,
+    }
+    if len(feats) < 3:
+        # Amostra pequena (ex.: smoke) — usa limiares padrão do standby
+        return padrao
+
     melhor = None
     grade = []
     for lim_sim in [i / 100 for i in range(30, 75)]:
@@ -273,6 +290,10 @@ def calibrar(
                     melhor = m
     if melhor is None:
         candidatos = [g for g in grade if g["n_publicar"] >= 5]
-        melhor = max(candidatos or grade, key=lambda x: (x["precisao"], x["cobertura"]))
+        pool = candidatos or grade
+        if not pool:
+            return padrao
+        melhor = max(pool, key=lambda x: (x["precisao"], x["cobertura"]))
     melhor["grade_n"] = len(grade)
     return melhor
+

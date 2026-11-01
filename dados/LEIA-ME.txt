@@ -1,0 +1,2 @@
+Coloque aqui: questoes.jsonl e temas.csv (e o LEIA-ME.md do desafio, para consulta).
+Estes arquivos nao sobem para o GitHub (veja .gitignore). Se o case permitir publica-los, remova as linhas de dados/ do .gitignore.

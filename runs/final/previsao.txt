@@ -1,0 +1,4 @@
+PREVISAO (execucao final)
+Precisao nas publicadas: PENDENTE — preencha a coluna 'correto' (S/N) em C:\Users\David Lopes\Desktop\Freelancers\Cases\case-vde\runs\final\auditoria.csv e rode o mesmo comando de novo (ou: python src/auditoria.py calcular final).
+Cobertura: 45.7% (164 de 359 publicadas). Faixa esperada: 40.7% a 50.7%.
+Como cheguei (ate agora): a cobertura e a fracao de decisoes 'publicar' no publicacao.csv. A precisao so fecha depois da auditoria humana da amostra sorteada.

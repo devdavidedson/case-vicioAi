@@ -1,0 +1,9 @@
+id,nome,pai_id
+1,Direito Penal,
+2,Crimes contra a pessoa,1
+3,Homicidio,2
+4,Lei Maria da Penha,
+5,Medidas protetivas de urgencia,4
+6,Processo Penal,
+7,Juiz das Garantias,6
+8,Prisao preventiva,6

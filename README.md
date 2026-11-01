@@ -249,41 +249,45 @@ Resumo dos experimentos locais de decisão de arquitetura: [`docs/COMPARATIVO_CA
 
 ## Bônus — executável da aplicação offline para teste
 
-Pacote para rodar a classificação **sem internet e sem LLM** (dados + embeddings já embutidos).
+Interface visual no estilo **dashboard de benchmark** (layout tipo anexo de performance), com **tema VicioAI / Método VDE** (roxo → magenta).  
+Classificação **100% offline** (dados + embeddings embutidos, sem LLM).
+
+Prévia local da GUI (sem build):
+
+```bash
+python -m src.v2.offline_gui
+```
 
 ### 1) Gerar o executável (quem clonou o repositório)
 
-No Windows, com o ambiente já configurado (`.venv` + `dados/` + `artifacts/embeddings/`):
+No Windows, com `.venv`, `dados/` e `artifacts/embeddings/`:
 
 ```bash
+pip install customtkinter pillow pyinstaller
 python scripts/build_offline_exe.py
 ```
 
-Isso cria a pasta:
+Pasta gerada: `dist/CaseVicio_Offline_Recrutador/`
 
-`dist/CaseVicio_Offline_Recrutador/`
-
-(e, se você zipar, `dist/CaseVicio_Offline_Recrutador.zip`)
-
-> O `.exe` não fica versionado no GitHub (arquivo grande). Cada pessoa gera localmente com o comando acima, ou recebe o ZIP pronto de quem já buildou.
+> O `.exe` não sobe no GitHub (tamanho). Gere localmente ou compartilhe o ZIP.
 
 ### 2) Abrir na máquina local (Windows)
 
-1. Abra a pasta `dist/CaseVicio_Offline_Recrutador`  
-   (ou extraia o ZIP `CaseVicio_Offline_Recrutador.zip` em qualquer pasta)
-2. Dê **duplo clique** em:
-   - `CaseVicioOffline.exe`  
-   - **ou** `ABRIR_TESTE_OFFLINE.bat`
-3. Aguarde o resumo no terminal (pode levar alguns segundos)
-4. Ao terminar, abra a pasta `saida_offline` ao lado do `.exe` e confira:
+1. Abra `dist/CaseVicio_Offline_Recrutador` (ou extraia o ZIP)
+2. Duplo clique em **`CaseVicioOffline.exe`** ou `ABRIR_TESTE_OFFLINE.bat`
+3. Na tela roxa:
+   - escolha o **perfil** (Completo 659 / Amostra 50 / Smoke 10)
+   - clique em **Iniciar**
+   - acompanhe cards (Publicar / Revisar / Holdout / Cobertura) e o **log**
+4. Ao finalizar, abra `saida_offline\`:
    - `publicacao.csv`
    - `previsao.txt`
    - `resumo.txt`
 
 ### 3) O que o teste prova
 
-- Classifica as **659** questões **offline**
-- **0** chamadas a OpenAI/Jev/ChatGPT
-- Não precisa de chave de API nem de Python instalado na máquina do avaliador (só o conteúdo da pasta do pacote)
+- UI alinhada à pegada visual VicioAI (experiência Método VDE)
+- Classifica offline, **0** chamadas a API/LLM
+- Não precisa de Python na máquina do avaliador (só a pasta do pacote)
 
-Guia curto também em: [`offline/LEIA-ME_RECRUTADOR.md`](offline/LEIA-ME_RECRUTADOR.md)
+Guia: [`offline/LEIA-ME_RECRUTADOR.md`](offline/LEIA-ME_RECRUTADOR.md)

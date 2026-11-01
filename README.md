@@ -1,169 +1,206 @@
-# Classificador de tópicos de questões de concurso
+# Case Vicio IA — Classificação de tópicos (v2)
 
-Este projeto lê questões de concurso e decide, para cada uma, uma de três coisas:
+Sistema para decidir, em cada questão de concurso jurídico, uma de três saídas:
 
-| Decisão | O que significa |
-|---|---|
-| **publicar** | A máquina tem certeza. A questão vai direto para o aluno, no tema escolhido. |
-| **revisar** | A máquina tem dúvida. Vai para a fila do professor, já com uma sugestão. |
-| **fora** | Nenhum tema da lista serve. |
+| Decisão | Significado |
+|--------|-------------|
+| **publicar** | Vai ao aluno no tema escolhido (erro mais caro se falhar) |
+| **revisar** | Vai à fila do professor, com sugestão |
+| **fora** | Nenhum tema da árvore serve |
 
-**A ideia principal:** a máquina pergunta ao modelo de IA **mais de uma vez** para cada questão. Só publica quando as respostas **concordam entre si** e o modelo diz estar **confiante**. Se houver dúvida, vai para o professor. Isso troca um pouco de quantidade por muita segurança, o que importa quando a meta é acertar 95% do que for publicado.
+**Régua do case:** das publicadas, **≥ 95%** certas. Respeitando isso, quanto mais publicar, melhor.
 
----
-
-## Você vai precisar de
-
-1. Um computador com **Python 3.9 ou mais novo**. Para saber se já tem, abra o terminal (no Windows, o "Prompt de Comando") e digite `python --version`. Se não tiver, baixe em python.org e instale.
-2. Uma **chave de API** do provedor de IA (a Jev, ou outro). É uma senha longa que você gera no site do provedor.
-3. Os 3 arquivos do desafio: `questoes.jsonl`, `temas.csv` e `LEIA-ME.md`.
-
-Não precisa instalar mais nada. O projeto usa apenas o que já vem com o Python.
+> **Não entregar nada à Vicio sem autorização explícita do autor deste repositório.**
 
 ---
 
-## Passo a passo
+## Branches (como usamos este repo)
 
-### 1. Baixe o projeto
-No GitHub, clique em **Code → Download ZIP** e descompacte. Abra o terminal dentro da pasta descompactada.
+| Branch | Papel |
+|--------|--------|
+| `caseAI_v1` | **Backup congelado** do case 1 ([case-vicioAi](https://github.com/devdavidedson/case-vicioAi)) |
+| `caseAI_v2` | **Desenvolvimento** do case complementar (regras novas) |
+| `main` | Espelho de `caseAI_v2` (ponto estável atual) |
 
-### 2. Teste sem gastar nada
+```bash
+git checkout caseAI_v1   # só consulta / restaura o case 1
+git checkout caseAI_v2   # trabalho do dia a dia
 ```
+
+---
+
+## O que mudou do case 1 → case 2 (importante)
+
+No case complementar:
+
+- O modelo de linguagem **pode** (antes da decisão, documentado): embeddings, limpeza, extrair lei/artigo, enriquecer temas.
+- O modelo **não pode** escolher tema, votar ou validar.
+- **Na hora de classificar**, o sistema roda **sem chamar LLM**.
+
+O pipeline em `src/pipeline.py` ainda é o da **v1** (votação com LLM). Ele fica como referência/legado. A v2 evolui para um classificador próprio (regras + busca + modelo treinado), com LLM só no pré-processamento.
+
+---
+
+## Requisitos
+
+1. **Python 3.11+** (`python --version`)
+2. Conta/chave **OpenAI** (humanizar relatórios; embeddings futuros)
+3. Conta/chave **Jev/TypeSafe** (opcional; legado v1 e experimentos)
+4. Arquivos do desafio em `dados/`: `questoes.jsonl`, `temas.csv`, `folha_verdade.csv` (quando disponível)
+
+---
+
+## Setup em 5 minutos
+
+### 1) Clone / abra a pasta e entre na branch de trabalho
+
+```bash
+git checkout caseAI_v2
+```
+
+### 2) Ambiente virtual + dependências
+
+```bash
+python -m venv .venv
+
+# Windows PowerShell
+.venv\Scripts\activate
+
+# macOS / Linux
+# source .venv/bin/activate
+
+pip install -r requirements.txt
+```
+
+### 3) Chaves (nunca no Git)
+
+```bash
+copy .env.example .env   # Windows
+# cp .env.example .env   # macOS/Linux
+```
+
+Edite `.env` e preencha `JEV_API_KEY` e `OPENAI_API_KEY`.
+
+### 4) Teste seco (sem gastar API de classificação)
+
+```bash
 python src/pipeline.py --demo
 ```
-Isso roda com 3 questões de mentira e uma "IA de mentira". Se aparecer `FINAL ... publicar` no fim, está tudo instalado certo.
 
-### 3. Coloque a sua chave
-1. Copie o arquivo `.env.example` e renomeie a cópia para `.env`.
-2. Abra o `.env` no Bloco de Notas e troque `cole_sua_chave_aqui` pela sua chave.
-3. Salve.
+### 5) Humanizar rascunhos de relatório (OpenAI)
 
-> **Cuidado:** a chave é como a senha do seu banco. O arquivo `.env` **nunca** vai para o GitHub (o projeto já bloqueia isso). Nunca cole a chave em e-mail, chat ou documento. Se vazou, apague-a no site do provedor e crie outra.
-
-### 4. Diga ao projeto qual modelo usar
-O provedor **Jev (TypeSafe)** já vem preenchido no `config.json`:
-- `tipo`: `typesafe` (API System One: `POST /v1/systemone`, não é OpenAI-compatible)
-- `base_url`: `https://api.typesafe.ai/v1`
-- `modelo`: `jev-latest` (alias estável; veja a [doc de models](https://docs.typesafe.ai/models))
-- `chave_env`: `JEV_API_KEY` (nome da variável no `.env`, nunca a chave em si)
-- preço: só entrada (`custo_entrada_por_milhao`: 0.042); saída é gratuita
-
-Para outro modelo OpenAI-compatible, use `tipo: "openai_compat"` e o endpoint `/chat/completions`.
-
-### 5. Coloque os arquivos do desafio
-Copie `questoes.jsonl` e `temas.csv` para a pasta **`dados/`**.
-
-Se o desafio usar nomes de colunas diferentes dos que o projeto espera, o programa avisa. Corrija em `config.json`, na parte `campos_questao` e `temas`. É só trocar o nome entre aspas pelo nome que está no arquivo.
-
-### 6. Faça um teste pequeno e barato (10 questões)
-```
-python src/pipeline.py --limite 10 --execucao teste1
+```bash
+python -m src.humanize.cli docs/RELATORIO.md -o rascunhos/RELATORIO_humano.md
+python -m src.humanize.cli relatorio.md -o rascunhos/relatorio_humano.md
 ```
 
-### 7. Rode tudo (1 comando gera a entrega)
-```
-python src/pipeline.py --execucao final
-```
-Ao terminar, o pipeline **já prepara a entrega na raiz do projeto**:
-- `publicacao.csv` — decisões
-- `previsao.txt` — cobertura na hora; precisão depois da auditoria
-- `relatorio.md` — espelho de `docs/RELATORIO.md`
-- `runs/final/auditoria.csv` — amostra para você marcar S/N
-
-Preencha a coluna `correto` na auditoria e **rode o mesmo comando de novo** (usa o cache, não gasta API de novo). Aí o `previsao.txt` fecha a precisão.
-
-Se a internet cair no meio, rode o mesmo comando: ele continua de onde parou.
-
-Só classificar, sem copiar para a raiz: `python src/pipeline.py --execucao final --sem-entrega`
+Arquivos em `rascunhos/` são **internos**. Revisar à mão antes de qualquer envio.
 
 ---
 
-## Usar mais de uma IA e comparar
+## Pipeline de classificação (legado v1 — ainda funcional)
 
-1. No `config.json`, o segundo provedor já está de exemplo. Preencha os dados dele e troque `"ativo": false` para `"ativo": true`.
-2. Coloque a chave dele no `.env`.
-3. Rode normalmente. O projeto consulta os dois e só publica quando os dois concordam.
-4. Para ver as diferenças:
+```bash
+# teste barato
+python src/pipeline.py --limite 10 --execucao teste1
+
+# execução completa (quando dados/ estiver preenchido)
+python src/pipeline.py --execucao final
 ```
+
+Gera na raiz (quando não usar `--sem-entrega`):
+
+- `publicacao.csv`
+- `previsao.txt`
+- `relatorio.md` (espelho de `docs/RELATORIO.md`)
+
+Auditoria humana da amostra:
+
+1. Preencha `correto` (S/N) em `runs/final/auditoria.csv`
+2. Rode de novo o mesmo comando (usa cache)
+
+Comparar provedores:
+
+```bash
 python src/comparar.py final
 ```
-Isso cria `runs/final/comparativo.md` (resumo) e `runs/final/discordancias.csv` (as questões em que as IAs discordaram, ótimas para o professor olhar).
-
-Para rodar **só um** provedor: `python src/pipeline.py --provedores jev`
-
-O arquivo `comparativos/historico.csv` guarda **todas** as execuções (quantas publicadas, quanto custou, quanto tempo levou, quantos erros), para você comparar modelos ao longo do tempo.
 
 ---
 
-## Como saber se acertou 95% (sem gabarito)
+## Estrutura do projeto
 
-O pipeline já sorteia a auditoria no fim. Abra `runs/final/auditoria.csv`, confira o tema e escreva **S** ou **N** em `correto`. Depois rode de novo:
+```text
+caseV2/
+├── README.md                 ← este guia
+├── pyproject.toml            ← metadados + deps modernas
+├── requirements.txt          ← install rápido
+├── config.json               ← provedores, limiares, regras v2
+├── .env.example              ← modelo de segredos
+├── publicacao.csv            ← entrega (quando gerada)
+├── previsao.txt
+├── relatorio.md
+├── dados/                    ← anexos do case (não versionar jsonl/csv)
+├── docs/
+│   ├── RELATORIO.md          ← relatório técnico (fonte)
+│   └── RELATORIO_INTERNO_SETUP.md
+├── rascunhos/                ← textos humanizados (NÃO entregar sem ok)
+├── src/
+│   ├── pipeline.py           ← classificador legado v1
+│   ├── auditoria.py
+│   ├── comparar.py
+│   └── humanize/             ← humanizador Python (StealthHumanizer → ideia)
+├── tools/stealthhumanizer/   ← notas da adaptação
+├── runs/final/               ← última execução versionada
+└── exemplo/                  ← mini dados para --demo
 ```
-python src/pipeline.py --execucao final
-```
-(ou só `python src/auditoria.py calcular final`). Isso atualiza `previsao.txt` na raiz e em `runs/final/`.
-
-Se a margem for larga demais, confira mais questões. Se a precisão ficou abaixo de 95%, deixe o projeto mais rígido (veja abaixo) e rode de novo.
 
 ---
 
-## Deixar mais rígido ou mais solto
+## Humanização (inspirada em StealthHumanizer)
 
-No `config.json`, em `classificacao`:
-- `limiar_acordo` (0 a 1): quanto as respostas precisam concordar. **Suba** para publicar menos e errar menos.
-- `limiar_confianca` (0 a 1): quão confiante o modelo precisa estar. Mesma lógica.
-- `amostras_por_provedor`: quantas vezes perguntar. Mais vezes = mais seguro e mais caro.
+Repositório de referência: https://github.com/rudra496/StealthHumanizer
+
+Aqui a lógica virou módulo Python (`src/humanize/`):
+
+| Nível | O que faz | Usa API? |
+|-------|-----------|----------|
+| `light` | Só troca clichês locais | Não |
+| `medium` | 1 passe OpenAI + regras locais | Sim |
+| `aggressive` | 2 passes OpenAI + regras locais | Sim |
+
+```bash
+python -m src.humanize.cli caminho/arquivo.md -o rascunhos/saida.md --nivel medium
+```
+
+Detalhes: `tools/stealthhumanizer/NOTAS.md`.
 
 ---
 
-## Proteções embutidas
+## Entregáveis oficiais do case (quando autorizar o envio)
 
-Tudo configurável em `protecoes` no `config.json`:
+1. `publicacao.csv` — 659 linhas, formato do LEIA-ME
+2. `previsao.txt` — precisão/cobertura com intervalo + método
+3. Código reproduzível **sem LLM na decisão** (meta da v2)
+4. Relatório ≤ 4 páginas + memo ao professor
 
-| Proteção | O que faz |
-|---|---|
-| Sem loop infinito | Todo laço tem limite. Não existe "tentar para sempre". |
-| `max_tentativas_por_chamada` | Se uma chamada falha, tenta de novo poucas vezes, esperando cada vez mais. |
-| `max_erros_seguidos` | Se o provedor errar várias vezes seguidas, ele é desligado para não gastar à toa. |
-| `max_chamadas_total`, `max_custo_usd`, `max_minutos_total` | Teto de chamadas, de dinheiro e de tempo. Ao atingir, para e salva o que já fez. |
-| Retomada | Respostas já obtidas ficam salvas e não são cobradas de novo. |
-| Log de erros | Todo erro vai para `runs/<execucao>/<provedor>/erros.log`, com data e hora. |
+**Status atual:** estrutura e backup prontos; classificador sem LLM na decisão ainda em evolução na `caseAI_v2`. **Nada foi enviado** à Carla/Vicio.
 
 ---
-
-## O que aparece em cada pasta
-
-```
-runs/final/
-├── publicacao.csv         ← resultado final (todos os provedores juntos)
-├── comparativo.md         ← resumo da comparação
-├── discordancias.csv      ← onde as IAs discordaram
-├── auditoria.csv          ← amostra para você conferir
-├── previsao.txt           ← precisão e cobertura estimadas
-└── jev/
-    ├── publicacao.csv     ← resultado só deste provedor
-    ├── respostas.jsonl    ← todas as respostas brutas da IA
-    └── erros.log          ← erros deste provedor
-comparativos/historico.csv ← histórico de todas as execuções
-```
 
 ## Problemas comuns
 
-| Mensagem | O que fazer |
-|---|---|
-| `chave JEV_API_KEY nao encontrada` | O arquivo `.env` não existe, está com outro nome, ou a linha está errada. |
-| `preencha base_url e modelo` | Falta preencher o `config.json` (passo 4). |
-| `Arquivo nao encontrado: dados/questoes.jsonl` | Copie os arquivos do desafio para a pasta `dados/` (passo 5). |
-| `HTTP 401` no `erros.log` | Chave errada ou expirada. |
-| `HTTP 429` no `erros.log` | Muitas chamadas rápidas. O projeto espera e tenta de novo. Se persistir, tente mais tarde. |
-| `abortado por erros seguidos` | Leia o `erros.log` para ver o motivo. Corrija e rode o mesmo comando para retomar. |
+| Sintoma | Ação |
+|---------|------|
+| `OPENAI_API_KEY não encontrada` | Crie `.env` a partir de `.env.example` |
+| `chave JEV_API_KEY nao encontrada` | Idem para Jev |
+| `Arquivo nao encontrado: dados/questoes.jsonl` | Copie os anexos do zip do case para `dados/` |
+| HTTP 401 | Chave inválida/expirada — regenere no painel do provedor |
+| Quero voltar ao case 1 | `git checkout caseAI_v1` |
 
 ---
 
-## Para quem é técnico
+## Segurança
 
-- **Pipeline:** carga e limpeza de HTML → sugestão de 40 temas candidatos por busca TF-IDF (evita que o modelo veja os 377 temas e reduz custo) → N amostras por provedor (a primeira com temperatura 0, as demais com 0,7) → votação → regra de decisão em `decidir()` (acordo ≥ limiar e confiança média ≥ limiar). Falhas de chamada contam como voto ausente e **reduzem o acordo**.
-- **Decisões feitas à mão:** nenhuma no código. A auditoria (`auditoria.py`) exige conferência humana de uma amostra; registre no relatório quem conferiu.
-- **Modelos, custo e tempo:** ficam em `comparativos/historico.csv`.
-- **Relatório do case:** `docs/RELATORIO.md`.
-- Para trocar a busca por embeddings, substitua a classe `Indice` em `src/pipeline.py`.
+- `.env` está no `.gitignore`
+- Se uma chave apareceu em chat/e-mail, **revogue e gere outra**
+- Não cole chaves no README, commits ou issues

@@ -1,9 +1,36 @@
+# Segredos — NUNCA versionar
 .env
+.env.local
+*.pem
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+dist/
+build/
+
+# Dados brutos do case (pesados / sensíveis ao desafio)
+dados/*.jsonl
+dados/*.csv
+!dados/LEIA-ME.txt
+
+# Execuções intermediárias (mantém só runs/final versionado)
 runs/*
 !runs/final/
 !runs/final/**
-__pycache__/
-*.pyc
-dados/*.jsonl
-dados/*.csv
-# Artefatos de entrega na raiz sao versionados (gerados pelo pipeline).
+
+# Artefatos locais do humanizador / caches
+.cache/
+*.log
+
+# SO / IDE
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

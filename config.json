@@ -29,17 +29,19 @@
       "modelo": "jev-latest",
       "chave_env": "JEV_API_KEY",
       "custo_entrada_por_milhao": 0.042,
-      "custo_saida_por_milhao": 0.0
+      "custo_saida_por_milhao": 0.0,
+      "papel": "legado_v1_votacao"
     },
     {
-      "nome": "segundo_provedor",
-      "ativo": false,
+      "nome": "openai",
+      "ativo": true,
       "tipo": "openai_compat",
-      "base_url": "https://exemplo.com/v1",
-      "modelo": "nome-do-modelo",
-      "chave_env": "OUTRA_API_KEY",
-      "custo_entrada_por_milhao": 0.0,
-      "custo_saida_por_milhao": 0.0
+      "base_url": "https://api.openai.com/v1",
+      "modelo": "gpt-4o-mini",
+      "chave_env": "OPENAI_API_KEY",
+      "custo_entrada_por_milhao": 0.15,
+      "custo_saida_por_milhao": 0.6,
+      "papel": "humanizacao_e_preprocessamento_v2"
     }
   ],
   "classificacao": {
@@ -49,6 +51,21 @@
     "temperatura_demais": 0.7,
     "limiar_acordo": 0.67,
     "limiar_confianca": 0.75
+  },
+  "v2_regras_case": {
+    "llm_pode": [
+      "gerar embeddings",
+      "limpar e normalizar texto",
+      "extrair lei e artigo citados",
+      "enriquecer descricao dos temas",
+      "propor termos ou exemplos revisados por humano"
+    ],
+    "llm_nao_pode": [
+      "escolher o tema",
+      "votar",
+      "julgar ou validar classificacoes"
+    ],
+    "na_hora_de_classificar": "rodar sem chamar nenhum modelo de linguagem"
   },
   "protecoes": {
     "max_tentativas_por_chamada": 3,

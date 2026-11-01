@@ -8,14 +8,16 @@ import os
 from pathlib import Path
 
 import numpy as np
-from dotenv import load_dotenv
-from openai import OpenAI
 
 MODELO_PADRAO = "text-embedding-3-small"
 BATCH = 64
 
 
-def _cliente(raiz: Path) -> OpenAI:
+def _cliente(raiz: Path):
+    """Import preguiçoso: modo offline não precisa do SDK OpenAI."""
+    from dotenv import load_dotenv
+    from openai import OpenAI
+
     load_dotenv(raiz / ".env")
     chave = os.getenv("OPENAI_API_KEY")
     if not chave:
@@ -83,8 +85,12 @@ class CacheEmbeddings:
         raiz: Path,
         itens: list[tuple[str, str, str]],
         force: bool = False,
+        offline: bool = False,
     ) -> dict[str, np.ndarray]:
-        """itens: lista de (kind, id, texto). Retorna mapa id -> vetor."""
+        """itens: lista de (kind, id, texto). Retorna mapa id -> vetor.
+
+        offline=True: nunca chama API; exige vetores já no cache.
+        """
         faltam_txt: list[tuple[str, str]] = []  # (cache_key, texto)
         mapa_id_chave: dict[str, str] = {}
         for kind, oid, texto in itens:
@@ -100,6 +106,11 @@ class CacheEmbeddings:
         pendentes = list(uniq.items())
 
         if pendentes:
+            if offline:
+                raise RuntimeError(
+                    f"Modo offline: faltam {len(pendentes)} embeddings no cache. "
+                    "Rode antes: python -m src.v2.pipeline_v2"
+                )
             cliente = _cliente(raiz)
             for i in range(0, len(pendentes), BATCH):
                 lote = pendentes[i : i + BATCH]

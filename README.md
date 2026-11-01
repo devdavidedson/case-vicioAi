@@ -97,7 +97,25 @@ Isso:
 3. Classifica as 659 **sem chamar modelo de linguagem**
 4. Escreve `publicacao.csv` e `previsao.txt` na raiz
 
-### 6) Humanizar rascunhos de relatório (opcional)
+### 6) Pacote/executável OFFLINE para o recrutador
+
+Gera um `.exe` com dados + embeddings embutidos (sem LLM, sem internet):
+
+```bash
+python scripts/build_offline_exe.py
+```
+
+Saída: `dist/CaseVicio_Offline_Recrutador/`  
+Abra `CaseVicioOffline.exe` ou `ABRIR_TESTE_OFFLINE.bat`.  
+Guia: `offline/LEIA-ME_RECRUTADOR.md`
+
+Teste rápido sem build:
+
+```bash
+python -m src.v2.offline_app
+```
+
+### 7) Humanizar rascunhos de relatório (opcional)
 
 ```bash
 python -m src.humanize.cli docs/RELATORIO.md -o rascunhos/RELATORIO_humano.md

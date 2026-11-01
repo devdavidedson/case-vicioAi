@@ -33,6 +33,13 @@ runs/*
 # mas ignoramos dumps temporários
 artifacts/**/*.tmp
 
+# Build do executável offline (pacote grande)
+build/
+dist/
+saida_offline/
+*.spec
+
+
 
 # SO / IDE
 .DS_Store

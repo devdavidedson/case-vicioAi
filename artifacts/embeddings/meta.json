@@ -1,0 +1,5 @@
+{
+  "modelo": "text-embedding-3-small",
+  "dim": 1536,
+  "n": 1034
+}

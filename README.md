@@ -81,31 +81,39 @@ copy .env.example .env   # Windows
 
 Edite `.env` e preencha `JEV_API_KEY` e `OPENAI_API_KEY`.
 
-### 4) Teste seco (sem gastar API de classificação)
+### 4) Coloque os anexos do case em `dados/`
+
+Precisa de: `questoes.jsonl`, `temas.csv`, `folha_verdade.csv` (zip oficial do case).
+
+### 5) Rode o classificador v2 (sem LLM na decisão)
 
 ```bash
-python src/pipeline.py --demo
+python -m src.v2.pipeline_v2 --execucao v2_final
 ```
 
-### 5) Humanizar rascunhos de relatório (OpenAI)
+Isso:
+1. Gera/lê embeddings OpenAI em `artifacts/embeddings/` (cache versionado)
+2. Calibra limiar na folha-verdade (meta ≥ 95% nas publicadas)
+3. Classifica as 659 **sem chamar modelo de linguagem**
+4. Escreve `publicacao.csv` e `previsao.txt` na raiz
+
+### 6) Humanizar rascunhos de relatório (opcional)
 
 ```bash
 python -m src.humanize.cli docs/RELATORIO.md -o rascunhos/RELATORIO_humano.md
-python -m src.humanize.cli relatorio.md -o rascunhos/relatorio_humano.md
 ```
 
 Arquivos em `rascunhos/` são **internos**. Revisar à mão antes de qualquer envio.
 
 ---
 
-## Pipeline de classificação (legado v1 — ainda funcional)
+## Pipeline legado v1 (LLM vota — NÃO atende a regra nova)
+
+Mantido só como referência histórica em `caseAI_v1` / `src/pipeline.py`.
 
 ```bash
-# teste barato
+python src/pipeline.py --demo
 python src/pipeline.py --limite 10 --execucao teste1
-
-# execução completa (quando dados/ estiver preenchido)
-python src/pipeline.py --execucao final
 ```
 
 Gera na raiz (quando não usar `--sem-entrega`):
@@ -183,7 +191,13 @@ Detalhes: `tools/stealthhumanizer/NOTAS.md`.
 3. Código reproduzível **sem LLM na decisão** (meta da v2)
 4. Relatório ≤ 4 páginas + memo ao professor
 
-**Status atual:** estrutura e backup prontos; classificador sem LLM na decisão ainda em evolução na `caseAI_v2`. **Nada foi enviado** à Carla/Vicio.
+**Status atual:** classificador **v2 (D)** implementado e executado — embeddings em cache + leis + kNN + limiar calibrado, **sem LLM na decisão**. Relatório final ainda merece revisão humana. **Nada foi enviado** à Carla/Vicio sem sua autorização.
+
+### Como o v2 decide (resumo)
+1. Embedding da questão × embeddings dos temas  
+2. Empurra com leis citadas, TF-IDF leve e vizinhos da folha (kNN)  
+3. Só **publica** se similaridade e margem de embedding passam no limiar calibrado para ≥95%  
+4. Caso contrário → **revisar** (ou **fora** se o padrão bater com fora da taxonomia)
 
 ---
 

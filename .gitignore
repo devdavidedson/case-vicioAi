@@ -29,6 +29,11 @@ runs/*
 .cache/
 *.log
 
+# Embeddings: versionamos o cache gerado (artifacts/embeddings),
+# mas ignoramos dumps temporários
+artifacts/**/*.tmp
+
+
 # SO / IDE
 .DS_Store
 Thumbs.db

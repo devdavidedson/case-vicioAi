@@ -1,4 +1,15 @@
-PREVISAO (execucao final)
-Precisao nas publicadas: PENDENTE — preencha a coluna 'correto' (S/N) em C:\Users\David Lopes\Desktop\Freelancers\Cases\case-vde\runs\final\auditoria.csv e rode o mesmo comando de novo (ou: python src/auditoria.py calcular final).
-Cobertura: 45.7% (164 de 359 publicadas). Faixa esperada: 40.7% a 50.7%.
-Como cheguei (ate agora): a cobertura e a fracao de decisoes 'publicar' no publicacao.csv. A precisao so fecha depois da auditoria humana da amostra sorteada.
+precisao_prevista: 1.0000
+precisao_intervalo: 0.6097-1.0000
+cobertura_prevista: 0.0894
+cobertura_intervalo: 0.0394-0.1394
+
+Como cheguei nestes números
+---------------------------
+Sistema v2 (sem LLM na decisão): embeddings OpenAI (text-embedding-3-small) em cache,
+boost por leis/artigos citados, kNN sobre a folha-verdade e limiar calibrado.
+Calibração na folha-verdade (n=100): precisão=1.000, cobertura=0.152, limiar_sim=0.650, limiar_margem=0.040.
+Checagem holdout (29 qs): precisão=1.000 (6/6), cobertura=0.222. Se o holdout caía abaixo de 95%, a margem foi endurecida.
+A precisão prevista e o intervalo de Wilson vêm do holdout (amostra independente).
+A cobertura prevista é a fração 'publicar' nas questões fora da folha-verdade.
+Meta: >=95% de acerto nas publicadas; maximizar cobertura sob essa régua.
+Decisão sem LLM: só embeddings em cache + regras + kNN.

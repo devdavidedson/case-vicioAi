@@ -1,360 +1,660 @@
-id,decisao,tema_id,tema_nome,extras,confianca,acordo,provedores
-Q0001,publicar,5527,"Processo Penal > Procedimento do Tribunal do Júri > Impronúncia, Desclassificação, Absolvição Sumária e Pronúncia",5524|5528,0.99,1.0,jev
-Q0002,publicar,4384,Criminologia > Teorias Legitimidoras da Pena,4376|4387,0.85,1.0,jev
-Q0003,revisar,5561,Processo Penal > Recursos em Espécies > Recurso em sentido estrito (RESE),5475|6737,0.58,1.0,jev
-Q0004,revisar,5484,Processo Penal > Competência > Competência por Prerrogativa de Função,6733|5481,0.63,1.0,jev
-Q0005,revisar,5576,Processo Penal > Sentença Penal > Fixação da Pena e do Regime Penitenciário,5209|5210,0.34,1.0,jev
-Q0006,revisar,5177,Penal > Iter Criminis > Crime Consumado e Tentado,5160|5159,0.49,1.0,jev
-Q0007,publicar,5468,Processo Penal > Ação Penal > Classificação da Ação Penal,5471|5130,0.84,1.0,jev
-Q0008,revisar,5576,Processo Penal > Sentença Penal > Fixação da Pena e do Regime Penitenciário,6727|5201,0.47,1.0,jev
-Q0009,publicar,5159,Penal > Dos Crimes Contra o Patrimônio > Furto,5219|5066,0.84,1.0,jev
-Q0010,publicar,4688,Direito Penal - Legislação Especial > Crimes contra o meio ambiente,6717|5066,0.89,1.0,jev
-Q0011,publicar,4689,Direito Penal - Legislação Especial > Crimes contra o Sistema Financeiro,5066|5101,0.78,1.0,jev
-Q0012,publicar,5561,Processo Penal > Recursos em Espécies > Recurso em sentido estrito (RESE),5562|5473,0.8,1.0,jev
-Q0013,publicar,5503,Processo Penal > Inquérito Policial > Juiz das Garantias,6733|5485,0.95,1.0,jev
-Q0014,publicar,5477,Processo Penal > Ações Autônomas de Impugnação > Habeas Corpus,6736|4709,0.89,1.0,jev
-Q0015,revisar,5500,Processo Penal > Inquérito Policial > Procedimento do Inquérito Policial,5499|5498,0.72,1.0,jev
-Q0016,revisar,5587,Processo Penal > Teoria Geral das Prisões > Direitos e Garantias sobre a Prisão,5519|5503,0.6,1.0,jev
-Q0017,revisar,5531,"Processo Penal > Procedimento Ordinário > 2 Oferecimento, Rejeição e Recebimento da Peça Acusatória",5473|6733,0.72,1.0,jev
-Q0018,publicar,5540,Processo Penal > Procedimento Sumaríssimo > Competência dos Juizados Especiais Criminais,6733|5486,0.93,1.0,jev
-Q0019,publicar,5475,Processo Penal > Ação Penal > Ação Civil Ex Delicto,5503|5504,1.0,1.0,jev
-Q0020,revisar,5203,Penal > Teoria da Pena > Segunda Fase da Dosimetria: Agravantes e Atenuantes,5542|5067,0.31,1.0,jev
-Q0021,revisar,5503,Processo Penal > Inquérito Policial > Juiz das Garantias,6733|5480,0.55,1.0,jev
-Q0022,revisar,5066,Penal > Concurso de Crimes,5174|5068,0.24,1.0,jev
-Q0023,revisar,5524,Processo Penal > Procedimento do Tribunal do Júri,5526|5527,0.44,1.0,jev
-Q0024,revisar,4388,Criminologia > Teorias Sociológicas Explicativas da Criminalidade > Teorias Criminológicas em Espécie,4387|4385,0.66,1.0,jev
-Q0025,publicar,5093,Penal > Dos Crimes Contra a Administração Pública > Corrupção Ativa,5092|5081,0.99,1.0,jev
-Q0026,revisar,4704,Direito Penal - Legislação Especial > Lei Maria da Penha,6724|5131,0.73,1.0,jev
-Q0027,publicar,5488,Processo Penal > Comunicação dos Atos Processuais > Citação e Contagem dos Prazos,6738|6737,0.98,1.0,jev
-Q0028,revisar,5527,"Processo Penal > Procedimento do Tribunal do Júri > Impronúncia, Desclassificação, Absolvição Sumária e Pronúncia",5526|5488,0.32,1.0,jev
-Q0029,publicar,4684,Direito Penal - Legislação Especial > Abuso de Autoridade,6716|5184,0.96,1.0,jev
-Q0030,publicar,5135,"Penal > Dos Crimes contra a Organização do Trabalho, a Propriedade Imaterial e ao Sentimento Religioso > Dos Crimes Contra a Organização do Trabalho",5128|5132,0.86,1.0,jev
-Q0031,revisar,4388,Criminologia > Teorias Sociológicas Explicativas da Criminalidade > Teorias Criminológicas em Espécie,4387|4385,0.52,1.0,jev
-Q0032,publicar,5497,Processo Penal > Das Questões e Processos Incidentes > Incidente de Falsidade e de Insanidade Mental,5500|5545,0.83,1.0,jev
-Q0033,publicar,5519,Processo Penal > Prisões em Espécie > Prisão Preventiva,5535|5538,1.0,1.0,jev
-Q0034,publicar,5477,Processo Penal > Ações Autônomas de Impugnação > Habeas Corpus,5504|5503,1.0,1.0,jev
-Q0035,publicar,4706,Direito Penal - Legislação Especial > Terrorismo,5127|5499,1.0,1.0,jev
-Q0036,revisar,4704,Direito Penal - Legislação Especial > Lei Maria da Penha,5531|5196,0.65,1.0,jev
-Q0037,revisar,5132,"Penal > Dos Crimes Contra a Liberdade Pessoal > Sequestro, Cárcere Privado, Redução à Condição Análoga à de Escravo e Tráfico de Pessoas",5081|5119,0.44,1.0,jev
-Q0038,revisar,5466,Processo Penal > Ação Penal,5562|5549,0.39,1.0,jev
-Q0039,revisar,,,,0.52,1.0,jev
-Q0040,revisar,5515,Processo Penal > Parte Geral dos Recursos > Efeito dos Recursos,5562|5529,0.6,1.0,jev
-Q0041,publicar,5184,Penal > Medida de Segurança,5479|5127,1.0,1.0,jev
-Q0042,publicar,5222,Penal > Teoria do Crime: Fato Típico > Crime Doloso e Culposo,5221|5227,0.88,1.0,jev
-Q0043,revisar,5203,Penal > Teoria da Pena > Segunda Fase da Dosimetria: Agravantes e Atenuantes,5576|6727,0.29,1.0,jev
-Q0044,revisar,5548,Processo Penal > Provas em Espécies > Confissão,5488|5547,0.43,1.0,jev
-Q0045,publicar,5091,Penal > Dos Crimes Contra a Administração Pública > Concussão e Excesso de Exação,5101|5089,1.0,1.0,jev
-Q0046,revisar,5509,Processo Penal > Nulidades,5510|5511,0.65,1.0,jev
-Q0047,publicar,5164,Penal > Dos Crimes Contra o Patrimônio > Dano,5471|5158,0.96,1.0,jev
-Q0048,revisar,5209,Penal > Teoria da Pena > Efeitos da Condenação Penais e Extrapenais,6727|5210,0.3,1.0,jev
-Q0049,publicar,5152,"Penal > Dos Crimes Contra a Vida > Induzimento, Instigação ou Auxílio ao Suicídio",5139|5143,1.0,1.0,jev
-Q0050,publicar,5557,Processo Penal > Provas em Espécies > Colaboração Premiada,4708|4683,0.76,1.0,jev
-Q0051,fora,,,,0.99,1.0,jev
-Q0052,revisar,5201,Penal > Teoria da Pena > Penas Privativas de Liberdade,6727|5576,0.4,1.0,jev
-Q0053,publicar,5541,Processo Penal > Procedimento Sumaríssimo > Transação Penal,5494|5542,0.93,1.0,jev
-Q0054,publicar,5174,Penal > Introdução ao Estudo do Direito Penal > Classificações dos Crimes,5165|5142,1.0,1.0,jev
-Q0055,revisar,5535,Processo Penal > Procedimento Ordinário > Audiência de Instrução e Julgamento,6735|5595,0.69,1.0,jev
-Q0056,revisar,5066,Penal > Concurso de Crimes,5067|5068,0.63,1.0,jev
-Q0057,revisar,5175,Penal > Iter Criminis,5176|5179,0.67,1.0,jev
-Q0058,revisar,4390,Criminologia > Vitimologia > Processo de Vitimização,4384|4385,0.35,1.0,jev
-Q0059,revisar,4384,Criminologia > Teorias Legitimidoras da Pena,4370|5210,0.6,1.0,jev
-Q0060,revisar,5088,Penal > Dos Crimes Contra a Administração Pública > Noções gerais dos crimes praticados contra a administração pública,5087|6718,0.66,1.0,jev
-Q0061,publicar,4703,Direito Penal - Legislação Especial > Lei de Execução Penal,6727|6726,0.99,1.0,jev
-Q0062,fora,,,,0.9,1.0,jev
-Q0063,publicar,6724,Penal > Lei Maria da Penha,5522|5504,0.93,1.0,jev
-Q0064,revisar,5191,Penal > Punibilidade,5187|5233,0.32,1.0,jev
-Q0065,revisar,5132,"Penal > Dos Crimes Contra a Liberdade Pessoal > Sequestro, Cárcere Privado, Redução à Condição Análoga à de Escravo e Tráfico de Pessoas",5161|5192,0.5,1.0,jev
-Q0066,publicar,4373,Criminologia > Etapas Evolutivas e Escolas Criminológicas > Escolas Crimonológicas,4371|4372,0.96,1.0,jev
-Q0067,publicar,5091,Penal > Dos Crimes Contra a Administração Pública > Concussão e Excesso de Exação,5092|5093,0.99,1.0,jev
-Q0068,revisar,5096,Penal > Dos Crimes Contra a Administração Pública > Condescendência Criminosa,5116|5117,0.44,1.0,jev
-Q0069,publicar,5173,Penal > Introdução ao Estudo do Direito Penal > Interpretação da Norma Penal,5585|5088,0.99,1.0,jev
-Q0070,revisar,5193,"Penal > Punibilidade > Anistia, Graça e Indulto",4703|6734,0.61,1.0,jev
-Q0071,publicar,5204,Penal > Teoria da Pena > Terceira fase da Dosimetria: Causas de Aumento e de Diminuição,5228|4694,0.84,1.0,jev
-Q0072,revisar,5592,Processo Penal > Teoria Geral das Provas > Sistemas de Avaliação da Prova,5595|5593,0.53,1.0,jev
-Q0073,revisar,6718,Penal > Dos Crimes Contra a Administração Pública (Parte 1),5088|5087,0.28,1.0,jev
-Q0074,revisar,4703,Direito Penal - Legislação Especial > Lei de Execução Penal,6727|5485,0.28,1.0,jev
-Q0075,revisar,5191,Penal > Punibilidade,5076|5193,0.45,1.0,jev
-Q0076,publicar,4373,Criminologia > Etapas Evolutivas e Escolas Criminológicas > Escolas Crimonológicas,4371|4381,0.88,1.0,jev
-Q0077,revisar,5173,Penal > Introdução ao Estudo do Direito Penal > Interpretação da Norma Penal,5177|5194,0.59,1.0,jev
-Q0078,revisar,4691,Direito Penal - Legislação Especial > Crimes de Trânsito,5146|5066,0.34,1.0,jev
-Q0079,publicar,5581,Processo Penal > Sistemas e Princípios Processuais Penais > Sistemas Processuais Penais,5580|5582,0.98,1.0,jev
-Q0080,publicar,4370,Criminologia > Criminologia no Estado Democrático de Direito > Modelos de Reação ao Delito,4369|4368,1.0,1.0,jev
-Q0081,publicar,4373,Criminologia > Etapas Evolutivas e Escolas Criminológicas > Escolas Crimonológicas,4371|4372,0.95,1.0,jev
-Q0082,publicar,5100,"Penal > Dos Crimes Contra a Administração Pública > Resistência, Desobediência e Desacato",5091|5131,1.0,1.0,jev
-Q0083,revisar,5066,Penal > Concurso de Crimes,5150|5222,0.3,1.0,jev
-Q0084,revisar,4704,Direito Penal - Legislação Especial > Lei Maria da Penha,6724|5582,0.6,1.0,jev
-Q0085,publicar,5076,"Penal > Concurso de Pessoas > Comunicabilidade de Circunstâncias, Condições e Elementares",5091|5069,0.99,1.0,jev
-Q0086,publicar,5092,Penal > Dos Crimes Contra a Administração Pública > Corrupção Passiva,5066|5069,0.99,1.0,jev
-Q0087,revisar,5521,Processo Penal > Prisões em Espécie > Prisão Domiciliar,4703|6734,0.58,1.0,jev
-Q0088,publicar,4389,Criminologia > Vitimologia,4381|4390,0.96,1.0,jev
-Q0089,revisar,5227,Penal > Teoria do Crime: Fato Típico > Tipicidade,5233|5220,0.54,1.0,jev
-Q0090,publicar,5531,"Processo Penal > Procedimento Ordinário > 2 Oferecimento, Rejeição e Recebimento da Peça Acusatória",5466|5541,0.78,1.0,jev
-Q0091,revisar,4703,Direito Penal - Legislação Especial > Lei de Execução Penal,5201|6727,0.55,1.0,jev
-Q0092,revisar,5493,Processo Penal > Das Questões e Processos Incidentes > Exceção de Incompetência e de Ilegitimidade,5510|5511,0.43,1.0,jev
-Q0093,revisar,5223,Penal > Teoria do Crime: Fato Típico > Crimes Omissivos e Comissivos,5142|5150,0.67,1.0,jev
-Q0094,revisar,4388,Criminologia > Teorias Sociológicas Explicativas da Criminalidade > Teorias Criminológicas em Espécie,5525|4387,0.29,1.0,jev
-Q0095,publicar,5197,Penal > Punibilidade > Perdão Judicial,5196|5070,0.94,1.0,jev
-Q0096,revisar,5486,"Processo Penal > Competência > Prorrogação, Perpetuação e Modificação de Competência",5483|6732,0.68,1.0,jev
-Q0097,revisar,4702,Direito Penal - Legislação Especial > Lavagem de Dinheiro,6723|5066,0.24,1.0,jev
-Q0098,publicar,5548,Processo Penal > Provas em Espécies > Confissão,5231|5474,1.0,1.0,jev
-Q0099,publicar,5100,"Penal > Dos Crimes Contra a Administração Pública > Resistência, Desobediência e Desacato",5232|5231,0.8,1.0,jev
-Q0100,publicar,5103,Penal > Dos Crimes Contra a Dignidade Sexual > Estupro e Estupro de Vulnerável,5224|5108,0.88,1.0,jev
-Q0101,revisar,4704,Direito Penal - Legislação Especial > Lei Maria da Penha,6724|5482,0.49,1.0,jev
-Q0102,revisar,5577,Processo Penal > Sentença Penal > Efeitos Decorrentes da Sentença Penal Condenatória,6738|5209,0.72,1.0,jev
-Q0103,publicar,5478,Processo Penal > Ações Autônomas de Impugnação > Revisão Criminal,5494|5558,1.0,1.0,jev
-Q0104,revisar,5477,Processo Penal > Ações Autônomas de Impugnação > Habeas Corpus,5500|5499,0.67,1.0,jev
-Q0105,revisar,4388,Criminologia > Teorias Sociológicas Explicativas da Criminalidade > Teorias Criminológicas em Espécie,4387|4378,0.48,1.0,jev
-Q0106,revisar,5166,Penal > Dos Crimes Contra o Patrimônio > Estelionato,5168|5159,0.74,1.0,jev
-Q0107,revisar,5080,"Penal > Dos Crimes Contra a Administração Judicial > Denunciação Caluniosa, Comunicação Falsa de Crime ou Contravenção e Autoacusação Falsa",5119|5117,0.45,1.0,jev
-Q0108,publicar,5561,Processo Penal > Recursos em Espécies > Recurso em sentido estrito (RESE),5535|5188,0.91,1.0,jev
-Q0109,publicar,4708,Direito Penal - Legislação Especial > Tráfico de Drogas,6728|5209,0.83,1.0,jev
-Q0110,revisar,6733,Processo Penal > Competência (Parte 2),5483|5481,0.53,1.0,jev
-Q0111,revisar,4384,Criminologia > Teorias Legitimidoras da Pena,4388|4375,0.21,1.0,jev
-Q0112,revisar,,,,0.56,1.0,jev
-Q0113,publicar,5187,Penal > Prescrição > Contagem dos Prazos e Causas Suspensivas e Interruptivas da Prescrição,5502|5473,0.91,1.0,jev
-Q0114,revisar,5507,Processo Penal > Lei Processual no Tempo e no Espaço > Lei processual no Tempo,5505|5470,0.36,1.0,jev
-Q0115,revisar,4385,Criminologia > Teorias Sociológicas Explicativas da Criminalidade,4388|4387,0.4,1.0,jev
-Q0116,publicar,4708,Direito Penal - Legislação Especial > Tráfico de Drogas,6728|5190,0.85,1.0,jev
-Q0117,revisar,4384,Criminologia > Teorias Legitimidoras da Pena,6726|5200,0.57,1.0,jev
-Q0118,publicar,5507,Processo Penal > Lei Processual no Tempo e no Espaço > Lei processual no Tempo,5505|5508,0.95,1.0,jev
-Q0119,publicar,5181,Penal > Lei Penal no Tempo e no Espaço > Lei penal no Tempo,5505|5180,0.86,1.0,jev
-Q0120,revisar,5590,Processo Penal > Teoria Geral das Provas,5547|5591,0.34,1.0,jev
-Q0121,revisar,5472,Processo Penal > Ação Penal > Ação Penal de Iniciativa Privada,5469|5474,0.57,1.0,jev
-Q0122,revisar,5201,Penal > Teoria da Pena > Penas Privativas de Liberdade,6727|5576,0.52,1.0,jev
-Q0123,revisar,4377,Criminologia > Processos de Criminalização e Cifras Criminais,4368|4388,0.3,1.0,jev
-Q0124,revisar,4384,Criminologia > Teorias Legitimidoras da Pena,5199|6726,0.68,1.0,jev
-Q0125,revisar,6734,Processo Penal > Lei de Execução Penal,4708|5485,0.37,1.0,jev
-Q0126,revisar,5226,Penal > Teoria do Crime: Fato Típico > Nexo Causal e Imputação Objetiva,5076|5063,0.54,1.0,jev
-Q0127,revisar,5581,Processo Penal > Sistemas e Princípios Processuais Penais > Sistemas Processuais Penais,5576|5580,0.24,1.0,jev
-Q0128,revisar,5184,Penal > Medida de Segurança,5466|5497,0.63,1.0,jev
-Q0129,publicar,5550,Processo Penal > Provas em Espécies > Prova Testemunhal,5535|5489,0.98,1.0,jev
-Q0130,publicar,5160,Penal > Dos Crimes Contra o Patrimônio > Roubo,5205|5070,0.78,1.0,jev
-Q0131,publicar,5072,Penal > Concurso de Pessoas > Autores e Partícipes,5071|5073,0.92,1.0,jev
-Q0132,revisar,5487,Processo Penal > Comunicação dos Atos Processuais,5490|6717,0.48,1.0,jev
-Q0133,revisar,5528,Processo Penal > Procedimento do Tribunal do Júri > Organização do Júri e Sessão de Julgamento,5524|6732,0.39,1.0,jev
-Q0134,publicar,5092,Penal > Dos Crimes Contra a Administração Pública > Corrupção Passiva,5101|5091,1.0,1.0,jev
-Q0135,publicar,5169,Penal > Dos Crimes Contra o Patrimônio > Receptação,6721|6720,1.0,1.0,jev
-Q0136,revisar,4704,Direito Penal - Legislação Especial > Lei Maria da Penha,6724|5474,0.69,1.0,jev
-Q0137,revisar,5498,Processo Penal > Inquérito Policial,5500|5499,0.47,1.0,jev
-Q0138,revisar,5205,Penal > Teoria da Pena > Penas Restritivas de Direitos,6727|5207,0.48,1.0,jev
-Q0139,revisar,5217,Penal > Teoria do Crime: Culpabilidade > Causas Supralegais de Exclusão da Culpabilidade,5212|5213,0.47,1.0,jev
-Q0140,revisar,5159,Penal > Dos Crimes Contra o Patrimônio > Furto,6721|5160,0.48,1.0,jev
-Q0141,revisar,4387,Criminologia > Teorias Sociológicas Explicativas da Criminalidade > Teorias de Nível Sociológico,4388|4385,0.44,1.0,jev
-Q0142,fora,,,,1.0,1.0,jev
-Q0143,publicar,5507,Processo Penal > Lei Processual no Tempo e no Espaço > Lei processual no Tempo,5505|5508,0.9,1.0,jev
-Q0144,revisar,5561,Processo Penal > Recursos em Espécies > Recurso em sentido estrito (RESE),5529|5563,0.33,1.0,jev
-Q0145,publicar,4702,Direito Penal - Legislação Especial > Lavagem de Dinheiro,5084|5067,1.0,1.0,jev
-Q0146,publicar,5594,Processo Penal > Teoria Geral das Provas > Prova Ilegal e Prova Ilícita,5595|5593,0.97,1.0,jev
-Q0147,revisar,5556,Processo Penal > Provas em Espécies > Captação Ambiental,5500|5498,0.46,1.0,jev
-Q0148,publicar,5203,Penal > Teoria da Pena > Segunda Fase da Dosimetria: Agravantes e Atenuantes,5210|5204,0.98,1.0,jev
-Q0149,publicar,5500,Processo Penal > Inquérito Policial > Procedimento do Inquérito Policial,5555|5554,0.91,1.0,jev
-Q0150,publicar,4708,Direito Penal - Legislação Especial > Tráfico de Drogas,6728|5204,0.81,1.0,jev
-Q0151,revisar,5522,Processo Penal > Prisões em Espécie > Medidas Cautelares Diversas da Prisão,5585|5519,0.63,1.0,jev
-Q0152,revisar,5474,Processo Penal > Ação Penal > Queixa Crime,5472|5065,0.52,1.0,jev
-Q0153,revisar,5177,Penal > Iter Criminis > Crime Consumado e Tentado,5175|5179,0.34,1.0,jev
-Q0154,publicar,5135,"Penal > Dos Crimes contra a Organização do Trabalho, a Propriedade Imaterial e ao Sentimento Religioso > Dos Crimes Contra a Organização do Trabalho",4683|5134,0.75,1.0,jev
-Q0155,revisar,4703,Direito Penal - Legislação Especial > Lei de Execução Penal,4705|5576,0.55,1.0,jev
-Q0156,revisar,4688,Direito Penal - Legislação Especial > Crimes contra o meio ambiente,5205|5207,0.62,1.0,jev
-Q0157,publicar,5520,Processo Penal > Prisões em Espécie > Prisão Temporária,5504|5503,1.0,1.0,jev
-Q0158,revisar,5209,Penal > Teoria da Pena > Efeitos da Condenação Penais e Extrapenais,4707|6727,0.69,1.0,jev
-Q0159,revisar,5177,Penal > Iter Criminis > Crime Consumado e Tentado,5066|5067,0.33,1.0,jev
-Q0160,publicar,5205,Penal > Teoria da Pena > Penas Restritivas de Direitos,6727|5207,0.85,1.0,jev
-Q0161,revisar,5588,Processo Penal > Teoria Geral das Prisões > Relaxamento da Prisão,5518|5589,0.7,1.0,jev
-Q0162,revisar,4381,Criminologia > Teoria Geral da Criminologia > Conceito e objeto da Criminologia,4382|4374,0.31,1.0,jev
-Q0163,publicar,5133,"Penal > Dos Crimes Contra a Liberdade Pessoal > Dos Crimes contra a Inviolabilidade do Domicílio, Contra a Inviolabilidade da Correspondência e Contra a Inviolabilidade dos Segredos",4703|5068,0.94,1.0,jev
-Q0164,revisar,,,,0.67,1.0,jev
-Q0165,revisar,5557,Processo Penal > Provas em Espécies > Colaboração Premiada,5558|4686,0.44,1.0,jev
-Q0166,publicar,5208,Penal > Teoria da Pena > Livramento Condicional,5521|6727,0.81,1.0,jev
-Q0167,publicar,5524,Processo Penal > Procedimento do Tribunal do Júri,5528|5526,0.77,1.0,jev
-Q0168,revisar,,,,0.53,1.0,jev
-Q0169,publicar,5492,"Processo Penal > Das Questões e Processos Incidentes > Exceção de Suspeição, de Impedimento ou de Incompatibilidade",5497|5496,1.0,1.0,jev
-Q0170,publicar,5209,Penal > Teoria da Pena > Efeitos da Condenação Penais e Extrapenais,5210|5174,0.85,1.0,jev
-Q0171,revisar,5557,Processo Penal > Provas em Espécies > Colaboração Premiada,5466|5502,0.2,1.0,jev
-Q0172,revisar,5466,Processo Penal > Ação Penal,5473|6733,0.46,1.0,jev
-Q0173,publicar,4703,Direito Penal - Legislação Especial > Lei de Execução Penal,6727|5205,0.99,1.0,jev
-Q0174,revisar,,,,0.51,1.0,jev
-Q0175,publicar,5091,Penal > Dos Crimes Contra a Administração Pública > Concussão e Excesso de Exação,5092|5093,0.77,1.0,jev
-Q0176,publicar,5081,Penal > Dos Crimes Contra a Administração Judicial > Falso Testemunha ou Falsa Perícia e Corrupção Ativa de Testemunha ou Perito,5069|5070,1.0,1.0,jev
-Q0177,publicar,5547,Processo Penal > Provas em Espécies > Interrogatório Judicial,5548|5489,0.99,1.0,jev
-Q0178,publicar,4697,Direito Penal - Legislação Especial > Estatuto do Desarmamento,4704|4703,1.0,1.0,jev
-Q0179,publicar,4369,Criminologia > Criminologia no Estado Democrático de Direito > Sistemas de Prevenção,4374|4370,0.98,1.0,jev
-Q0180,publicar,5554,Processo Penal > Provas em Espécies > Busca e Apreensão,5594|5127,0.84,1.0,jev
-Q0181,publicar,4695,Direito Penal - Legislação Especial > Crimes Tributários,5069|5070,1.0,1.0,jev
-Q0182,revisar,5066,Penal > Concurso de Crimes,5076|5071,0.39,1.0,jev
-Q0183,revisar,5561,Processo Penal > Recursos em Espécies > Recurso em sentido estrito (RESE),5190|5507,0.47,1.0,jev
-Q0184,publicar,5518,Processo Penal > Prisões em Espécie > Prisão em Flagrante,5520|5587,0.86,1.0,jev
-Q0185,publicar,4703,Direito Penal - Legislação Especial > Lei de Execução Penal,5576|5561,0.78,1.0,jev
-Q0186,publicar,5202,Penal > Teoria da Pena > Primeira Fase da Dosimetria: Circunstâncias Judiciais,5204|5203,1.0,1.0,jev
-Q0187,publicar,5209,Penal > Teoria da Pena > Efeitos da Condenação Penais e Extrapenais,5092|4702,0.76,1.0,jev
-Q0188,revisar,5233,Penal > Teoria do Crime: Ilicitude > Causas Supralegais de Exclusão da Ilicitude,5229|5228,0.48,1.0,jev
-Q0189,publicar,5472,Processo Penal > Ação Penal > Ação Penal de Iniciativa Privada,5065|5474,0.87,1.0,jev
-Q0190,revisar,5539,Processo Penal > Procedimento Sumaríssimo,5540|5542,0.44,1.0,jev
-Q0191,revisar,6736,Processo Penal > Recursos (Parte 03) - Espécies,5516|5567,0.41,1.0,jev
-Q0192,publicar,5091,Penal > Dos Crimes Contra a Administração Pública > Concussão e Excesso de Exação,5087|6719,0.8,1.0,jev
-Q0193,publicar,5557,Processo Penal > Provas em Espécies > Colaboração Premiada,5503|5502,1.0,1.0,jev
-Q0194,revisar,6719,Penal > Dos Crimes contra a Administração Pública (Parte 2),6718|6721,0.45,1.0,jev
-Q0195,revisar,4373,Criminologia > Etapas Evolutivas e Escolas Criminológicas > Escolas Crimonológicas,4371|4372,0.59,1.0,jev
-Q0196,publicar,4388,Criminologia > Teorias Sociológicas Explicativas da Criminalidade > Teorias Criminológicas em Espécie,4385|4387,0.88,1.0,jev
-Q0197,revisar,4689,Direito Penal - Legislação Especial > Crimes contra o Sistema Financeiro,5498|5500,0.25,1.0,jev
-Q0198,publicar,5073,"Penal > Concurso de Pessoas > Autoria Mediata, Colateral e Coautoria",5072|5076,0.98,1.0,jev
-Q0199,revisar,5218,Penal > Teoria do Crime: Fato Típico,5220|5230,0.41,1.0,jev
-Q0200,publicar,4705,Direito Penal - Legislação Especial > Organizações Criminosas,6725|5232,0.76,1.0,jev
-Q0201,publicar,5103,Penal > Dos Crimes Contra a Dignidade Sexual > Estupro e Estupro de Vulnerável,5110|5069,0.99,1.0,jev
-Q0202,publicar,5224,Penal > Teoria do Crime: Fato Típico > Erro de Tipo,5109|5102,0.85,1.0,jev
-Q0203,publicar,4702,Direito Penal - Legislação Especial > Lavagem de Dinheiro,6723|4704,0.91,1.0,jev
-Q0204,publicar,5507,Processo Penal > Lei Processual no Tempo e no Espaço > Lei processual no Tempo,5505|5508,0.99,1.0,jev
-Q0205,revisar,5512,Processo Penal > Parte Geral dos Recursos,5562|5567,0.4,1.0,jev
-Q0206,revisar,,,,0.34,1.0,jev
-Q0207,publicar,4703,Direito Penal - Legislação Especial > Lei de Execução Penal,4688|4684,0.99,1.0,jev
-Q0208,publicar,5072,Penal > Concurso de Pessoas > Autores e Partícipes,5074|5071,0.75,1.0,jev
-Q0209,revisar,5582,Processo Penal > Sistemas e Princípios Processuais Penais > Princípios do Processo Penal,5500|5595,0.58,1.0,jev
-Q0210,publicar,4697,Direito Penal - Legislação Especial > Estatuto do Desarmamento,5066|5067,0.97,1.0,jev
-Q0211,revisar,,,,0.7,1.0,jev
-Q0212,publicar,5488,Processo Penal > Comunicação dos Atos Processuais > Citação e Contagem dos Prazos,5555|5595,0.98,1.0,jev
-Q0213,revisar,4708,Direito Penal - Legislação Especial > Tráfico de Drogas,4683|4701,0.57,1.0,jev
-Q0214,publicar,5494,Processo Penal > Das Questões e Processos Incidentes > Exceção de Litispendência e de Coisa Julgada,5493|5492,1.0,1.0,jev
-Q0215,publicar,5576,Processo Penal > Sentença Penal > Fixação da Pena e do Regime Penitenciário,5201|5202,0.88,1.0,jev
-Q0216,publicar,5541,Processo Penal > Procedimento Sumaríssimo > Transação Penal,5540|5472,0.97,1.0,jev
-Q0217,revisar,4384,Criminologia > Teorias Legitimidoras da Pena,6726|5210,0.7,1.0,jev
-Q0218,publicar,5518,Processo Penal > Prisões em Espécie > Prisão em Flagrante,5118|5585,0.98,1.0,jev
-Q0219,publicar,5074,Penal > Concurso de Pessoas > Participação,5071|5072,0.83,1.0,jev
-Q0220,publicar,5501,Processo Penal > Inquérito Policial > Conclusão e Arquivamento do Inquérito Policial,5502|5504,1.0,1.0,jev
-Q0221,revisar,5201,Penal > Teoria da Pena > Penas Privativas de Liberdade,5184|5205,0.52,1.0,jev
-Q0222,publicar,4376,Criminologia > Política Criminal > Direito Penal do Inimigo,4370|4368,0.77,1.0,jev
-Q0223,publicar,4703,Direito Penal - Legislação Especial > Lei de Execução Penal,5227|5084,0.76,1.0,jev
-Q0224,revisar,5209,Penal > Teoria da Pena > Efeitos da Condenação Penais e Extrapenais,5207|5202,0.57,1.0,jev
-Q0225,publicar,5478,Processo Penal > Ações Autônomas de Impugnação > Revisão Criminal,5481|5473,0.99,1.0,jev
-Q0226,publicar,5544,Processo Penal > Provas em Espécies > Cadeia de Custódia,5467|5531,1.0,1.0,jev
-Q0227,publicar,5103,Penal > Dos Crimes Contra a Dignidade Sexual > Estupro e Estupro de Vulnerável,5066|5102,0.91,1.0,jev
-Q0228,revisar,5208,Penal > Teoria da Pena > Livramento Condicional,5477|6736,0.73,1.0,jev
-Q0229,publicar,5585,Processo Penal > Teoria Geral das Prisões > Conceitos e Espécies de Prisão,5587|5519,0.77,1.0,jev
-Q0230,revisar,,,,0.36,1.0,jev
-Q0231,publicar,5224,Penal > Teoria do Crime: Fato Típico > Erro de Tipo,5214|5089,1.0,1.0,jev
-Q0232,revisar,5079,Penal > Dos Crimes Contra a Administração Judicial,5080|5086,0.72,1.0,jev
-Q0233,publicar,5178,"Penal > Iter Criminis > Desistência Voluntária, Arrependimento Eficaz e Arrependimento posterior",5179|5177,1.0,1.0,jev
-Q0234,revisar,4381,Criminologia > Teoria Geral da Criminologia > Conceito e objeto da Criminologia,4382|4380,0.49,1.0,jev
-Q0235,revisar,5561,Processo Penal > Recursos em Espécies > Recurso em sentido estrito (RESE),5515|6733,0.53,1.0,jev
-Q0236,revisar,5475,Processo Penal > Ação Penal > Ação Civil Ex Delicto,5510|5577,0.17,1.0,jev
-Q0237,publicar,5178,"Penal > Iter Criminis > Desistência Voluntária, Arrependimento Eficaz e Arrependimento posterior",5179|5177,1.0,1.0,jev
-Q0238,fora,,,,0.85,1.0,jev
-Q0239,revisar,5207,Penal > Teoria da Pena > Suspensão Condicional da Pena,5202|5191,0.4,1.0,jev
-Q0240,revisar,5531,"Processo Penal > Procedimento Ordinário > 2 Oferecimento, Rejeição e Recebimento da Peça Acusatória",5473|5489,0.39,1.0,jev
-Q0241,publicar,5224,Penal > Teoria do Crime: Fato Típico > Erro de Tipo,5227|5221,0.99,1.0,jev
-Q0242,revisar,5512,Processo Penal > Parte Geral dos Recursos,6736|5513,0.65,1.0,jev
-Q0243,publicar,5178,"Penal > Iter Criminis > Desistência Voluntária, Arrependimento Eficaz e Arrependimento posterior",5196|5177,0.93,1.0,jev
-Q0244,publicar,5091,Penal > Dos Crimes Contra a Administração Pública > Concussão e Excesso de Exação,5092|5101,0.88,1.0,jev
-Q0245,publicar,5187,Penal > Prescrição > Contagem dos Prazos e Causas Suspensivas e Interruptivas da Prescrição,5189|5190,0.93,1.0,jev
-Q0246,publicar,5527,"Processo Penal > Procedimento do Tribunal do Júri > Impronúncia, Desclassificação, Absolvição Sumária e Pronúncia",5485|5529,0.96,1.0,jev
-Q0247,publicar,5502,Processo Penal > Inquérito Policial > Acordo de Não Persecução Penal,5507|5505,0.91,1.0,jev
-Q0248,revisar,5100,"Penal > Dos Crimes Contra a Administração Pública > Resistência, Desobediência e Desacato",5087|5088,0.45,1.0,jev
-Q0249,revisar,6733,Processo Penal > Competência (Parte 2),5485|5480,0.53,1.0,jev
-Q0250,publicar,5576,Processo Penal > Sentença Penal > Fixação da Pena e do Regime Penitenciário,6727|5201,0.82,1.0,jev
-Q0251,revisar,5193,"Penal > Punibilidade > Anistia, Graça e Indulto",5191|5195,0.48,1.0,jev
-Q0252,revisar,4703,Direito Penal - Legislação Especial > Lei de Execução Penal,5576|5208,0.28,1.0,jev
-Q0253,publicar,4373,Criminologia > Etapas Evolutivas e Escolas Criminológicas > Escolas Crimonológicas,4371|4384,0.8,1.0,jev
-Q0254,fora,,,,0.8,1.0,jev
-Q0255,publicar,5213,Penal > Teoria do Crime: Culpabilidade > Inimputabilidade,5183|5209,1.0,1.0,jev
-Q0256,publicar,5224,Penal > Teoria do Crime: Fato Típico > Erro de Tipo,5214|5222,0.75,1.0,jev
-Q0257,revisar,5227,Penal > Teoria do Crime: Fato Típico > Tipicidade,5219|5218,0.53,1.0,jev
-Q0258,publicar,5545,Processo Penal > Provas em Espécies > Exame de Corpo de Delito,5529|5528,1.0,1.0,jev
-Q0259,revisar,,,,0.29,1.0,jev
-Q0260,revisar,4376,Criminologia > Política Criminal > Direito Penal do Inimigo,4368|4370,0.7,1.0,jev
-Q0261,revisar,,,,0.37,1.0,jev
-Q0262,revisar,5184,Penal > Medida de Segurança,6734|4703,0.36,1.0,jev
-Q0263,revisar,,,,0.44,1.0,jev
-Q0264,revisar,5103,Penal > Dos Crimes Contra a Dignidade Sexual > Estupro e Estupro de Vulnerável,5109|5102,0.7,1.0,jev
-Q0265,revisar,5188,Penal > Prescrição > Prescrição da Pretensão Punitiva,5187|5185,0.3,1.0,jev
-Q0266,publicar,5482,Processo Penal > Competência > Competência em Razão da Matéria,5524|5528,0.96,1.0,jev
-Q0267,publicar,4708,Direito Penal - Legislação Especial > Tráfico de Drogas,5518|5495,0.82,1.0,jev
-Q0268,revisar,5122,Penal > Dos Crimes Contra a Honra > Calúnia,5227|5220,0.24,1.0,jev
-Q0269,revisar,5172,Penal > Introdução ao Estudo do Direito Penal > Princípios do Direito Penal,5170|5173,0.36,1.0,jev
-Q0270,publicar,5091,Penal > Dos Crimes Contra a Administração Pública > Concussão e Excesso de Exação,5092|5093,0.97,1.0,jev
-Q0271,revisar,5515,Processo Penal > Parte Geral dos Recursos > Efeito dos Recursos,5513|5529,0.72,1.0,jev
-Q0272,revisar,4703,Direito Penal - Legislação Especial > Lei de Execução Penal,6734|4704,0.73,1.0,jev
-Q0273,publicar,5222,Penal > Teoria do Crime: Fato Típico > Crime Doloso e Culposo,5096|5089,0.95,1.0,jev
-Q0274,publicar,5160,Penal > Dos Crimes Contra o Patrimônio > Roubo,6721|6720,0.99,1.0,jev
-Q0275,revisar,5488,Processo Penal > Comunicação dos Atos Processuais > Citação e Contagem dos Prazos,4701|5539,0.7,1.0,jev
-Q0276,revisar,6735,Processo Penal > Provas em Espécie,5590|5595,0.72,1.0,jev
-Q0277,revisar,6722,Penal > Estatuto do Idoso - Crimes,4696|5080,0.52,1.0,jev
-Q0278,publicar,5542,Processo Penal > Procedimento Sumaríssimo > Suspensão Condicional do Processo,5541|5538,0.91,1.0,jev
-Q0279,revisar,5188,Penal > Prescrição > Prescrição da Pretensão Punitiva,5187|5178,0.69,1.0,jev
-Q0280,revisar,5472,Processo Penal > Ação Penal > Ação Penal de Iniciativa Privada,5122|5474,0.24,1.0,jev
-Q0281,publicar,5555,Processo Penal > Provas em Espécies > Interceptação Telefônica e Quebra do Sigilo de Dados Telefônicos,5595|5580,0.77,1.0,jev
-Q0282,revisar,4697,Direito Penal - Legislação Especial > Estatuto do Desarmamento,5522|5466,0.72,1.0,jev
-Q0283,publicar,5496,"Processo Penal > Das Questões e Processos Incidentes > Medidas Assecuratórias: Sequestro, Hipoteca Legal e Arresto",6738|6737,1.0,1.0,jev
-Q0284,revisar,5231,Penal > Teoria do Crime: Ilicitude > Legítima Defesa,5214|5224,0.61,1.0,jev
-Q0285,publicar,4376,Criminologia > Política Criminal > Direito Penal do Inimigo,5587|4370,1.0,1.0,jev
-Q0286,revisar,5204,Penal > Teoria da Pena > Terceira fase da Dosimetria: Causas de Aumento e de Diminuição,5066|5069,0.68,1.0,jev
-Q0287,revisar,5228,Penal > Teoria do Crime: Ilicitude,5230|5231,0.67,1.0,jev
-Q0288,revisar,5066,Penal > Concurso de Crimes,5068|5103,0.36,1.0,jev
-Q0289,publicar,4704,Direito Penal - Legislação Especial > Lei Maria da Penha,6724|4709,0.83,1.0,jev
-Q0290,publicar,5540,Processo Penal > Procedimento Sumaríssimo > Competência dos Juizados Especiais Criminais,5468|5535,0.89,1.0,jev
-Q0291,publicar,5501,Processo Penal > Inquérito Policial > Conclusão e Arquivamento do Inquérito Policial,4708|5500,0.78,1.0,jev
-Q0292,publicar,4374,Criminologia > Política Criminal,4376|4375,0.76,1.0,jev
-Q0293,publicar,5189,Penal > Prescrição > Prescrição da Pretensão Executória,5187|5188,0.9,1.0,jev
-Q0294,revisar,5211,Penal > Teoria do Crime: Culpabilidade,5212|5217,0.36,1.0,jev
-Q0295,publicar,5489,Processo Penal > Comunicação dos Atos Processuais > Intimação e Contagem dos Prazos,5488|5487,1.0,1.0,jev
-Q0296,revisar,5474,Processo Penal > Ação Penal > Queixa Crime,5472|5065,0.52,1.0,jev
-Q0297,revisar,4695,Direito Penal - Legislação Especial > Crimes Tributários,4689|5561,0.7,1.0,jev
-Q0298,revisar,5222,Penal > Teoria do Crime: Fato Típico > Crime Doloso e Culposo,4694|4687,0.59,1.0,jev
-Q0299,revisar,4384,Criminologia > Teorias Legitimidoras da Pena,4385|4387,0.6,1.0,jev
-Q0300,revisar,5084,Penal > Dos Crimes Contra a Administração Judicial > Favorecimento Pessoal e Real,6718|5087,0.67,1.0,jev
-Q0301,publicar,5197,Penal > Punibilidade > Perdão Judicial,5196|4688,0.99,1.0,jev
-Q0302,publicar,5224,Penal > Teoria do Crime: Fato Típico > Erro de Tipo,5217|5221,0.86,1.0,jev
-Q0303,revisar,5180,Penal > Lei Penal no Tempo e no Espaço,5182|5181,0.7,1.0,jev
-Q0304,revisar,5540,Processo Penal > Procedimento Sumaríssimo > Competência dos Juizados Especiais Criminais,4701|5541,0.7,1.0,jev
-Q0305,revisar,5470,Processo Penal > Ação Penal > Ação Penal Pública Incondicionada,5064|5473,0.3,1.0,jev
-Q0306,publicar,5146,Penal > Dos Crimes Contra a Saúde Pública e Dos Crimes Contra à Paz Pública > Crimes Contra à Paz Pública,5144|5557,0.91,1.0,jev
-Q0307,revisar,4707,Direito Penal - Legislação Especial > Tortura,5223|5072,0.51,1.0,jev
-Q0308,publicar,5501,Processo Penal > Inquérito Policial > Conclusão e Arquivamento do Inquérito Policial,5494|5504,0.94,1.0,jev
-Q0309,fora,,,,0.93,1.0,jev
-Q0310,revisar,5505,Processo Penal > Lei Processual no Tempo e no Espaço,5508|5507,0.47,1.0,jev
-Q0311,publicar,5488,Processo Penal > Comunicação dos Atos Processuais > Citação e Contagem dos Prazos,5471|5470,0.99,1.0,jev
-Q0312,revisar,4384,Criminologia > Teorias Legitimidoras da Pena,5200|5210,0.48,1.0,jev
-Q0313,revisar,5209,Penal > Teoria da Pena > Efeitos da Condenação Penais e Extrapenais,5577|5475,0.74,1.0,jev
-Q0314,publicar,5477,Processo Penal > Ações Autônomas de Impugnação > Habeas Corpus,5085|5558,1.0,1.0,jev
-Q0315,revisar,5187,Penal > Prescrição > Contagem dos Prazos e Causas Suspensivas e Interruptivas da Prescrição,5188|5189,0.61,1.0,jev
-Q0316,revisar,5224,Penal > Teoria do Crime: Fato Típico > Erro de Tipo,5076|5179,0.69,1.0,jev
-Q0317,publicar,5198,Penal > Punibilidade > Decadência,5066|5070,0.98,1.0,jev
-Q0318,publicar,5178,"Penal > Iter Criminis > Desistência Voluntária, Arrependimento Eficaz e Arrependimento posterior",5177|5192,0.98,1.0,jev
-Q0319,publicar,5073,"Penal > Concurso de Pessoas > Autoria Mediata, Colateral e Coautoria",5071|5072,0.88,1.0,jev
-Q0320,publicar,6735,Processo Penal > Provas em Espécie,5559|5500,0.89,1.0,jev
-Q0321,revisar,5071,Penal > Concurso de Pessoas,5073|5072,0.61,1.0,jev
-Q0322,revisar,5561,Processo Penal > Recursos em Espécies > Recurso em sentido estrito (RESE),5531|5562,0.69,1.0,jev
-Q0323,revisar,5593,Processo Penal > Teoria Geral das Provas > Prova Emprestada,5595|5580,0.35,1.0,jev
-Q0324,revisar,6727,Penal > Teoria da Pena (Parte 2),5201|5184,0.4,1.0,jev
-Q0325,revisar,5467,Processo Penal > Ação Penal > Características e Condições da Ação Penal,5531|5466,0.33,1.0,jev
-Q0326,publicar,4708,Direito Penal - Legislação Especial > Tráfico de Drogas,5066|6728,0.9,1.0,jev
-Q0327,publicar,5203,Penal > Teoria da Pena > Segunda Fase da Dosimetria: Agravantes e Atenuantes,5202|5209,0.96,1.0,jev
-Q0328,publicar,4382,Criminologia > Teoria Geral da Criminologia > Métodos e funções da Criminologia,4374|4381,0.9,1.0,jev
-Q0329,revisar,,,,0.24,1.0,jev
-Q0330,revisar,5501,Processo Penal > Inquérito Policial > Conclusão e Arquivamento do Inquérito Policial,5500|5499,0.74,1.0,jev
-Q0331,publicar,5477,Processo Penal > Ações Autônomas de Impugnação > Habeas Corpus,5489|5488,1.0,1.0,jev
-Q0332,publicar,5541,Processo Penal > Procedimento Sumaríssimo > Transação Penal,5502|5474,0.99,1.0,jev
-Q0333,revisar,5175,Penal > Iter Criminis,5178|5219,0.3,1.0,jev
-Q0334,publicar,4381,Criminologia > Teoria Geral da Criminologia > Conceito e objeto da Criminologia,5585|5186,1.0,1.0,jev
-Q0335,revisar,5223,Penal > Teoria do Crime: Fato Típico > Crimes Omissivos e Comissivos,5227|5221,0.34,1.0,jev
-Q0336,revisar,5159,Penal > Dos Crimes Contra o Patrimônio > Furto,5177|5165,0.74,1.0,jev
-Q0337,publicar,4684,Direito Penal - Legislação Especial > Abuso de Autoridade,6716|5069,0.94,1.0,jev
-Q0338,revisar,5595,Processo Penal > Teoria Geral das Provas > Princípios Relativos à Prova Penal,5548|5591,0.56,1.0,jev
-Q0339,publicar,5578,Processo Penal > Sentença Penal > Princípio da Correlação entre Acusação e Sentença,6737|6738,0.9,1.0,jev
-Q0340,revisar,5071,Penal > Concurso de Pessoas,5076|5074,0.34,1.0,jev
-Q0341,revisar,5158,Penal > Dos Crimes Contra o Patrimônio > 12 Disposições Gerais dos Crimes Contra o Patrimônio,6720|6721,0.46,1.0,jev
-Q0342,publicar,5545,Processo Penal > Provas em Espécies > Exame de Corpo de Delito,5504|5503,1.0,1.0,jev
-Q0343,publicar,5472,Processo Penal > Ação Penal > Ação Penal de Iniciativa Privada,5474|5065,0.75,1.0,jev
-Q0344,revisar,4688,Direito Penal - Legislação Especial > Crimes contra o meio ambiente,6717|5471,0.74,1.0,jev
-Q0345,revisar,5103,Penal > Dos Crimes Contra a Dignidade Sexual > Estupro e Estupro de Vulnerável,5105|5204,0.58,1.0,jev
-Q0346,fora,,,,0.77,1.0,jev
-Q0347,publicar,5069,Penal > Concurso de Crimes > Crime Continuado,5207|5232,0.78,1.0,jev
-Q0348,publicar,5093,Penal > Dos Crimes Contra a Administração Pública > Corrupção Ativa,6719|5188,0.93,1.0,jev
-Q0349,revisar,5178,"Penal > Iter Criminis > Desistência Voluntária, Arrependimento Eficaz e Arrependimento posterior",5066|5168,0.48,1.0,jev
-Q0350,publicar,4702,Direito Penal - Legislação Especial > Lavagem de Dinheiro,4704|4703,1.0,1.0,jev
-Q0351,revisar,,,,0.7,1.0,jev
-Q0352,revisar,5512,Processo Penal > Parte Geral dos Recursos,5513|5515,0.33,1.0,jev
-Q0353,revisar,5188,Penal > Prescrição > Prescrição da Pretensão Punitiva,5187|5185,0.41,1.0,jev
-Q0354,publicar,5226,Penal > Teoria do Crime: Fato Típico > Nexo Causal e Imputação Objetiva,5218|5220,0.85,1.0,jev
-Q0355,revisar,,,,0.65,1.0,jev
-Q0356,revisar,5066,Penal > Concurso de Crimes,5067|5070,0.44,1.0,jev
-Q0357,publicar,5135,"Penal > Dos Crimes contra a Organização do Trabalho, a Propriedade Imaterial e ao Sentimento Religioso > Dos Crimes Contra a Organização do Trabalho",5134|5179,0.96,1.0,jev
-Q0358,revisar,,,,0.47,1.0,jev
-Q0359,revisar,,,,0.58,1.0,jev
+id,decisao,tema_central_id,extras_ids,confianca,motivo
+Q0001,publicar,5527,5529;5524,0.8215,
+Q0002,revisar,4367,4386;4389,0.5420,"margem/sim insuficientes (sim=0.528, margem=0.014)"
+Q0003,revisar,5466,5560;5530,0.6155,"margem/sim insuficientes (sim=0.599, margem=0.017)"
+Q0004,publicar,5480,5466;5484,0.7183,
+Q0005,revisar,5537,5576;5530,0.5758,"margem/sim insuficientes (sim=0.563, margem=0.013)"
+Q0006,revisar,5159,5160;5219,0.6327,"margem/sim insuficientes (sim=0.617, margem=0.016)"
+Q0007,revisar,5466,5063;5537,0.5806,"margem/sim insuficientes (sim=0.570, margem=0.011)"
+Q0008,revisar,5088,5096;5087,0.6290,"margem/sim insuficientes (sim=0.614, margem=0.015)"
+Q0009,revisar,5159,5165;5160,0.6282,"margem/sim insuficientes (sim=0.601, margem=0.027)"
+Q0010,revisar,4688,6717;5466,0.6841,"margem/sim insuficientes (sim=0.673, margem=0.011)"
+Q0011,revisar,4702,5094;5093,0.6453,"margem/sim insuficientes (sim=0.613, margem=0.032)"
+Q0012,revisar,5562,5565,0.6446,"margem/sim insuficientes (sim=0.616, margem=0.029)"
+Q0013,publicar,5503,5479;5535,0.8087,
+Q0014,revisar,5477,5479;5565,0.6561,"margem/sim insuficientes (sim=0.590, margem=0.066)"
+Q0015,revisar,5498,5063,0.6969,"margem/sim insuficientes (sim=0.667, margem=0.029)"
+Q0016,revisar,5537,5535;5477,0.6088,"margem/sim insuficientes (sim=0.602, margem=0.007)"
+Q0017,revisar,5487,5535;5527,0.6620,"margem/sim insuficientes (sim=0.656, margem=0.006)"
+Q0018,revisar,5480,4701,0.6237,"margem/sim insuficientes (sim=0.614, margem=0.010)"
+Q0019,revisar,5475,5063;5570,0.6433,"margem/sim insuficientes (sim=0.635, margem=0.008)"
+Q0020,revisar,5480,5530;5548,0.6189,"margem/sim insuficientes (sim=0.618, margem=0.001)"
+Q0021,revisar,5503,5535,0.6168,"margem/sim insuficientes (sim=0.609, margem=0.008)"
+Q0022,publicar,5081,5092;5095,0.7147,
+Q0023,revisar,5535,5528,0.7302,"margem/sim insuficientes (sim=0.728, margem=0.002)"
+Q0024,revisar,4388,4385;4387,0.7108,"margem/sim insuficientes (sim=0.705, margem=0.006)"
+Q0025,revisar,5081,5092,0.5604,"margem/sim insuficientes (sim=0.559, margem=0.001)"
+Q0026,revisar,5131,5106,0.5819,"margem/sim insuficientes (sim=0.558, margem=0.024)"
+Q0027,revisar,5487,5535,0.6666,"margem/sim insuficientes (sim=0.647, margem=0.020)"
+Q0028,revisar,5487,5535,0.7169,"margem/sim insuficientes (sim=0.713, margem=0.004)"
+Q0029,revisar,4684,6716;4703,0.6930,"margem/sim insuficientes (sim=0.661, margem=0.032)"
+Q0030,revisar,5135,5098;5130,0.5518,"margem/sim insuficientes (sim=0.545, margem=0.006)"
+Q0031,revisar,4386,4384;4388,0.6760,"margem/sim insuficientes (sim=0.648, margem=0.028)"
+Q0032,revisar,5497,5500;5501,0.6008,"margem/sim insuficientes (sim=0.568, margem=0.033)"
+Q0033,publicar,5519,5535;5466,0.7363,
+Q0034,publicar,5477,5479;5530,0.8622,
+Q0035,revisar,4706,5063;4701,0.7794,"margem/sim insuficientes (sim=0.644, margem=0.135)"
+Q0036,revisar,5535,5198,0.5620,"margem/sim insuficientes (sim=0.546, margem=0.016)"
+Q0037,revisar,5081,5117;5132,0.7010,"margem/sim insuficientes (sim=0.643, margem=0.057)"
+Q0038,revisar,5466,5562,0.6931,"margem/sim insuficientes (sim=0.659, margem=0.034)"
+Q0039,revisar,4687,5092;5063,0.5781,"margem/sim insuficientes (sim=0.521, margem=0.057)"
+Q0040,publicar,5562,5527;5524,0.7324,
+Q0041,revisar,5184,5537;5185,0.6143,"margem/sim insuficientes (sim=0.603, margem=0.011)"
+Q0042,revisar,5221,5229;5232,0.5135,"margem/sim insuficientes (sim=0.510, margem=0.003)"
+Q0043,revisar,5576,5537;5198,0.6956,"margem/sim insuficientes (sim=0.666, margem=0.030)"
+Q0044,revisar,5550,5548,0.5579,"margem/sim insuficientes (sim=0.549, margem=0.009)"
+Q0045,publicar,5091,5099;5088,0.8029,
+Q0046,revisar,5510,5537;5466,0.7009,"margem/sim insuficientes (sim=0.695, margem=0.006)"
+Q0047,revisar,5164,5198;5091,0.5711,"margem/sim insuficientes (sim=0.555, margem=0.016)"
+Q0048,revisar,5193,5198,0.6725,"margem/sim insuficientes (sim=0.636, margem=0.036)"
+Q0049,revisar,5152,5224;5153,0.7373,"margem/sim insuficientes (sim=0.617, margem=0.120)"
+Q0050,revisar,5548,5557;5466,0.5651,"margem/sim insuficientes (sim=0.554, margem=0.011)"
+Q0051,revisar,4690,5183;5530,0.5442,"margem/sim insuficientes (sim=0.526, margem=0.018)"
+Q0052,revisar,5537,5210;5208,0.5681,"margem/sim insuficientes (sim=0.565, margem=0.003)"
+Q0053,revisar,5512,5569;5530,0.6268,"margem/sim insuficientes (sim=0.625, margem=0.002)"
+Q0054,revisar,5174,5160,0.6558,"margem/sim insuficientes (sim=0.637, margem=0.019)"
+Q0055,revisar,5535,5550;5530,0.6822,"margem/sim insuficientes (sim=0.640, margem=0.042)"
+Q0056,revisar,5537,5070,0.6022,"margem/sim insuficientes (sim=0.601, margem=0.001)"
+Q0057,publicar,5176,5175,0.7365,
+Q0058,revisar,5063,5210;5201,0.5795,"margem/sim insuficientes (sim=0.567, margem=0.013)"
+Q0059,revisar,5210,4370;5537,0.6010,"margem/sim insuficientes (sim=0.561, margem=0.040)"
+Q0060,revisar,5088,5097,0.6752,"margem/sim insuficientes (sim=0.673, margem=0.002)"
+Q0061,revisar,5537,4701,0.5875,"margem/sim insuficientes (sim=0.581, margem=0.007)"
+Q0062,revisar,5466,4701;5198,0.5114,"margem/sim insuficientes (sim=0.507, margem=0.004)"
+Q0063,revisar,5115,5466;5535,0.5603,"margem/sim insuficientes (sim=0.552, margem=0.009)"
+Q0064,revisar,5198,5185;5092,0.5769,"margem/sim insuficientes (sim=0.540, margem=0.036)"
+Q0065,publicar,5161,5198;5132,0.7282,
+Q0066,revisar,4372,4371;4373,0.5955,"margem/sim insuficientes (sim=0.575, margem=0.021)"
+Q0067,revisar,5088,5093;5087,0.7673,"margem/sim insuficientes (sim=0.748, margem=0.020)"
+Q0068,revisar,5081,5096,0.5954,"margem/sim insuficientes (sim=0.585, margem=0.010)"
+Q0069,revisar,5508,5560;5530,0.5957,"margem/sim insuficientes (sim=0.591, margem=0.005)"
+Q0070,revisar,5185,5198,0.5740,"margem/sim insuficientes (sim=0.561, margem=0.013)"
+Q0071,revisar,4688,6717;5117,0.5990,"margem/sim insuficientes (sim=0.595, margem=0.004)"
+Q0072,revisar,5550,5554;5501,0.6340,"margem/sim insuficientes (sim=0.624, margem=0.010)"
+Q0073,revisar,5093,5092;5088,0.7250,"margem/sim insuficientes (sim=0.699, margem=0.026)"
+Q0074,revisar,5537,4701,0.6019,"margem/sim insuficientes (sim=0.573, margem=0.029)"
+Q0075,revisar,5198,5194,0.6083,"margem/sim insuficientes (sim=0.599, margem=0.010)"
+Q0076,revisar,4385,4371;4388,0.5787,"margem/sim insuficientes (sim=0.572, margem=0.007)"
+Q0077,revisar,4690,5198;5530,0.5922,"margem/sim insuficientes (sim=0.591, margem=0.001)"
+Q0078,revisar,4697,5162,0.5459,"margem/sim insuficientes (sim=0.509, margem=0.037)"
+Q0079,revisar,5580,5537;5063,0.6214,"margem/sim insuficientes (sim=0.616, margem=0.005)"
+Q0080,publicar,4370,4384;4369,0.8913,
+Q0081,revisar,4371,4373;4372,0.5785,"margem/sim insuficientes (sim=0.576, margem=0.002)"
+Q0082,revisar,5131,5100,0.5744,"margem/sim insuficientes (sim=0.547, margem=0.027)"
+Q0083,revisar,5150,5222;5153,0.6426,"margem/sim insuficientes (sim=0.578, margem=0.065)"
+Q0084,revisar,4704,5530;6724,0.5884,"margem/sim insuficientes (sim=0.559, margem=0.029)"
+Q0085,revisar,5076,5096,0.7052,"margem/sim insuficientes (sim=0.628, margem=0.077)"
+Q0086,revisar,5090,5092;5094,0.5583,"margem/sim insuficientes (sim=0.542, margem=0.017)"
+Q0087,publicar,5521,4703;5537,0.7366,
+Q0088,revisar,4389,4390;4366,0.7102,"margem/sim insuficientes (sim=0.673, margem=0.037)"
+Q0089,revisar,5063,5537;5466,0.6005,"margem/sim insuficientes (sim=0.597, margem=0.003)"
+Q0090,revisar,5530,5198,0.7098,"margem/sim insuficientes (sim=0.709, margem=0.001)"
+Q0091,revisar,5208,5537;4703,0.6155,"margem/sim insuficientes (sim=0.604, margem=0.011)"
+Q0092,revisar,5487,5565;5562,0.6007,"margem/sim insuficientes (sim=0.583, margem=0.018)"
+Q0093,revisar,5142,5152;5150,0.6533,"margem/sim insuficientes (sim=0.588, margem=0.066)"
+Q0094,revisar,5230,4371;4372,0.5800,"margem/sim insuficientes (sim=0.578, margem=0.002)"
+Q0095,revisar,5115,5202,0.5008,"margem/sim insuficientes (sim=0.498, margem=0.002)"
+Q0096,revisar,5480,5483;5486,0.6662,"margem/sim insuficientes (sim=0.643, margem=0.023)"
+Q0097,revisar,4708,5100;5161,0.5870,"margem/sim insuficientes (sim=0.579, margem=0.008)"
+Q0098,publicar,5548,5550;5530,0.9125,
+Q0099,revisar,5142,5116,0.5788,"margem/sim insuficientes (sim=0.556, margem=0.023)"
+Q0100,revisar,5103,5108;5104,0.5285,"margem/sim insuficientes (sim=0.521, margem=0.008)"
+Q0101,revisar,5131,5466;4704,0.5278,"margem/sim insuficientes (sim=0.517, margem=0.011)"
+Q0102,revisar,5577,5209,0.7075,"margem/sim insuficientes (sim=0.698, margem=0.009)"
+Q0103,publicar,5478,5562;5512,0.7849,
+Q0104,revisar,5498,5500;5504,0.6650,"margem/sim insuficientes (sim=0.648, margem=0.017)"
+Q0105,revisar,5221,4370;4388,0.5099,"margem/sim insuficientes (sim=0.509, margem=0.001)"
+Q0106,revisar,5083,5092;5168,0.5145,"margem/sim insuficientes (sim=0.506, margem=0.009)"
+Q0107,revisar,4699,5081,0.6450,"margem/sim insuficientes (sim=0.630, margem=0.015)"
+Q0108,revisar,5562,5512,0.6930,"margem/sim insuficientes (sim=0.683, margem=0.010)"
+Q0109,revisar,4708,4703;5198,0.6541,"margem/sim insuficientes (sim=0.599, margem=0.055)"
+Q0110,publicar,5480,5537;5466,0.7715,
+Q0111,revisar,4384,4371;4372,0.5694,"margem/sim insuficientes (sim=0.556, margem=0.013)"
+Q0112,revisar,4705,5466;5063,0.6109,"margem/sim insuficientes (sim=0.598, margem=0.013)"
+Q0113,revisar,5466,5198;4701,0.5810,"margem/sim insuficientes (sim=0.578, margem=0.003)"
+Q0114,revisar,5479,5530,0.5975,"margem/sim insuficientes (sim=0.597, margem=0.001)"
+Q0115,revisar,4386,4385;4388,0.5945,"margem/sim insuficientes (sim=0.590, margem=0.005)"
+Q0116,revisar,4708,6734;4691,0.6948,"margem/sim insuficientes (sim=0.632, margem=0.063)"
+Q0117,revisar,5209,5201,0.6494,"margem/sim insuficientes (sim=0.646, margem=0.003)"
+Q0118,revisar,5466,5530;5535,0.6389,"margem/sim insuficientes (sim=0.619, margem=0.020)"
+Q0119,revisar,5466,5530;5535,0.5843,"margem/sim insuficientes (sim=0.574, margem=0.010)"
+Q0120,revisar,5550,5554;5535,0.6865,"margem/sim insuficientes (sim=0.685, margem=0.001)"
+Q0121,revisar,5466,5063;5472,0.6323,"margem/sim insuficientes (sim=0.629, margem=0.004)"
+Q0122,revisar,5210,5198,0.5629,"margem/sim insuficientes (sim=0.562, margem=0.000)"
+Q0123,revisar,5223,5466;5211,0.5758,"margem/sim insuficientes (sim=0.572, margem=0.004)"
+Q0124,revisar,5199,5211,0.6408,"margem/sim insuficientes (sim=0.638, margem=0.003)"
+Q0125,revisar,6734,4703;4701,0.6859,"margem/sim insuficientes (sim=0.632, margem=0.054)"
+Q0126,revisar,5063,5198;5466,0.6727,"margem/sim insuficientes (sim=0.653, margem=0.020)"
+Q0127,revisar,5537,5530;5535,0.5977,"margem/sim insuficientes (sim=0.597, margem=0.001)"
+Q0128,revisar,5063,5185,0.6811,"margem/sim insuficientes (sim=0.668, margem=0.013)"
+Q0129,revisar,5550,5535;5548,0.6703,"margem/sim insuficientes (sim=0.616, margem=0.055)"
+Q0130,revisar,5132,5537;5159,0.6081,"margem/sim insuficientes (sim=0.585, margem=0.023)"
+Q0131,revisar,5219,5226,0.6737,"margem/sim insuficientes (sim=0.664, margem=0.009)"
+Q0132,revisar,5487,5535;5550,0.5867,"margem/sim insuficientes (sim=0.583, margem=0.003)"
+Q0133,revisar,5529,5528,0.6625,"margem/sim insuficientes (sim=0.661, margem=0.002)"
+Q0134,revisar,5090,5537,0.5870,"margem/sim insuficientes (sim=0.583, margem=0.004)"
+Q0135,revisar,5169,5063;5211,0.6699,"margem/sim insuficientes (sim=0.617, margem=0.053)"
+Q0136,revisar,6724,5198;4704,0.5483,"margem/sim insuficientes (sim=0.535, margem=0.013)"
+Q0137,revisar,5499,5498;5504,0.5552,"margem/sim insuficientes (sim=0.546, margem=0.010)"
+Q0138,revisar,5207,5185;5198,0.6249,"margem/sim insuficientes (sim=0.622, margem=0.003)"
+Q0139,revisar,5217,5212;5211,0.6781,"margem/sim insuficientes (sim=0.655, margem=0.023)"
+Q0140,revisar,5159,5160;5537,0.6291,"margem/sim insuficientes (sim=0.620, margem=0.010)"
+Q0141,revisar,4385,4387,0.6063,"margem/sim insuficientes (sim=0.598, margem=0.009)"
+Q0142,revisar,5165,5157;5158,0.4627,"margem/sim insuficientes (sim=0.454, margem=0.009)"
+Q0143,revisar,5530,5580;5582,0.6703,"margem/sim insuficientes (sim=0.668, margem=0.002)"
+Q0144,revisar,5562,5537;5560,0.7472,"margem/sim insuficientes (sim=0.719, margem=0.028)"
+Q0145,publicar,4702,5117;5168,0.7456,
+Q0146,revisar,5555,5535;5594,0.6310,"margem/sim insuficientes (sim=0.623, margem=0.008)"
+Q0147,revisar,5550,5535;5466,0.6700,"margem/sim insuficientes (sim=0.642, margem=0.028)"
+Q0148,revisar,5203,5548,0.6777,"margem/sim insuficientes (sim=0.658, margem=0.020)"
+Q0149,revisar,5498,5503;5504,0.5860,"margem/sim insuficientes (sim=0.574, margem=0.012)"
+Q0150,revisar,4708,5594;5590,0.6249,"margem/sim insuficientes (sim=0.605, margem=0.020)"
+Q0151,revisar,5522,5537;5535,0.6390,"margem/sim insuficientes (sim=0.613, margem=0.026)"
+Q0152,revisar,5466,5530;5063,0.6531,"margem/sim insuficientes (sim=0.620, margem=0.033)"
+Q0153,revisar,5221,5590,0.5888,"margem/sim insuficientes (sim=0.563, margem=0.026)"
+Q0154,revisar,5141,4701,0.5436,"margem/sim insuficientes (sim=0.521, margem=0.023)"
+Q0155,revisar,5530,5576,0.5493,"margem/sim insuficientes (sim=0.541, margem=0.008)"
+Q0156,revisar,4688,5198;5537,0.6310,"margem/sim insuficientes (sim=0.622, margem=0.009)"
+Q0157,revisar,5520,5530;5198,0.5956,"margem/sim insuficientes (sim=0.572, margem=0.023)"
+Q0158,revisar,5198,5537;4703,0.6912,"margem/sim insuficientes (sim=0.624, margem=0.067)"
+Q0159,revisar,5150,5152;5224,0.6149,"margem/sim insuficientes (sim=0.566, margem=0.049)"
+Q0160,revisar,5210,5537,0.6756,"margem/sim insuficientes (sim=0.659, margem=0.017)"
+Q0161,revisar,5518,5477;5544,0.5870,"margem/sim insuficientes (sim=0.576, margem=0.011)"
+Q0162,revisar,4385,4372;4368,0.5430,"margem/sim insuficientes (sim=0.543, margem=0.000)"
+Q0163,revisar,4686,4708;5185,0.5732,"margem/sim insuficientes (sim=0.573, margem=0.000)"
+Q0164,revisar,5523,5210,0.5415,"margem/sim insuficientes (sim=0.520, margem=0.022)"
+Q0165,revisar,4705,5535;5063,0.6556,"margem/sim insuficientes (sim=0.617, margem=0.039)"
+Q0166,revisar,5537,5198;4703,0.5881,"margem/sim insuficientes (sim=0.586, margem=0.002)"
+Q0167,revisar,5479,5562;5535,0.5635,"margem/sim insuficientes (sim=0.558, margem=0.006)"
+Q0168,revisar,5081,5093;5089,0.5060,"margem/sim insuficientes (sim=0.494, margem=0.012)"
+Q0169,revisar,5492,5535;5550,0.6641,"margem/sim insuficientes (sim=0.598, margem=0.066)"
+Q0170,revisar,6737,5537;5198,0.5200,"margem/sim insuficientes (sim=0.518, margem=0.002)"
+Q0171,revisar,5198,5537;5185,0.6331,"margem/sim insuficientes (sim=0.607, margem=0.026)"
+Q0172,revisar,5466,5530;5063,0.7085,"margem/sim insuficientes (sim=0.684, margem=0.024)"
+Q0173,revisar,5576,5537;5205,0.5729,"margem/sim insuficientes (sim=0.568, margem=0.005)"
+Q0174,revisar,5104,5117;5103,0.5465,"margem/sim insuficientes (sim=0.533, margem=0.014)"
+Q0175,revisar,5093,5091,0.6136,"margem/sim insuficientes (sim=0.612, margem=0.002)"
+Q0176,revisar,5081,5548,0.6651,"margem/sim insuficientes (sim=0.616, margem=0.049)"
+Q0177,revisar,5548,5535;5550,0.6528,"margem/sim insuficientes (sim=0.611, margem=0.041)"
+Q0178,revisar,4697,4701;5479,0.5219,"margem/sim insuficientes (sim=0.496, margem=0.026)"
+Q0179,revisar,4369,4370;4378,0.6420,"margem/sim insuficientes (sim=0.596, margem=0.046)"
+Q0180,revisar,5553,5550;5554,0.5996,"margem/sim insuficientes (sim=0.576, margem=0.024)"
+Q0181,revisar,4695,4708;5117,0.6859,"margem/sim insuficientes (sim=0.602, margem=0.083)"
+Q0182,revisar,5139,5117;5548,0.5950,"margem/sim insuficientes (sim=0.581, margem=0.014)"
+Q0183,revisar,5198,5487;5535,0.6399,"margem/sim insuficientes (sim=0.638, margem=0.002)"
+Q0184,revisar,4699,5530;5503,0.5815,"margem/sim insuficientes (sim=0.572, margem=0.009)"
+Q0185,revisar,5198,4703;5576,0.5366,"margem/sim insuficientes (sim=0.531, margem=0.006)"
+Q0186,publicar,5202,5203;5537,0.8346,
+Q0187,revisar,5084,5093;5096,0.5355,"margem/sim insuficientes (sim=0.521, margem=0.015)"
+Q0188,revisar,5196,5211,0.6203,"margem/sim insuficientes (sim=0.588, margem=0.033)"
+Q0189,revisar,5466,5198;5478,0.6642,"margem/sim insuficientes (sim=0.650, margem=0.014)"
+Q0190,revisar,5480,5537;5530,0.7068,"margem/sim insuficientes (sim=0.691, margem=0.016)"
+Q0191,revisar,5512,5560,0.8151,"margem/sim insuficientes (sim=0.799, margem=0.016)"
+Q0192,revisar,5081,5091,0.7044,"margem/sim insuficientes (sim=0.669, margem=0.036)"
+Q0193,revisar,5557,5466;5063,0.6881,"margem/sim insuficientes (sim=0.641, margem=0.047)"
+Q0194,revisar,5089,5159;5099,0.6054,"margem/sim insuficientes (sim=0.580, margem=0.025)"
+Q0195,revisar,4370,4372;4371,0.6276,"margem/sim insuficientes (sim=0.624, margem=0.004)"
+Q0196,revisar,4385,5214;5215,0.5477,"margem/sim insuficientes (sim=0.544, margem=0.004)"
+Q0197,revisar,5498,5501;5500,0.6160,"margem/sim insuficientes (sim=0.594, margem=0.022)"
+Q0198,revisar,5073,5216;5211,0.5879,"margem/sim insuficientes (sim=0.560, margem=0.028)"
+Q0199,revisar,5230,5215,0.6937,"margem/sim insuficientes (sim=0.693, margem=0.001)"
+Q0200,revisar,4705,5537,0.6616,"margem/sim insuficientes (sim=0.634, margem=0.027)"
+Q0201,revisar,5103,5108;5198,0.5789,"margem/sim insuficientes (sim=0.576, margem=0.003)"
+Q0202,revisar,5108,5103;5104,0.5513,"margem/sim insuficientes (sim=0.534, margem=0.017)"
+Q0203,publicar,4702,6723;4701,0.8050,
+Q0204,revisar,5508,5507;5530,0.6911,"margem/sim insuficientes (sim=0.685, margem=0.006)"
+Q0205,revisar,5562,5560,0.6789,"margem/sim insuficientes (sim=0.651, margem=0.028)"
+Q0206,revisar,5466,5535,0.6521,"margem/sim insuficientes (sim=0.618, margem=0.034)"
+Q0207,revisar,5522,5185,0.5747,"margem/sim insuficientes (sim=0.568, margem=0.006)"
+Q0208,revisar,5150,5224,0.5407,"margem/sim insuficientes (sim=0.507, margem=0.034)"
+Q0209,revisar,5582,5498;5530,0.6429,"margem/sim insuficientes (sim=0.641, margem=0.002)"
+Q0210,revisar,4697,5183;5157,0.7299,"margem/sim insuficientes (sim=0.646, margem=0.083)"
+Q0211,publicar,5535,5530;5537,0.7086,
+Q0212,revisar,5487,5488;5535,0.6776,"margem/sim insuficientes (sim=0.667, margem=0.010)"
+Q0213,revisar,5530,5535;5487,0.5252,"margem/sim insuficientes (sim=0.517, margem=0.009)"
+Q0214,revisar,5466,5530;5473,0.6286,"margem/sim insuficientes (sim=0.591, margem=0.038)"
+Q0215,revisar,5576,5537;5530,0.6961,"margem/sim insuficientes (sim=0.650, margem=0.046)"
+Q0216,revisar,5063,5530,0.6774,"margem/sim insuficientes (sim=0.673, margem=0.004)"
+Q0217,revisar,5210,4384;5205,0.6207,"margem/sim insuficientes (sim=0.571, margem=0.050)"
+Q0218,revisar,5518,5117;5553,0.5928,"margem/sim insuficientes (sim=0.552, margem=0.041)"
+Q0219,revisar,5230,4701,0.5950,"margem/sim insuficientes (sim=0.577, margem=0.018)"
+Q0220,revisar,5501,5570,0.5754,"margem/sim insuficientes (sim=0.573, margem=0.003)"
+Q0221,revisar,5205,5184,0.5960,"margem/sim insuficientes (sim=0.594, margem=0.002)"
+Q0222,revisar,5063,5201,0.6607,"margem/sim insuficientes (sim=0.631, margem=0.029)"
+Q0223,revisar,4700,5100;5518,0.5312,"margem/sim insuficientes (sim=0.526, margem=0.005)"
+Q0224,revisar,5198,5207;5537,0.6381,"margem/sim insuficientes (sim=0.602, margem=0.036)"
+Q0225,revisar,5478,5537,0.6749,"margem/sim insuficientes (sim=0.675, margem=0.000)"
+Q0226,publicar,5544,5535;5553,0.7158,
+Q0227,revisar,5103,5104;5108,0.5880,"margem/sim insuficientes (sim=0.578, margem=0.010)"
+Q0228,revisar,5477,5562;5478,0.6927,"margem/sim insuficientes (sim=0.648, margem=0.044)"
+Q0229,revisar,5521,5477;5537,0.5857,"margem/sim insuficientes (sim=0.580, margem=0.006)"
+Q0230,revisar,5217,5214;5185,0.6581,"margem/sim insuficientes (sim=0.656, margem=0.002)"
+Q0231,revisar,5221,5228;5224,0.6309,"margem/sim insuficientes (sim=0.627, margem=0.004)"
+Q0232,revisar,5080,5081;5466,0.7094,"margem/sim insuficientes (sim=0.696, margem=0.014)"
+Q0233,revisar,5178,5198;5466,0.6620,"margem/sim insuficientes (sim=0.637, margem=0.025)"
+Q0234,revisar,4388,4371;4372,0.5753,"margem/sim insuficientes (sim=0.550, margem=0.025)"
+Q0235,revisar,5562,5560;5570,0.6408,"margem/sim insuficientes (sim=0.637, margem=0.004)"
+Q0236,revisar,5466,5535;5537,0.6768,"margem/sim insuficientes (sim=0.670, margem=0.006)"
+Q0237,publicar,5178,5198;5215,0.7849,
+Q0238,revisar,5573,5537;5535,0.5901,"margem/sim insuficientes (sim=0.582, margem=0.009)"
+Q0239,revisar,5198,5185;5537,0.6787,"margem/sim insuficientes (sim=0.657, margem=0.022)"
+Q0240,revisar,5530,5535;5488,0.5491,"margem/sim insuficientes (sim=0.532, margem=0.018)"
+Q0241,publicar,5224,5214;5218,0.7881,
+Q0242,revisar,5570,5560,0.7716,"margem/sim insuficientes (sim=0.749, margem=0.022)"
+Q0243,revisar,5178,5198;5169,0.6565,"margem/sim insuficientes (sim=0.611, margem=0.046)"
+Q0244,revisar,5092,5093;5089,0.6164,"margem/sim insuficientes (sim=0.611, margem=0.005)"
+Q0245,publicar,5185,5187;5189,0.7136,
+Q0246,publicar,5527,5529;5534,0.7529,
+Q0247,publicar,5502,5530;5466,0.7534,
+Q0248,revisar,5100,5093,0.7213,"margem/sim insuficientes (sim=0.707, margem=0.014)"
+Q0249,revisar,5480,5492;5466,0.6170,"margem/sim insuficientes (sim=0.590, margem=0.027)"
+Q0250,revisar,5576,5202,0.6018,"margem/sim insuficientes (sim=0.578, margem=0.024)"
+Q0251,revisar,5193,5185,0.6740,"margem/sim insuficientes (sim=0.669, margem=0.005)"
+Q0252,revisar,5537,5198;5530,0.5510,"margem/sim insuficientes (sim=0.539, margem=0.012)"
+Q0253,revisar,4384,4371;4372,0.5962,"margem/sim insuficientes (sim=0.594, margem=0.002)"
+Q0254,revisar,4704,5131;5530,0.5293,"margem/sim insuficientes (sim=0.522, margem=0.008)"
+Q0255,revisar,5213,5214,0.5696,"margem/sim insuficientes (sim=0.557, margem=0.013)"
+Q0256,revisar,5214,5217,0.5969,"margem/sim insuficientes (sim=0.585, margem=0.012)"
+Q0257,revisar,5227,5218,0.6832,"margem/sim insuficientes (sim=0.676, margem=0.007)"
+Q0258,publicar,5545,5550;5535,0.8095,
+Q0259,publicar,5164,5159;5198,0.7113,
+Q0260,revisar,5231,4370;4384,0.5717,"margem/sim insuficientes (sim=0.560, margem=0.012)"
+Q0261,revisar,5063,5466,0.5644,"margem/sim insuficientes (sim=0.560, margem=0.005)"
+Q0262,revisar,5537,5198;5562,0.5699,"margem/sim insuficientes (sim=0.560, margem=0.010)"
+Q0263,revisar,5550,5466;5487,0.6000,"margem/sim insuficientes (sim=0.598, margem=0.002)"
+Q0264,revisar,5103,5108;5102,0.6287,"margem/sim insuficientes (sim=0.616, margem=0.013)"
+Q0265,publicar,5185,5198;5070,0.7783,
+Q0266,revisar,5480,5466;5063,0.5541,"margem/sim insuficientes (sim=0.537, margem=0.017)"
+Q0267,revisar,5553,5554;5544,0.5055,"margem/sim insuficientes (sim=0.496, margem=0.010)"
+Q0268,revisar,5118,5116,0.6474,"margem/sim insuficientes (sim=0.642, margem=0.006)"
+Q0269,revisar,5063,5205;5530,0.6338,"margem/sim insuficientes (sim=0.600, margem=0.034)"
+Q0270,revisar,5091,5093;5092,0.5923,"margem/sim insuficientes (sim=0.557, margem=0.035)"
+Q0271,revisar,5562,5560;5570,0.7888,"margem/sim insuficientes (sim=0.754, margem=0.034)"
+Q0272,revisar,5185,4703;6734,0.5543,"margem/sim insuficientes (sim=0.534, margem=0.020)"
+Q0273,revisar,5222,5089,0.6450,"margem/sim insuficientes (sim=0.639, margem=0.006)"
+Q0274,revisar,5226,5192;5211,0.6539,"margem/sim insuficientes (sim=0.647, margem=0.007)"
+Q0275,revisar,5487,5530;5488,0.5895,"margem/sim insuficientes (sim=0.563, margem=0.027)"
+Q0276,revisar,5548,5550,0.7400,"margem/sim insuficientes (sim=0.716, margem=0.024)"
+Q0277,revisar,6722,5096,0.6910,"margem/sim insuficientes (sim=0.671, margem=0.020)"
+Q0278,revisar,5530,5466;5537,0.6341,"margem/sim insuficientes (sim=0.624, margem=0.010)"
+Q0279,revisar,5159,5169;5162,0.5907,"margem/sim insuficientes (sim=0.559, margem=0.032)"
+Q0280,revisar,5122,5099;5080,0.5315,"margem/sim insuficientes (sim=0.523, margem=0.009)"
+Q0281,revisar,5555,5554,0.6573,"margem/sim insuficientes (sim=0.621, margem=0.036)"
+Q0282,revisar,4697,5537;6734,0.5613,"margem/sim insuficientes (sim=0.543, margem=0.019)"
+Q0283,revisar,5496,5565,0.6923,"margem/sim insuficientes (sim=0.604, margem=0.089)"
+Q0284,revisar,5150,5537;5224,0.5825,"margem/sim insuficientes (sim=0.552, margem=0.030)"
+Q0285,revisar,5063,4376,0.6516,"margem/sim insuficientes (sim=0.639, margem=0.013)"
+Q0286,revisar,5198,5204;5202,0.5913,"margem/sim insuficientes (sim=0.588, margem=0.003)"
+Q0287,revisar,5233,5198,0.6710,"margem/sim insuficientes (sim=0.645, margem=0.026)"
+Q0288,revisar,5108,5104,0.6286,"margem/sim insuficientes (sim=0.620, margem=0.009)"
+Q0289,revisar,4704,5530;6724,0.6946,"margem/sim insuficientes (sim=0.656, margem=0.038)"
+Q0290,revisar,5466,5530,0.6536,"margem/sim insuficientes (sim=0.633, margem=0.021)"
+Q0291,revisar,5501,5498;4708,0.6086,"margem/sim insuficientes (sim=0.594, margem=0.015)"
+Q0292,revisar,5063,5477;5587,0.5328,"margem/sim insuficientes (sim=0.531, margem=0.002)"
+Q0293,revisar,6737,5537;6734,0.5451,"margem/sim insuficientes (sim=0.543, margem=0.003)"
+Q0294,revisar,5217,5214;5211,0.6925,"margem/sim insuficientes (sim=0.670, margem=0.022)"
+Q0295,revisar,5487,5530;5488,0.6497,"margem/sim insuficientes (sim=0.632, margem=0.018)"
+Q0296,revisar,5466,5063,0.5642,"margem/sim insuficientes (sim=0.542, margem=0.022)"
+Q0297,revisar,4689,4687;4695,0.6747,"margem/sim insuficientes (sim=0.670, margem=0.005)"
+Q0298,revisar,4687,4694,0.6434,"margem/sim insuficientes (sim=0.601, margem=0.042)"
+Q0299,revisar,4384,5226;4370,0.6355,"margem/sim insuficientes (sim=0.625, margem=0.010)"
+Q0300,revisar,5084,5160;5159,0.6121,"margem/sim insuficientes (sim=0.576, margem=0.036)"
+Q0301,revisar,5197,5198;5466,0.6122,"margem/sim insuficientes (sim=0.597, margem=0.015)"
+Q0302,revisar,5223,5214;5089,0.5151,"margem/sim insuficientes (sim=0.513, margem=0.002)"
+Q0303,revisar,5466,5063;5530,0.6014,"margem/sim insuficientes (sim=0.599, margem=0.003)"
+Q0304,revisar,5480,4701;5063,0.6923,"margem/sim insuficientes (sim=0.687, margem=0.005)"
+Q0305,revisar,5466,5063;5473,0.7217,"margem/sim insuficientes (sim=0.707, margem=0.014)"
+Q0306,revisar,4705,5096;5063,0.6071,"margem/sim insuficientes (sim=0.581, margem=0.026)"
+Q0307,revisar,4707,4703,0.5620,"margem/sim insuficientes (sim=0.542, margem=0.020)"
+Q0308,revisar,5498,5501;5504,0.6562,"margem/sim insuficientes (sim=0.647, margem=0.009)"
+Q0309,revisar,4688,5198,0.5646,"margem/sim insuficientes (sim=0.548, margem=0.017)"
+Q0310,revisar,5508,5466;5537,0.6136,"margem/sim insuficientes (sim=0.607, margem=0.006)"
+Q0311,revisar,5487,5488;5530,0.6547,"margem/sim insuficientes (sim=0.642, margem=0.013)"
+Q0312,revisar,5200,5537,0.5924,"margem/sim insuficientes (sim=0.590, margem=0.003)"
+Q0313,revisar,5577,5537;5475,0.6117,"margem/sim insuficientes (sim=0.577, margem=0.035)"
+Q0314,publicar,5477,5479;5565,0.9900,
+Q0315,revisar,5198,5185;5537,0.5766,"margem/sim insuficientes (sim=0.559, margem=0.018)"
+Q0316,revisar,5153,5211;5214,0.6334,"margem/sim insuficientes (sim=0.624, margem=0.010)"
+Q0317,revisar,5198,5488;5562,0.6505,"margem/sim insuficientes (sim=0.564, margem=0.086)"
+Q0318,revisar,5142,5178,0.5448,"margem/sim insuficientes (sim=0.537, margem=0.007)"
+Q0319,revisar,5223,5179;5073,0.6294,"margem/sim insuficientes (sim=0.622, margem=0.007)"
+Q0320,publicar,5550,5530;5535,0.8830,
+Q0321,revisar,5073,5211;5226,0.6693,"margem/sim insuficientes (sim=0.629, margem=0.040)"
+Q0322,revisar,5562,5565;5560,0.6188,"margem/sim insuficientes (sim=0.581, margem=0.038)"
+Q0323,revisar,5550,5535;5530,0.7669,"margem/sim insuficientes (sim=0.733, margem=0.033)"
+Q0324,revisar,5063,5198;5185,0.6351,"margem/sim insuficientes (sim=0.631, margem=0.004)"
+Q0325,revisar,5063,5198;5466,0.6633,"margem/sim insuficientes (sim=0.659, margem=0.004)"
+Q0326,revisar,4708,5094;5101,0.7264,"margem/sim insuficientes (sim=0.633, margem=0.094)"
+Q0327,revisar,5548,5537;5202,0.6449,"margem/sim insuficientes (sim=0.629, margem=0.016)"
+Q0328,revisar,4382,4381;4375,0.6538,"margem/sim insuficientes (sim=0.643, margem=0.011)"
+Q0329,revisar,5081,5548;5535,0.5853,"margem/sim insuficientes (sim=0.537, margem=0.048)"
+Q0330,revisar,5498,5535;5537,0.6354,"margem/sim insuficientes (sim=0.632, margem=0.004)"
+Q0331,publicar,5477,5479;5466,0.8893,
+Q0332,revisar,5198,5530,0.6147,"margem/sim insuficientes (sim=0.589, margem=0.025)"
+Q0333,revisar,5198,5530;5537,0.6495,"margem/sim insuficientes (sim=0.641, margem=0.008)"
+Q0334,revisar,5221,4368;4370,0.6076,"margem/sim insuficientes (sim=0.604, margem=0.004)"
+Q0335,revisar,5228,5211;5214,0.6435,"margem/sim insuficientes (sim=0.641, margem=0.003)"
+Q0336,revisar,5160,5159,0.5396,"margem/sim insuficientes (sim=0.530, margem=0.009)"
+Q0337,publicar,4684,5100;5117,0.7474,
+Q0338,revisar,5548,5553,0.6804,"margem/sim insuficientes (sim=0.679, margem=0.001)"
+Q0339,revisar,5466,5530,0.6233,"margem/sim insuficientes (sim=0.615, margem=0.008)"
+Q0340,revisar,5223,5211;5215,0.6232,"margem/sim insuficientes (sim=0.614, margem=0.009)"
+Q0341,revisar,5158,5160,0.6681,"margem/sim insuficientes (sim=0.667, margem=0.002)"
+Q0342,revisar,5545,5530;5550,0.7023,"margem/sim insuficientes (sim=0.686, margem=0.016)"
+Q0343,revisar,5466,5198;5063,0.6658,"margem/sim insuficientes (sim=0.640, margem=0.026)"
+Q0344,revisar,4688,5556;5063,0.5914,"margem/sim insuficientes (sim=0.583, margem=0.008)"
+Q0345,revisar,5105,5104,0.6033,"margem/sim insuficientes (sim=0.594, margem=0.009)"
+Q0346,revisar,5466,5535,0.6767,"margem/sim insuficientes (sim=0.669, margem=0.007)"
+Q0347,revisar,5198,5537;5185,0.6114,"margem/sim insuficientes (sim=0.598, margem=0.014)"
+Q0348,revisar,5093,5198,0.5788,"margem/sim insuficientes (sim=0.570, margem=0.009)"
+Q0349,revisar,5226,5168;5160,0.5682,"margem/sim insuficientes (sim=0.568, margem=0.000)"
+Q0350,publicar,4702,5466;5157,0.7777,
+Q0351,revisar,5118,5116,0.6352,"margem/sim insuficientes (sim=0.634, margem=0.001)"
+Q0352,revisar,5512,5562,0.7112,"margem/sim insuficientes (sim=0.690, margem=0.021)"
+Q0353,publicar,5185,5187;5189,0.7539,
+Q0354,revisar,5226,5224;5211,0.7236,"margem/sim insuficientes (sim=0.704, margem=0.020)"
+Q0355,revisar,4708,5185;5094,0.6490,"margem/sim insuficientes (sim=0.572, margem=0.077)"
+Q0356,revisar,5067,5068;5070,0.7545,"margem/sim insuficientes (sim=0.743, margem=0.011)"
+Q0357,revisar,5156,5092;5094,0.5109,"margem/sim insuficientes (sim=0.499, margem=0.012)"
+Q0358,revisar,5133,5183,0.5716,"margem/sim insuficientes (sim=0.566, margem=0.006)"
+Q0359,revisar,4696,5198;5530,0.6812,"margem/sim insuficientes (sim=0.644, margem=0.037)"
+Q0360,revisar,5466,5537,0.6383,"margem/sim insuficientes (sim=0.620, margem=0.018)"
+Q0361,revisar,5213,5214,0.5645,"margem/sim insuficientes (sim=0.558, margem=0.006)"
+Q0362,revisar,5557,5530;5535,0.6606,"margem/sim insuficientes (sim=0.621, margem=0.040)"
+Q0363,revisar,5088,5092,0.6621,"margem/sim insuficientes (sim=0.660, margem=0.003)"
+Q0364,revisar,5063,5198,0.6374,"margem/sim insuficientes (sim=0.634, margem=0.004)"
+Q0365,revisar,5228,5198;5194,0.5800,"margem/sim insuficientes (sim=0.578, margem=0.002)"
+Q0366,publicar,5548,5203;5202,0.8169,
+Q0367,revisar,5536,5535;5537,0.5957,"margem/sim insuficientes (sim=0.595, margem=0.001)"
+Q0368,revisar,5500,5498;5466,0.7283,"margem/sim insuficientes (sim=0.710, margem=0.018)"
+Q0369,publicar,4702,6723;4689,0.7225,
+Q0370,revisar,5523,5537;5530,0.5803,"margem/sim insuficientes (sim=0.555, margem=0.026)"
+Q0371,revisar,5466,5488;5063,0.5716,"margem/sim insuficientes (sim=0.549, margem=0.023)"
+Q0372,publicar,5555,5554;5550,0.8493,
+Q0373,revisar,5480,5063;5483,0.6309,"margem/sim insuficientes (sim=0.616, margem=0.015)"
+Q0374,revisar,6719,5090;5063,0.6085,"margem/sim insuficientes (sim=0.607, margem=0.001)"
+Q0375,revisar,5142,5089;5214,0.4799,"margem/sim insuficientes (sim=0.472, margem=0.008)"
+Q0376,revisar,5222,5212;5217,0.6256,"margem/sim insuficientes (sim=0.617, margem=0.009)"
+Q0377,publicar,5477,5562;5565,0.8875,
+Q0378,revisar,5119,5116;5070,0.5677,"margem/sim insuficientes (sim=0.566, margem=0.001)"
+Q0379,revisar,5131,6724;4704,0.5872,"margem/sim insuficientes (sim=0.581, margem=0.006)"
+Q0380,publicar,5537,5530;5535,0.8219,
+Q0381,revisar,5502,5530,0.7689,"margem/sim insuficientes (sim=0.730, margem=0.039)"
+Q0382,revisar,5226,5217;5212,0.5686,"margem/sim insuficientes (sim=0.561, margem=0.008)"
+Q0383,publicar,4702,6723;5092,0.7849,
+Q0384,revisar,5562,5565,0.6700,"margem/sim insuficientes (sim=0.667, margem=0.003)"
+Q0385,revisar,5063,5565,0.5906,"margem/sim insuficientes (sim=0.580, margem=0.010)"
+Q0386,revisar,4377,4384;4390,0.5076,"margem/sim insuficientes (sim=0.503, margem=0.004)"
+Q0387,revisar,5594,5535;5548,0.6927,"margem/sim insuficientes (sim=0.676, margem=0.016)"
+Q0388,publicar,5530,5535;5537,0.7847,
+Q0389,revisar,5223,5211,0.6446,"margem/sim insuficientes (sim=0.642, margem=0.003)"
+Q0390,revisar,4377,4372;4379,0.5515,"margem/sim insuficientes (sim=0.540, margem=0.011)"
+Q0391,revisar,5466,5063;5530,0.7875,"margem/sim insuficientes (sim=0.772, margem=0.015)"
+Q0392,revisar,5208,5537,0.5990,"margem/sim insuficientes (sim=0.595, margem=0.004)"
+Q0393,revisar,4697,5063;5548,0.5114,"margem/sim insuficientes (sim=0.509, margem=0.003)"
+Q0394,publicar,5480,5485;5466,0.7847,
+Q0395,revisar,5478,5477;5537,0.6689,"margem/sim insuficientes (sim=0.656, margem=0.013)"
+Q0396,revisar,5095,5092;5090,0.6028,"margem/sim insuficientes (sim=0.588, margem=0.015)"
+Q0397,revisar,5063,5211;4701,0.6338,"margem/sim insuficientes (sim=0.616, margem=0.018)"
+Q0398,revisar,5196,5210;5177,0.5977,"margem/sim insuficientes (sim=0.593, margem=0.005)"
+Q0399,revisar,5095,5198;5063,0.6704,"margem/sim insuficientes (sim=0.622, margem=0.048)"
+Q0400,revisar,5214,5548;5185,0.5695,"margem/sim insuficientes (sim=0.564, margem=0.006)"
+Q0401,revisar,5537,5198;5193,0.6518,"margem/sim insuficientes (sim=0.622, margem=0.029)"
+Q0402,revisar,4684,5088,0.6760,"margem/sim insuficientes (sim=0.633, margem=0.043)"
+Q0403,revisar,5150,5537;5183,0.5196,"margem/sim insuficientes (sim=0.490, margem=0.029)"
+Q0404,revisar,5118,5116,0.6441,"margem/sim insuficientes (sim=0.640, margem=0.005)"
+Q0405,revisar,5466,5560,0.6621,"margem/sim insuficientes (sim=0.661, margem=0.001)"
+Q0406,revisar,5091,5092;5095,0.7167,"margem/sim insuficientes (sim=0.692, margem=0.025)"
+Q0407,publicar,5578,5530;5537,0.9014,
+Q0408,publicar,5495,5478;5565,0.9286,
+Q0409,publicar,5215,5216;5217,0.7204,
+Q0410,publicar,5213,5211;5212,0.7550,
+Q0411,revisar,5094,5090;5099,0.7084,"margem/sim insuficientes (sim=0.608, margem=0.100)"
+Q0412,revisar,5095,5096;5088,0.6109,"margem/sim insuficientes (sim=0.600, margem=0.011)"
+Q0413,revisar,5092,5100;5093,0.6379,"margem/sim insuficientes (sim=0.627, margem=0.011)"
+Q0414,revisar,4695,5466,0.6936,"margem/sim insuficientes (sim=0.646, margem=0.047)"
+Q0415,publicar,4695,5183;5117,0.7611,
+Q0416,revisar,4697,5063;5198,0.5455,"margem/sim insuficientes (sim=0.537, margem=0.009)"
+Q0417,revisar,5063,4382,0.5844,"margem/sim insuficientes (sim=0.562, margem=0.023)"
+Q0418,revisar,5131,5480;5535,0.6033,"margem/sim insuficientes (sim=0.576, margem=0.028)"
+Q0419,revisar,4385,4386,0.5466,"margem/sim insuficientes (sim=0.544, margem=0.003)"
+Q0420,revisar,6724,6734,0.6530,"margem/sim insuficientes (sim=0.643, margem=0.010)"
+Q0421,revisar,5466,5535;5480,0.6812,"margem/sim insuficientes (sim=0.658, margem=0.023)"
+Q0422,revisar,5133,5087;5092,0.5580,"margem/sim insuficientes (sim=0.558, margem=0.000)"
+Q0423,revisar,4695,5466,0.6777,"margem/sim insuficientes (sim=0.621, margem=0.056)"
+Q0424,revisar,5063,5501,0.6299,"margem/sim insuficientes (sim=0.628, margem=0.002)"
+Q0425,revisar,5537,5530;5466,0.7052,"margem/sim insuficientes (sim=0.675, margem=0.030)"
+Q0426,revisar,5495,5185;5165,0.6026,"margem/sim insuficientes (sim=0.601, margem=0.002)"
+Q0427,revisar,5063,5466;5537,0.6421,"margem/sim insuficientes (sim=0.634, margem=0.009)"
+Q0428,revisar,5063,5088,0.7155,"margem/sim insuficientes (sim=0.699, margem=0.017)"
+Q0429,revisar,5150,5224;5222,0.6054,"margem/sim insuficientes (sim=0.577, margem=0.028)"
+Q0430,revisar,4704,5480;5535,0.5658,"margem/sim insuficientes (sim=0.548, margem=0.018)"
+Q0431,revisar,5466,5063;5530,0.6920,"margem/sim insuficientes (sim=0.660, margem=0.032)"
+Q0432,revisar,5466,5063;5530,0.7336,"margem/sim insuficientes (sim=0.726, margem=0.007)"
+Q0433,revisar,5073,5211;5066,0.6298,"margem/sim insuficientes (sim=0.620, margem=0.009)"
+Q0434,revisar,5466,5535;5530,0.6139,"margem/sim insuficientes (sim=0.605, margem=0.009)"
+Q0435,revisar,5063,5580;5466,0.6657,"margem/sim insuficientes (sim=0.634, margem=0.032)"
+Q0436,revisar,5131,6724;5103,0.5812,"margem/sim insuficientes (sim=0.568, margem=0.013)"
+Q0437,revisar,5181,6734;5198,0.5671,"margem/sim insuficientes (sim=0.564, margem=0.003)"
+Q0438,revisar,5553,5094;5117,0.5590,"margem/sim insuficientes (sim=0.558, margem=0.001)"
+Q0439,revisar,6719,5087;5092,0.6644,"margem/sim insuficientes (sim=0.663, margem=0.001)"
+Q0440,revisar,5498,5501;5500,0.6998,"margem/sim insuficientes (sim=0.673, margem=0.026)"
+Q0441,revisar,5477,5537,0.6637,"margem/sim insuficientes (sim=0.649, margem=0.015)"
+Q0442,revisar,5466,5063;5471,0.7715,"margem/sim insuficientes (sim=0.760, margem=0.012)"
+Q0443,publicar,5216,5214;5232,0.7653,
+Q0444,publicar,5548,5550;5535,0.8653,
+Q0445,revisar,4705,5198;5185,0.6730,"margem/sim insuficientes (sim=0.635, margem=0.038)"
+Q0446,revisar,5477,5479;5503,0.5521,"margem/sim insuficientes (sim=0.549, margem=0.003)"
+Q0447,revisar,5185,5198;5537,0.6330,"margem/sim insuficientes (sim=0.611, margem=0.022)"
+Q0448,revisar,5537,5530;5577,0.6324,"margem/sim insuficientes (sim=0.594, margem=0.039)"
+Q0449,revisar,5231,5198;4701,0.6845,"margem/sim insuficientes (sim=0.636, margem=0.049)"
+Q0450,revisar,5570,5571;5562,0.7680,"margem/sim insuficientes (sim=0.749, margem=0.019)"
+Q0451,revisar,5498,5499;5500,0.6532,"margem/sim insuficientes (sim=0.653, margem=0.000)"
+Q0452,revisar,5501,5498;5500,0.6762,"margem/sim insuficientes (sim=0.668, margem=0.008)"
+Q0453,revisar,4704,6724;5131,0.7725,"margem/sim insuficientes (sim=0.756, margem=0.017)"
+Q0454,revisar,5181,6734,0.6349,"margem/sim insuficientes (sim=0.626, margem=0.009)"
+Q0455,revisar,5535,5530;5550,0.6634,"margem/sim insuficientes (sim=0.648, margem=0.015)"
+Q0456,revisar,5063,5183;5185,0.6175,"margem/sim insuficientes (sim=0.616, margem=0.001)"
+Q0457,publicar,5477,5570;5571,0.8463,
+Q0458,revisar,5223,5067;5068,0.6390,"margem/sim insuficientes (sim=0.619, margem=0.020)"
+Q0459,revisar,4695,5080;5092,0.6216,"margem/sim insuficientes (sim=0.589, margem=0.032)"
+Q0460,revisar,5145,5146;5144,0.6961,"margem/sim insuficientes (sim=0.685, margem=0.011)"
+Q0461,revisar,5562,5535;5537,0.5723,"margem/sim insuficientes (sim=0.545, margem=0.027)"
+Q0462,revisar,5192,5217,0.5499,"margem/sim insuficientes (sim=0.546, margem=0.004)"
+Q0463,revisar,5088,5087;5091,0.6604,"margem/sim insuficientes (sim=0.634, margem=0.026)"
+Q0464,revisar,4689,5168;5094,0.6688,"margem/sim insuficientes (sim=0.592, margem=0.077)"
+Q0465,revisar,5466,5530;5063,0.6074,"margem/sim insuficientes (sim=0.605, margem=0.002)"
+Q0466,revisar,5222,5224,0.6513,"margem/sim insuficientes (sim=0.635, margem=0.016)"
+Q0467,revisar,5466,5535;5480,0.6070,"margem/sim insuficientes (sim=0.603, margem=0.004)"
+Q0468,revisar,5063,5185,0.6337,"margem/sim insuficientes (sim=0.597, margem=0.036)"
+Q0469,revisar,4375,4378;4374,0.5945,"margem/sim insuficientes (sim=0.572, margem=0.022)"
+Q0470,revisar,5198,4703;5537,0.6161,"margem/sim insuficientes (sim=0.580, margem=0.036)"
+Q0471,revisar,5198,5211;5185,0.6221,"margem/sim insuficientes (sim=0.616, margem=0.007)"
+Q0472,revisar,5094,5092;5089,0.5785,"margem/sim insuficientes (sim=0.572, margem=0.007)"
+Q0473,revisar,5487,5498,0.6501,"margem/sim insuficientes (sim=0.631, margem=0.019)"
+Q0474,revisar,4690,5580,0.6110,"margem/sim insuficientes (sim=0.585, margem=0.026)"
+Q0475,revisar,5223,5218;5227,0.5236,"margem/sim insuficientes (sim=0.521, margem=0.002)"
+Q0476,revisar,5527,5535;5537,0.7229,"margem/sim insuficientes (sim=0.695, margem=0.028)"
+Q0477,revisar,5063,5475,0.5855,"margem/sim insuficientes (sim=0.572, margem=0.014)"
+Q0478,publicar,5480,5483;5485,0.8025,
+Q0479,revisar,5063,5537;5535,0.5879,"margem/sim insuficientes (sim=0.576, margem=0.012)"
+Q0480,revisar,5070,5537;5203,0.5439,"margem/sim insuficientes (sim=0.534, margem=0.009)"
+Q0481,revisar,5227,5063;5221,0.6699,"margem/sim insuficientes (sim=0.664, margem=0.005)"
+Q0482,revisar,5508,5507;5506,0.7324,"margem/sim insuficientes (sim=0.727, margem=0.005)"
+Q0483,revisar,5159,5099;5095,0.5302,"margem/sim insuficientes (sim=0.529, margem=0.001)"
+Q0484,revisar,4702,5466;5537,0.6889,"margem/sim insuficientes (sim=0.650, margem=0.039)"
+Q0485,revisar,5063,5198;5185,0.6219,"margem/sim insuficientes (sim=0.607, margem=0.015)"
+Q0486,revisar,5480,5565;5535,0.6022,"margem/sim insuficientes (sim=0.597, margem=0.006)"
+Q0487,publicar,5159,5165;5160,0.7474,
+Q0488,publicar,5090,5095;5084,0.7699,
+Q0489,revisar,5185,5198;5530,0.6607,"margem/sim insuficientes (sim=0.657, margem=0.004)"
+Q0490,revisar,5217,5212,0.6532,"margem/sim insuficientes (sim=0.653, margem=0.000)"
+Q0491,revisar,5160,5162,0.6233,"margem/sim insuficientes (sim=0.622, margem=0.001)"
+Q0492,revisar,5159,5099;5163,0.7155,"margem/sim insuficientes (sim=0.647, margem=0.069)"
+Q0493,revisar,5466,5535,0.6150,"margem/sim insuficientes (sim=0.597, margem=0.018)"
+Q0494,revisar,5487,5553;5530,0.5746,"margem/sim insuficientes (sim=0.569, margem=0.006)"
+Q0495,revisar,5466,5535,0.6337,"margem/sim insuficientes (sim=0.627, margem=0.007)"
+Q0496,revisar,5198,5185;5228,0.6599,"margem/sim insuficientes (sim=0.643, margem=0.017)"
+Q0497,revisar,5562,5477,0.6168,"margem/sim insuficientes (sim=0.612, margem=0.005)"
+Q0498,revisar,5131,5103;5104,0.7361,"margem/sim insuficientes (sim=0.646, margem=0.090)"
+Q0499,revisar,5226,5214;5211,0.6600,"margem/sim insuficientes (sim=0.649, margem=0.011)"
+Q0500,revisar,4695,5080;5117,0.5733,"margem/sim insuficientes (sim=0.556, margem=0.017)"
+Q0501,revisar,4704,6724;5131,0.7346,"margem/sim insuficientes (sim=0.696, margem=0.038)"
+Q0502,revisar,5100,5099;5098,0.6628,"margem/sim insuficientes (sim=0.586, margem=0.077)"
+Q0503,revisar,4378,5535,0.6638,"margem/sim insuficientes (sim=0.634, margem=0.030)"
+Q0504,revisar,5232,5222;5211,0.6374,"margem/sim insuficientes (sim=0.633, margem=0.005)"
+Q0505,revisar,5096,5092;5095,0.6553,"margem/sim insuficientes (sim=0.631, margem=0.024)"
+Q0506,revisar,5181,5182;5063,0.6575,"margem/sim insuficientes (sim=0.656, margem=0.002)"
+Q0507,revisar,5214,5211;5224,0.7062,"margem/sim insuficientes (sim=0.688, margem=0.019)"
+Q0508,publicar,4700,5555;5530,0.7048,
+Q0509,revisar,5498,5501;5530,0.7137,"margem/sim insuficientes (sim=0.688, margem=0.026)"
+Q0510,revisar,5550,5595;5590,0.7164,"margem/sim insuficientes (sim=0.691, margem=0.025)"
+Q0511,revisar,5466,5063;5530,0.6329,"margem/sim insuficientes (sim=0.621, margem=0.012)"
+Q0512,publicar,5480,5485;5466,0.7611,
+Q0513,publicar,4688,5466;5556,0.7000,
+Q0514,revisar,5466,5477;5063,0.5979,"margem/sim insuficientes (sim=0.581, margem=0.017)"
+Q0515,revisar,4704,6724;5466,0.6560,"margem/sim insuficientes (sim=0.615, margem=0.041)"
+Q0516,revisar,4690,4689;4702,0.7194,"margem/sim insuficientes (sim=0.641, margem=0.079)"
+Q0517,revisar,5466,5063;5470,0.6856,"margem/sim insuficientes (sim=0.650, margem=0.036)"
+Q0518,revisar,5088,5091,0.6886,"margem/sim insuficientes (sim=0.663, margem=0.025)"
+Q0519,revisar,5548,5530,0.5793,"margem/sim insuficientes (sim=0.574, margem=0.005)"
+Q0520,revisar,5466,5100;4701,0.5636,"margem/sim insuficientes (sim=0.559, margem=0.004)"
+Q0521,revisar,5063,5466,0.6478,"margem/sim insuficientes (sim=0.628, margem=0.020)"
+Q0522,revisar,5537,5478,0.6102,"margem/sim insuficientes (sim=0.593, margem=0.018)"
+Q0523,revisar,5466,5063,0.6147,"margem/sim insuficientes (sim=0.610, margem=0.005)"
+Q0524,publicar,5185,5198;5187,0.7702,
+Q0525,revisar,5202,5185;5203,0.6820,"margem/sim insuficientes (sim=0.657, margem=0.025)"
+Q0526,revisar,5218,4388;5223,0.6157,"margem/sim insuficientes (sim=0.609, margem=0.006)"
+Q0527,revisar,5207,4703;5185,0.6049,"margem/sim insuficientes (sim=0.580, margem=0.025)"
+Q0528,revisar,5466,4701;4703,0.5760,"margem/sim insuficientes (sim=0.571, margem=0.005)"
+Q0529,revisar,5089,5092;5070,0.6432,"margem/sim insuficientes (sim=0.613, margem=0.030)"
+Q0530,revisar,5554,5535,0.5876,"margem/sim insuficientes (sim=0.564, margem=0.024)"
+Q0531,revisar,5466,5063;5530,0.8259,"margem/sim insuficientes (sim=0.811, margem=0.015)"
+Q0532,revisar,5159,5157;5158,0.6720,"margem/sim insuficientes (sim=0.640, margem=0.032)"
+Q0533,revisar,5135,5137;5136,0.6683,"margem/sim insuficientes (sim=0.644, margem=0.024)"
+Q0534,revisar,5063,5580;5581,0.6667,"margem/sim insuficientes (sim=0.633, margem=0.034)"
+Q0535,publicar,4704,6724;5183,0.8076,
+Q0536,revisar,5544,5530,0.6856,"margem/sim insuficientes (sim=0.671, margem=0.014)"
+Q0537,revisar,5466,5537,0.5609,"margem/sim insuficientes (sim=0.546, margem=0.015)"
+Q0538,revisar,5230,5141;5198,0.6328,"margem/sim insuficientes (sim=0.584, margem=0.049)"
+Q0539,revisar,5090,5092,0.5322,"margem/sim insuficientes (sim=0.518, margem=0.014)"
+Q0540,revisar,5223,5221,0.6568,"margem/sim insuficientes (sim=0.642, margem=0.014)"
+Q0541,revisar,5096,5095;5092,0.6147,"margem/sim insuficientes (sim=0.604, margem=0.010)"
+Q0542,revisar,5530,5537;5535,0.6436,"margem/sim insuficientes (sim=0.638, margem=0.006)"
+Q0543,revisar,5562,5479;5537,0.6554,"margem/sim insuficientes (sim=0.635, margem=0.020)"
+Q0544,revisar,5480,5466;5479,0.6124,"margem/sim insuficientes (sim=0.588, margem=0.024)"
+Q0545,revisar,4376,4388;5230,0.6137,"margem/sim insuficientes (sim=0.605, margem=0.009)"
+Q0546,revisar,5088,5087;5099,0.5789,"margem/sim insuficientes (sim=0.560, margem=0.018)"
+Q0547,revisar,5185,5198;5537,0.6919,"margem/sim insuficientes (sim=0.670, margem=0.021)"
+Q0548,publicar,5562,5560;5512,0.7175,
+Q0549,revisar,4703,4701;6734,0.6675,"margem/sim insuficientes (sim=0.628, margem=0.040)"
+Q0550,revisar,5165,5159;5161,0.6445,"margem/sim insuficientes (sim=0.624, margem=0.021)"
+Q0551,revisar,5063,5471,0.7966,"margem/sim insuficientes (sim=0.765, margem=0.032)"
+Q0552,revisar,5480,5535,0.6851,"margem/sim insuficientes (sim=0.657, margem=0.028)"
+Q0553,revisar,5466,5535;5533,0.6789,"margem/sim insuficientes (sim=0.651, margem=0.028)"
+Q0554,revisar,5132,5135;5136,0.5779,"margem/sim insuficientes (sim=0.561, margem=0.017)"
+Q0555,revisar,5208,5537,0.6943,"margem/sim insuficientes (sim=0.655, margem=0.040)"
+Q0556,revisar,4373,4388,0.5612,"margem/sim insuficientes (sim=0.558, margem=0.004)"
+Q0557,revisar,5537,5466,0.6931,"margem/sim insuficientes (sim=0.662, margem=0.031)"
+Q0558,revisar,5512,5535,0.6814,"margem/sim insuficientes (sim=0.649, margem=0.032)"
+Q0559,revisar,5092,5093;5095,0.6186,"margem/sim insuficientes (sim=0.608, margem=0.010)"
+Q0560,revisar,6734,5535;5537,0.6162,"margem/sim insuficientes (sim=0.613, margem=0.003)"
+Q0561,revisar,5116,5118,0.6489,"margem/sim insuficientes (sim=0.641, margem=0.008)"
+Q0562,revisar,5063,5087;5092,0.6948,"margem/sim insuficientes (sim=0.683, margem=0.011)"
+Q0563,revisar,4385,4386,0.5833,"margem/sim insuficientes (sim=0.581, margem=0.003)"
+Q0564,revisar,5218,4370;4385,0.6611,"margem/sim insuficientes (sim=0.650, margem=0.011)"
+Q0565,revisar,5466,5530;5063,0.7668,"margem/sim insuficientes (sim=0.743, margem=0.023)"
+Q0566,revisar,5093,5092;5096,0.6951,"margem/sim insuficientes (sim=0.689, margem=0.006)"
+Q0567,revisar,5576,5208,0.5352,"margem/sim insuficientes (sim=0.530, margem=0.005)"
+Q0568,revisar,5063,5211;5181,0.6448,"margem/sim insuficientes (sim=0.641, margem=0.004)"
+Q0569,revisar,5521,5209;5210,0.5423,"margem/sim insuficientes (sim=0.533, margem=0.009)"
+Q0570,revisar,5477,5571,0.6178,"margem/sim insuficientes (sim=0.607, margem=0.011)"
+Q0571,revisar,5550,5535;5530,0.6223,"margem/sim insuficientes (sim=0.598, margem=0.024)"
+Q0572,revisar,4697,5183;4703,0.7422,"margem/sim insuficientes (sim=0.634, margem=0.108)"
+Q0573,revisar,5159,5198,0.6363,"margem/sim insuficientes (sim=0.583, margem=0.053)"
+Q0574,revisar,4699,5548;5530,0.6046,"margem/sim insuficientes (sim=0.600, margem=0.005)"
+Q0575,revisar,5496,5477,0.5544,"margem/sim insuficientes (sim=0.550, margem=0.004)"
+Q0576,revisar,5089,5157,0.5983,"margem/sim insuficientes (sim=0.578, margem=0.021)"
+Q0577,revisar,4704,5550;5498,0.6372,"margem/sim insuficientes (sim=0.604, margem=0.033)"
+Q0578,publicar,4702,5198;6723,0.7505,
+Q0579,revisar,5535,5530;5550,0.7150,"margem/sim insuficientes (sim=0.698, margem=0.017)"
+Q0580,revisar,4690,5537;4701,0.5554,"margem/sim insuficientes (sim=0.544, margem=0.012)"
+Q0581,revisar,5466,5480,0.6264,"margem/sim insuficientes (sim=0.613, margem=0.014)"
+Q0582,revisar,5208,5198,0.5615,"margem/sim insuficientes (sim=0.555, margem=0.007)"
+Q0583,revisar,5185,5537;5542,0.6750,"margem/sim insuficientes (sim=0.644, margem=0.031)"
+Q0584,publicar,5185,5198;5186,0.7963,
+Q0585,revisar,5063,5185;5177,0.6652,"margem/sim insuficientes (sim=0.635, margem=0.031)"
+Q0586,revisar,5519,5477;5530,0.6804,"margem/sim insuficientes (sim=0.644, margem=0.036)"
+Q0587,publicar,5185,5537;5198,0.7292,
+Q0588,revisar,4385,4388;4373,0.6380,"margem/sim insuficientes (sim=0.630, margem=0.008)"
+Q0589,revisar,5577,5530,0.6739,"margem/sim insuficientes (sim=0.670, margem=0.004)"
+Q0590,revisar,5231,5232;5230,0.6949,"margem/sim insuficientes (sim=0.640, margem=0.055)"
+Q0591,revisar,5477,5562;5560,0.7110,"margem/sim insuficientes (sim=0.684, margem=0.027)"
+Q0592,revisar,5088,5092;5090,0.6249,"margem/sim insuficientes (sim=0.610, margem=0.015)"
+Q0593,revisar,5159,5185,0.5659,"margem/sim insuficientes (sim=0.558, margem=0.007)"
+Q0594,revisar,5198,5063,0.5343,"margem/sim insuficientes (sim=0.529, margem=0.005)"
+Q0595,revisar,5501,5530,0.6449,"margem/sim insuficientes (sim=0.641, margem=0.004)"
+Q0596,revisar,5063,5183;5185,0.6494,"margem/sim insuficientes (sim=0.632, margem=0.018)"
+Q0597,revisar,5537,5535;5530,0.6528,"margem/sim insuficientes (sim=0.635, margem=0.018)"
+Q0598,revisar,4385,4388,0.5836,"margem/sim insuficientes (sim=0.580, margem=0.004)"
+Q0599,revisar,5063,4701;5466,0.5949,"margem/sim insuficientes (sim=0.594, margem=0.001)"
+Q0600,revisar,5198,5185;5537,0.6768,"margem/sim insuficientes (sim=0.676, margem=0.000)"
+Q0601,revisar,5063,5530,0.6605,"margem/sim insuficientes (sim=0.649, margem=0.012)"
+Q0602,revisar,5466,5063;5480,0.6163,"margem/sim insuficientes (sim=0.615, margem=0.001)"
+Q0603,revisar,5096,5092;5095,0.6796,"margem/sim insuficientes (sim=0.664, margem=0.015)"
+Q0604,revisar,5095,5093,0.6086,"margem/sim insuficientes (sim=0.594, margem=0.015)"
+Q0605,revisar,5487,5530,0.6823,"margem/sim insuficientes (sim=0.680, margem=0.002)"
+Q0606,revisar,5084,5562;5548,0.6169,"margem/sim insuficientes (sim=0.598, margem=0.018)"
+Q0607,revisar,4386,4369,0.6106,"margem/sim insuficientes (sim=0.610, margem=0.000)"
+Q0608,revisar,5181,4703;5508,0.6515,"margem/sim insuficientes (sim=0.637, margem=0.015)"
+Q0609,revisar,4695,5117,0.7230,"margem/sim insuficientes (sim=0.649, margem=0.074)"
+Q0610,revisar,5555,5498;5535,0.6360,"margem/sim insuficientes (sim=0.635, margem=0.001)"
+Q0611,revisar,5118,5116,0.6439,"margem/sim insuficientes (sim=0.640, margem=0.003)"
+Q0612,revisar,5063,5466;5088,0.6614,"margem/sim insuficientes (sim=0.651, margem=0.010)"
+Q0613,revisar,4689,5168,0.6888,"margem/sim insuficientes (sim=0.607, margem=0.082)"
+Q0614,revisar,4698,5466;5092,0.5773,"margem/sim insuficientes (sim=0.571, margem=0.006)"
+Q0615,revisar,5198,5530;5548,0.6102,"margem/sim insuficientes (sim=0.598, margem=0.013)"
+Q0616,revisar,5181,5198;4701,0.6080,"margem/sim insuficientes (sim=0.601, margem=0.007)"
+Q0617,revisar,5466,5498;5535,0.6770,"margem/sim insuficientes (sim=0.658, margem=0.019)"
+Q0618,revisar,5224,5214;5167,0.5858,"margem/sim insuficientes (sim=0.565, margem=0.021)"
+Q0619,revisar,5466,5535,0.6485,"margem/sim insuficientes (sim=0.646, margem=0.002)"
+Q0620,revisar,5090,5198;5093,0.6307,"margem/sim insuficientes (sim=0.622, margem=0.009)"
+Q0621,revisar,5548,5550;5557,0.7129,"margem/sim insuficientes (sim=0.621, margem=0.092)"
+Q0622,revisar,5182,5180,0.5990,"margem/sim insuficientes (sim=0.594, margem=0.005)"
+Q0623,revisar,5544,5553;5550,0.6572,"margem/sim insuficientes (sim=0.636, margem=0.021)"
+Q0624,revisar,4704,6724;5530,0.6717,"margem/sim insuficientes (sim=0.633, margem=0.039)"
+Q0625,revisar,5092,5093;5096,0.5765,"margem/sim insuficientes (sim=0.571, margem=0.006)"
+Q0626,revisar,5480,5537;5562,0.5745,"margem/sim insuficientes (sim=0.569, margem=0.005)"
+Q0627,revisar,5139,5142,0.6242,"margem/sim insuficientes (sim=0.617, margem=0.008)"
+Q0628,revisar,5466,5535,0.6961,"margem/sim insuficientes (sim=0.686, margem=0.010)"
+Q0629,revisar,4370,4373;4372,0.5807,"margem/sim insuficientes (sim=0.574, margem=0.006)"
+Q0630,publicar,5084,5157;5117,0.7761,
+Q0631,revisar,6718,5087;5093,0.5868,"margem/sim insuficientes (sim=0.575, margem=0.012)"
+Q0632,revisar,5092,5093;5096,0.7013,"margem/sim insuficientes (sim=0.674, margem=0.027)"
+Q0633,revisar,5090,5092;5095,0.5872,"margem/sim insuficientes (sim=0.584, margem=0.003)"
+Q0634,revisar,5487,5530;5466,0.6400,"margem/sim insuficientes (sim=0.632, margem=0.008)"
+Q0635,revisar,5214,5224,0.5864,"margem/sim insuficientes (sim=0.573, margem=0.013)"
+Q0636,revisar,4695,5099;5092,0.5810,"margem/sim insuficientes (sim=0.563, margem=0.018)"
+Q0637,revisar,5088,5097;5092,0.7537,"margem/sim insuficientes (sim=0.738, margem=0.016)"
+Q0638,revisar,5088,5091;5089,0.6282,"margem/sim insuficientes (sim=0.612, margem=0.016)"
+Q0639,publicar,4707,5530;5198,0.8434,
+Q0640,publicar,5227,5224;5218,0.7789,
+Q0641,revisar,5093,5092;5089,0.6616,"margem/sim insuficientes (sim=0.659, margem=0.003)"
+Q0642,revisar,4704,5530;6724,0.6479,"margem/sim insuficientes (sim=0.614, margem=0.034)"
+Q0643,revisar,5063,5204;4384,0.6581,"margem/sim insuficientes (sim=0.620, margem=0.038)"
+Q0644,revisar,5089,5087;5096,0.6199,"margem/sim insuficientes (sim=0.619, margem=0.001)"
+Q0645,revisar,5226,5211;5227,0.7227,"margem/sim insuficientes (sim=0.706, margem=0.016)"
+Q0646,revisar,5231,5210,0.4924,"margem/sim insuficientes (sim=0.492, margem=0.000)"
+Q0647,revisar,5487,5530,0.6554,"margem/sim insuficientes (sim=0.647, margem=0.009)"
+Q0648,revisar,5555,5530;5498,0.6260,"margem/sim insuficientes (sim=0.591, margem=0.035)"
+Q0649,revisar,5207,5208;5537,0.5738,"margem/sim insuficientes (sim=0.557, margem=0.016)"
+Q0650,revisar,5063,4703;5198,0.5474,"margem/sim insuficientes (sim=0.523, margem=0.024)"
+Q0651,revisar,4704,6724;5131,0.6372,"margem/sim insuficientes (sim=0.626, margem=0.012)"
+Q0652,revisar,5466,5092,0.6583,"margem/sim insuficientes (sim=0.654, margem=0.005)"
+Q0653,revisar,5131,5487,0.5246,"margem/sim insuficientes (sim=0.512, margem=0.013)"
+Q0654,revisar,5466,5535,0.6019,"margem/sim insuficientes (sim=0.593, margem=0.009)"
+Q0655,revisar,4385,4388;4370,0.6004,"margem/sim insuficientes (sim=0.581, margem=0.020)"
+Q0656,revisar,5131,4704;5103,0.6232,"margem/sim insuficientes (sim=0.594, margem=0.029)"
+Q0657,revisar,4684,6716;5133,0.5614,"margem/sim insuficientes (sim=0.559, margem=0.002)"
+Q0658,revisar,4388,4371,0.6106,"margem/sim insuficientes (sim=0.601, margem=0.009)"
+Q0659,revisar,4702,4689;5168,0.6777,"margem/sim insuficientes (sim=0.655, margem=0.022)"

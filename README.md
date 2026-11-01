@@ -168,7 +168,9 @@ caseV2/
 ├── dados/                    ← anexos do case (não versionar jsonl/csv)
 ├── docs/
 │   ├── RELATORIO.md          ← relatório técnico (fonte)
-│   └── RELATORIO_INTERNO_SETUP.md
+│   ├── RELATORIO_INTERNO_SETUP.md
+│   └── COMPARATIVO_CAMINHOS.md ← 4 caminhos experimentais (V0–V3)
+
 ├── rascunhos/                ← textos humanizados (NÃO entregar sem ok)
 ├── src/
 │   ├── pipeline.py           ← classificador legado v1
@@ -236,3 +238,52 @@ Detalhes: `tools/stealthhumanizer/NOTAS.md`.
 - `.env` está no `.gitignore`
 - Se uma chave apareceu em chat/e-mail, **revogue e gere outra**
 - Não cole chaves no README, commits ou issues
+
+---
+
+## Comparativo de caminhos (V0–V3)
+
+Resumo dos experimentos locais de decisão de arquitetura: [`docs/COMPARATIVO_CAMINHOS.md`](docs/COMPARATIVO_CAMINHOS.md).
+
+---
+
+## Bônus — executável da aplicação offline para teste
+
+Pacote para rodar a classificação **sem internet e sem LLM** (dados + embeddings já embutidos).
+
+### 1) Gerar o executável (quem clonou o repositório)
+
+No Windows, com o ambiente já configurado (`.venv` + `dados/` + `artifacts/embeddings/`):
+
+```bash
+python scripts/build_offline_exe.py
+```
+
+Isso cria a pasta:
+
+`dist/CaseVicio_Offline_Recrutador/`
+
+(e, se você zipar, `dist/CaseVicio_Offline_Recrutador.zip`)
+
+> O `.exe` não fica versionado no GitHub (arquivo grande). Cada pessoa gera localmente com o comando acima, ou recebe o ZIP pronto de quem já buildou.
+
+### 2) Abrir na máquina local (Windows)
+
+1. Abra a pasta `dist/CaseVicio_Offline_Recrutador`  
+   (ou extraia o ZIP `CaseVicio_Offline_Recrutador.zip` em qualquer pasta)
+2. Dê **duplo clique** em:
+   - `CaseVicioOffline.exe`  
+   - **ou** `ABRIR_TESTE_OFFLINE.bat`
+3. Aguarde o resumo no terminal (pode levar alguns segundos)
+4. Ao terminar, abra a pasta `saida_offline` ao lado do `.exe` e confira:
+   - `publicacao.csv`
+   - `previsao.txt`
+   - `resumo.txt`
+
+### 3) O que o teste prova
+
+- Classifica as **659** questões **offline**
+- **0** chamadas a OpenAI/Jev/ChatGPT
+- Não precisa de chave de API nem de Python instalado na máquina do avaliador (só o conteúdo da pasta do pacote)
+
+Guia curto também em: [`offline/LEIA-ME_RECRUTADOR.md`](offline/LEIA-ME_RECRUTADOR.md)

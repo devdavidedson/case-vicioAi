@@ -39,6 +39,10 @@ dist/
 saida_offline/
 *.spec
 
+# Experimentos locais comparativos (não versionar — standby intacto)
+experimentos/
+
+
 
 
 # SO / IDE
